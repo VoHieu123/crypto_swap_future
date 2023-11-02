@@ -1,27 +1,14 @@
-from okx import PublicData
+from okx import MarketData
 import time, const, utils
-import pandas as pd
 
 class OKXHandler:
     def __init__(self):
-        self.okx_api = PublicData.PublicAPI(debug=False)
+        self.okx_api = MarketData.MarketAPI(debug=False)
 
-    def get_most_recent_bid_ask(self, input_symbol_array):
-        data = pd.DataFrame()
+    def get_most_recent_bid_ask(self, input_symbol):
+        data = self.send_http_request(self.okx_api.get_ticker, instId=input_symbol)
 
-        for input_symbol in input_symbol_array:
-            temp = self.send_http_request(self.okx_api.get_ticker, instId=input_symbol)
-            if len(temp["data"]) != 0:
-                temp = pd.DataFrame(temp["data"])
-                temp = temp[["askPx", "bidPx"]]
-                temp.rename(columns = {"bidPx" : "bid_" + input_symbol}, inplace = True)
-                temp.rename(columns = {"askPx" : "ask_" + input_symbol}, inplace = True)
-                data = temp if data.empty else data.join(temp)
-            else:
-                print("No response from symbol: ", input_symbol)
-                data[input_symbol] = ''
-
-        return data
+        return data[0]['askPx'], data[0]['bidPx']
 
     @staticmethod
     def send_http_request(func, **kwargs):

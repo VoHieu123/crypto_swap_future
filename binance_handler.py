@@ -1,32 +1,19 @@
 from binance import Client
 import time, const, utils
-import pandas as pd
 
 class BinanceHandler:
     def __init__(self):
         self.binance_client = Client()
 
-    def get_most_recent_bid_ask(self, input_symbol_array):
-        data = pd.DataFrame()
+    def get_most_recent_bid_ask(self, input_symbol):
+        if "USDT" in input_symbol:
+            data = self.send_http_request(self.binance_client.futures_orderbook_ticker, symbol=input_symbol)
+            ask, bid = data["askPrice"], data["bidPrice"]
+        elif "USD" in input_symbol:
+            data = self.send_http_request(self.binance_client.futures_coin_orderbook_ticker, symbol=input_symbol)
+            ask, bid = data[0]["askPrice"], data[0]["bidPrice"]
 
-        for input_symbol in input_symbol_array:
-            if "USDT" in input_symbol:
-                temp = self.binance_client.futures_orderbook_ticker(symbol=input_symbol)
-                temp = pd.DataFrame([temp])
-            elif "USD" in input_symbol:
-                temp = self.binance_client.futures_coin_orderbook_ticker(symbol=input_symbol)
-                temp = pd.DataFrame(temp)
-
-            if len(temp) != 0:
-                temp = temp[["askPrice", "bidPrice"]]
-                temp.rename(columns = {"bidPrice" : "bid_" + input_symbol}, inplace = True)
-                temp.rename(columns = {"askPrice" : "ask_" + input_symbol}, inplace = True)
-                data = temp if data.empty else data.join(temp)
-            else:
-                print("No response from symbol: ", input_symbol)
-                data[input_symbol] = ''
-
-        return data
+        return ask, bid
 
     @staticmethod
     def send_http_request(func, **kwargs):
@@ -35,9 +22,10 @@ class BinanceHandler:
             retries_count += 1
             try:
                 return utils.convert_to_float(func(**kwargs))
-            except Exception as error:
+            except Exception as e:
+                print(e)
                 utils.resynch()
                 if retries_count < const.MAX_RETRIES:
                     time.sleep(const.SLEEP_TIME)
                 else:
-                    raise Exception(f"Error: {error}.")
+                    raise Exception(f"Error: {e}.")
