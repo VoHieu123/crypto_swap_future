@@ -89,34 +89,9 @@ def convert_to_float(data):
 def generate_uuid():
     return str(uuid.uuid4())
 
-def auto_format(text, color="black", background_color=None, format_number=None, font_weight="normal", font_size=14):
-
-    def text_format(text, color, background_color, font_weight, font_size):
-        return f"<span style='font-size: {font_size}pt; background-color: {background_color}; font-weight: {font_weight}; color: {color};'>{text}</span>" if background_color else \
+def auto_format(text, color="black", background_color=None, font_weight="normal", font_size=14):
+    return f"<span style='font-size: {font_size}pt; background-color: {background_color}; font-weight: {font_weight}; color: {color};'>{text}</span>" if background_color else \
                f"<span style='font-size: {font_size}pt; color: {color}; font-weight: {font_weight};'>{text}</span>"
-
-    def number_format(number, format_number):
-        if format_number is None:
-            if (abs(number) < 0.0001):
-                return str(round(number, 6))
-
-            integer_part, decimal_part = (str(number)).split('.')
-            integer_len = len(integer_part)
-            integer_str = '{:,}'.format(int(integer_part))
-
-            returnStr = integer_str if integer_len >= 4 else f'{integer_str}.{decimal_part[0:(5 - integer_len)]}'
-
-        else:
-            returnStr = f"{number:{format_number}}"
-
-        return returnStr
-
-    try:
-        text = number_format(float(text), format_number=format_number)
-    except:
-        pass
-
-    return text_format(text, color=color, background_color=background_color, font_weight=font_weight, font_size=font_size)
 
 if computer_specific.COMPUTER_NAME == "Evan":
     while not resynch():

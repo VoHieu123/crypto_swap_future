@@ -3,8 +3,9 @@ from utils import substring_after, substring_before
 from utils import Range
 import time, alarm
 from utils import Communication
-from PyQt6.QtGui import QFont
+from PyQt6.QtGui import QPalette, QColor
 from PyQt6.QtWidgets import QFrame, QLineEdit
+from PyQt6.QtCore import Qt
 import datetime
 import binance_handler, bybit_handler, okx_handler
 
@@ -49,19 +50,51 @@ class Controller():
                 line_edits = frame.findChildren(QLineEdit)
                 for line_edit in line_edits:
                     self.line_edit_dict[coin][type][line_edit.text()] = line_edit
+                    if line_edit.text() == "TL" or line_edit.text() == "TR":
+                        line_edit.setText("-5.0")
+                    elif line_edit.text() == "BL" or line_edit.text() == "BR":
+                        line_edit.setText("-10.0")
+                    line_edit.returnPressed.connect(line_edit.clearFocus)
+                    line_edit.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                    line_edit.setStyleSheet("""QLineEdit { background: transparent;}""")
+
+    # def on_enter_pressed(self):
+    #     line_edit = self.sender()
+    #     for coin, types in self.line_edit_dict.items():
+    #         for type, positions in types.items():
+    #             for position, target_line_edit in positions.items():
+    #                 if target_line_edit == line_edit:
+    #                     pass
 
     def update_data(self):
         f = lambda a, b: ((a - b) * 2 / (a + b)) * 100
+        def g(coin, type, position):
+            try:
+                return float(self.line_edit_dict[coin][type][position].text())
+            except:
+                return -float("inf") if "B" in position else float("inf")
+
         for coin, symbol in self.bin_coin_symbols.items():
             ask_s, bid_s = self.BinanceHandler_.get_most_recent_bid_ask(symbol[0])
             ask_q, bid_q = self.BinanceHandler_.get_most_recent_bid_ask(symbol[1])
             ask_b, bid_b = self.BinanceHandler_.get_most_recent_bid_ask(symbol[2])
-            self.line_edit_dict[coin]["SQ"]["ML"].setText(f"{round(f(ask_s, bid_q), 2)}")
-            self.line_edit_dict[coin]["SQ"]["MR"].setText(f"{round(f(ask_q, bid_s), 2)}")
-            self.line_edit_dict[coin]["SB"]["ML"].setText(f"{round(f(ask_s, bid_b), 2)}")
-            self.line_edit_dict[coin]["SB"]["MR"].setText(f"{round(f(ask_b, bid_s), 2)}")
-            self.line_edit_dict[coin]["QB"]["ML"].setText(f"{round(f(ask_q, bid_b), 2)}")
-            self.line_edit_dict[coin]["QB"]["MR"].setText(f"{round(f(ask_b, bid_q), 2)}")
+            sq_ml = f(ask_s, bid_q)
+            sq_mr = f(ask_q, bid_s)
+            sb_ml = f(ask_s, bid_b)
+            sb_mr = f(ask_b, bid_s)
+            qb_ml = f(ask_q, bid_b)
+            qb_mr = f(ask_b, bid_q)
+            for name, value in locals().items():
+                if "ask" not in name and "bid" not in name \
+                    and isinstance(value, float) and name != "value":
+                    type = name[:2].upper()
+                    position = name[-1].upper()
+                    if value > g(coin, type, "T" + position) or value < g(coin, type, "B" + position):
+                        alarm.activate(message=f"Swap-future alarm: {coin}")
+                        self.line_edit_dict[coin][type]["M" + position].setStyleSheet("""QLineEdit { background: transparent; background-color: yellow;}""")
+                    else:
+                        self.line_edit_dict[coin][type]["M" + position].setStyleSheet("""QLineEdit { background: transparent;}""")
+                    self.line_edit_dict[coin][type]["M" + position].setText(f"{round(value, 3)}")
 
         self.update_time = time.time()
 
