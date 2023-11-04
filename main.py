@@ -19,7 +19,7 @@ class MyWindow(QMainWindow):
 
     def update_ui(self):
         if self.controller_ is not None:
-            self.controller_.ui_update()
+            self.controller_.ui_loop()
 
     def closeEvent(self, event):
         self.exit_flag = True
