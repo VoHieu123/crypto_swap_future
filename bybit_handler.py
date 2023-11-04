@@ -1,25 +1,13 @@
 from pybit.unified_trading import HTTP
 import const, time, utils
-import pandas as pd
 
 class BybitHandler:
     def __init__(self):
         self.session = HTTP(testnet=False)
 
-    def get_bid_ask(self, input_symbol_array):
-        data = pd.DataFrame()
-        for symbol in input_symbol_array:
-            send_symbol = symbol
-            if symbol == "PEPEUSDT":
-                send_symbol = "1000PEPEUSDT"
-            if symbol == "LUNAUSDT":
-                send_symbol = "LUNA2USDT"
-            temp = self.send_http_request(self.session.get_orderbook, category="linear", symbol=send_symbol)
-            temp = [[temp["b"][0][0], temp["a"][0][0]]]
-            temp = pd.DataFrame(temp, columns=[f"bid_{symbol}", f"ask_{symbol}"])
-            data = temp if data.empty else data.join(temp)
-
-        return data
+    def get_most_recent_bid_ask(self, input_symbol):
+        data = self.send_http_request(self.session.get_orderbook, category="linear", symbol=input_symbol)
+        return data["a"][0][0], data["b"][0][0]
 
     @staticmethod
     def send_http_request(func, **kwargs):

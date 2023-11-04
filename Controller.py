@@ -8,6 +8,7 @@ from PyQt6.QtWidgets import QFrame, QLineEdit, QTabWidget
 from PyQt6.QtCore import Qt
 import datetime
 import binance_handler, bybit_handler, okx_handler
+from copy import deepcopy
 
 class Controller():
     def __init__ (self, uiMainWindow, communication: Communication):
@@ -29,19 +30,22 @@ class Controller():
             "Bybit": {},
         }
 
-        line_edit_template = {"SQ": {}, "SB": {},"QB": {}}
+        binance_keys = 'abcdefghi'
         binance_coins = ["BTCUSD", "BTCUSDT", "ETHUSD", "ETHUSDT",
                          "ADAUSD", "LINKUSD", "BCHUSD", "DOTUSD", "BNBUSD"]
+        okx_keys = 'abcdefghijklmn'
         okx_coins = ['BTC-USD', 'BTC-USDT', 'BTC-USDC',
                      'ETH-USD', 'ETH-USDT', 'ETH-USDC',
                      'LTC-USD', 'LTC-USDT', 'XRP-USD', 'XRP-USDT',
                      'EOS-USD', 'EOS-USDT', 'ETC-USD', 'ETC-USDT',]
+        bybit_keys = "ab"
         bybit_coins = ["BTC", "ETH"]
 
+        line_edit_template = {"SQ": {}, "SB": {},"QB": {}}
         self.line_edit_dict = {
-            "Binance": {coin: line_edit_template.copy() for coin in binance_coins},
-            "OKX": {coin: line_edit_template.copy() for coin in okx_coins},
-            "Bybit": {coin: line_edit_template.copy() for coin in bybit_coins},
+            "Binance": {coin: deepcopy(line_edit_template) for coin in binance_coins},
+            "OKX": {coin: deepcopy(line_edit_template) for coin in okx_coins},
+            "Bybit": {coin: deepcopy(line_edit_template) for coin in bybit_coins},
         }
         for exchange, line_edit_dict in self.line_edit_dict.items():
             for coin in line_edit_dict.keys():
@@ -68,15 +72,13 @@ class Controller():
             tab = tab_widget.widget(tab_index)
             tab_dict[tab_name] = tab
 
-        frame_map = {
-            "Binance": {"coin_frame_map": {'a': 'BTCUSD', 'b': 'BTCUSDT', 'c': 'ETHUSD',
-                                           'd': 'ETHUSDT', 'e': 'ADAUSD', 'f': 'LINKUSD',
-                                           'g': 'BCHUSD', 'h': 'DOTUSD', 'i': 'BNBUSD'},
+        self.frame_map = {
+            "Binance": {"coin_frame_map": {key: coin for key, coin in zip(binance_keys, binance_coins)},
                         "type_frame_map": {"1": 'SQ', "2": 'SB', "3": 'QB'}},
-            "OKX": {"coin_frame_map": {'a': 'BTCUSD', 'b': 'BTCUSDT', 'c': 'ETHUSD',
-                                       'd': 'ETHUSDT', 'e': 'ADAUSD', 'f': 'LINKUSD',
-                                       'g': 'BCHUSD', 'h': 'DOTUSD', 'i': 'BNBUSD'},
-                        "type_frame_map": {"1": 'SQ', "2": 'SB', "3": 'QB'}},
+            "OKX": {"coin_frame_map": {key: coin for key, coin in zip(okx_keys, okx_coins)},
+                        "type_frame_map": {"1_2": 'SQ', "2_2": 'SB', "3_2": 'QB'}},
+            "Bybit": {"coin_frame_map": {key: coin for key, coin in zip(bybit_keys, bybit_coins)},
+                      "type_frame_map": {"1_3": 'SQ', "2_3": 'SB', "3_3": 'QB'}}
         }
 
         for exchange, tab in tab_dict.items():
@@ -84,10 +86,12 @@ class Controller():
             coin_frame_map = self.frame_map[exchange]["coin_frame_map"]
             frames = tab.findChildren(QFrame)
             for frame in frames:
-                frame_name = frame.objectName()
-                if frame_name[-1] in type_frame_map.keys() and frame_name[-2] in coin_frame_map.keys():
-                    coin = coin_frame_map[frame_name[-2]]
-                    type = type_frame_map[frame_name[-1]]
+                frame_name = substring_after(frame.objectName(), "_")
+                if frame_name != "" and not frame_name.isdecimal() \
+                    and frame_name[0] in coin_frame_map.keys() \
+                        and "mainAccount" not in frame_name:
+                    coin = coin_frame_map[frame_name[0]]
+                    type = type_frame_map[frame_name[1:]]
                     line_edits = frame.findChildren(QLineEdit)
                     for line_edit in line_edits:
                         self.line_edit_dict[exchange][coin][type][line_edit.text()] = line_edit

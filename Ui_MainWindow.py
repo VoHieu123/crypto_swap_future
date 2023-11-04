@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(946, 480)
+        MainWindow.resize(990, 544)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -33,7 +33,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 902, 414))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 946, 478))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.scrollAreaWidgetContents)
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
@@ -2937,7 +2937,7 @@ class Ui_MainWindow(object):
         self.gridLayout_6.setRowStretch(1, 1)
         self.gridLayout_6.setRowStretch(2, 1)
         self.gridLayout.addWidget(self.frame_c1, 1, 3, 1, 1)
-        self.gridLayout.setColumnStretch(0, 1)
+        self.gridLayout.setColumnStretch(0, 2)
         self.gridLayout.setColumnStretch(1, 3)
         self.gridLayout.setColumnStretch(2, 3)
         self.gridLayout.setColumnStretch(3, 3)
@@ -2961,7 +2961,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollArea_2.setObjectName("scrollArea_2")
         self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 902, 414))
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 989, 236))
         self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.scrollAreaWidgetContents_2)
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
@@ -2970,1529 +2970,6 @@ class Ui_MainWindow(object):
         self.gridLayout_2 = QtWidgets.QGridLayout()
         self.gridLayout_2.setSpacing(0)
         self.gridLayout_2.setObjectName("gridLayout_2")
-        self.frame_a1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_a1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_a1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_a1_2.setLineWidth(1)
-        self.frame_a1_2.setObjectName("frame_a1_2")
-        self.gridLayout_5 = QtWidgets.QGridLayout(self.frame_a1_2)
-        self.gridLayout_5.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_5.setSpacing(0)
-        self.gridLayout_5.setObjectName("gridLayout_5")
-        self.label_12 = QtWidgets.QLabel(parent=self.frame_a1_2)
-        self.label_12.setObjectName("label_12")
-        self.gridLayout_5.addWidget(self.label_12, 0, 1, 1, 1)
-        self.lineEdit_13 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
-        self.lineEdit_13.setEnabled(True)
-        self.lineEdit_13.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_13.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_13.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_13.setDragEnabled(False)
-        self.lineEdit_13.setObjectName("lineEdit_13")
-        self.gridLayout_5.addWidget(self.lineEdit_13, 2, 2, 1, 1)
-        self.lineEdit_14 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
-        self.lineEdit_14.setEnabled(True)
-        self.lineEdit_14.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_14.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_14.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_14.setDragEnabled(False)
-        self.lineEdit_14.setObjectName("lineEdit_14")
-        self.gridLayout_5.addWidget(self.lineEdit_14, 0, 2, 1, 1)
-        self.label_7 = QtWidgets.QLabel(parent=self.frame_a1_2)
-        self.label_7.setObjectName("label_7")
-        self.gridLayout_5.addWidget(self.label_7, 1, 1, 1, 1)
-        self.lineEdit_15 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
-        self.lineEdit_15.setEnabled(True)
-        self.lineEdit_15.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_15.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_15.setDragEnabled(False)
-        self.lineEdit_15.setObjectName("lineEdit_15")
-        self.gridLayout_5.addWidget(self.lineEdit_15, 2, 0, 1, 1)
-        self.lineEdit_16 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
-        self.lineEdit_16.setEnabled(True)
-        self.lineEdit_16.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_16.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_16.setDragEnabled(False)
-        self.lineEdit_16.setObjectName("lineEdit_16")
-        self.gridLayout_5.addWidget(self.lineEdit_16, 0, 0, 1, 1)
-        self.label_13 = QtWidgets.QLabel(parent=self.frame_a1_2)
-        self.label_13.setObjectName("label_13")
-        self.gridLayout_5.addWidget(self.label_13, 2, 1, 1, 1)
-        self.lineEdit_17 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
-        self.lineEdit_17.setEnabled(True)
-        self.lineEdit_17.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_17.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_17.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_17.setDragEnabled(False)
-        self.lineEdit_17.setReadOnly(True)
-        self.lineEdit_17.setObjectName("lineEdit_17")
-        self.gridLayout_5.addWidget(self.lineEdit_17, 1, 2, 1, 1)
-        self.lineEdit_18 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
-        self.lineEdit_18.setEnabled(True)
-        self.lineEdit_18.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_18.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_18.setDragEnabled(False)
-        self.lineEdit_18.setReadOnly(True)
-        self.lineEdit_18.setObjectName("lineEdit_18")
-        self.gridLayout_5.addWidget(self.lineEdit_18, 1, 0, 1, 1)
-        self.gridLayout_5.setRowMinimumHeight(0, 1)
-        self.gridLayout_5.setRowMinimumHeight(1, 1)
-        self.gridLayout_5.setRowMinimumHeight(2, 1)
-        self.gridLayout_5.setColumnStretch(0, 1)
-        self.gridLayout_5.setColumnStretch(2, 1)
-        self.gridLayout_5.setRowStretch(0, 1)
-        self.gridLayout_5.setRowStretch(1, 1)
-        self.gridLayout_5.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_a1_2, 1, 1, 1, 1)
-        self.frame_b1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_b1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_b1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_b1_2.setLineWidth(1)
-        self.frame_b1_2.setObjectName("frame_b1_2")
-        self.gridLayout_31 = QtWidgets.QGridLayout(self.frame_b1_2)
-        self.gridLayout_31.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_31.setSpacing(0)
-        self.gridLayout_31.setObjectName("gridLayout_31")
-        self.label_71 = QtWidgets.QLabel(parent=self.frame_b1_2)
-        self.label_71.setObjectName("label_71")
-        self.gridLayout_31.addWidget(self.label_71, 0, 1, 1, 1)
-        self.lineEdit_169 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
-        self.lineEdit_169.setEnabled(True)
-        self.lineEdit_169.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_169.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_169.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_169.setDragEnabled(False)
-        self.lineEdit_169.setObjectName("lineEdit_169")
-        self.gridLayout_31.addWidget(self.lineEdit_169, 2, 2, 1, 1)
-        self.lineEdit_179 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
-        self.lineEdit_179.setEnabled(True)
-        self.lineEdit_179.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_179.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_179.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_179.setDragEnabled(False)
-        self.lineEdit_179.setObjectName("lineEdit_179")
-        self.gridLayout_31.addWidget(self.lineEdit_179, 0, 2, 1, 1)
-        self.label_73 = QtWidgets.QLabel(parent=self.frame_b1_2)
-        self.label_73.setObjectName("label_73")
-        self.gridLayout_31.addWidget(self.label_73, 1, 1, 1, 1)
-        self.lineEdit_180 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
-        self.lineEdit_180.setEnabled(True)
-        self.lineEdit_180.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_180.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_180.setDragEnabled(False)
-        self.lineEdit_180.setObjectName("lineEdit_180")
-        self.gridLayout_31.addWidget(self.lineEdit_180, 2, 0, 1, 1)
-        self.lineEdit_181 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
-        self.lineEdit_181.setEnabled(True)
-        self.lineEdit_181.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_181.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_181.setDragEnabled(False)
-        self.lineEdit_181.setObjectName("lineEdit_181")
-        self.gridLayout_31.addWidget(self.lineEdit_181, 0, 0, 1, 1)
-        self.label_74 = QtWidgets.QLabel(parent=self.frame_b1_2)
-        self.label_74.setObjectName("label_74")
-        self.gridLayout_31.addWidget(self.label_74, 2, 1, 1, 1)
-        self.lineEdit_182 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
-        self.lineEdit_182.setEnabled(True)
-        self.lineEdit_182.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_182.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_182.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_182.setDragEnabled(False)
-        self.lineEdit_182.setReadOnly(True)
-        self.lineEdit_182.setObjectName("lineEdit_182")
-        self.gridLayout_31.addWidget(self.lineEdit_182, 1, 2, 1, 1)
-        self.lineEdit_183 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
-        self.lineEdit_183.setEnabled(True)
-        self.lineEdit_183.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_183.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_183.setDragEnabled(False)
-        self.lineEdit_183.setReadOnly(True)
-        self.lineEdit_183.setObjectName("lineEdit_183")
-        self.gridLayout_31.addWidget(self.lineEdit_183, 1, 0, 1, 1)
-        self.gridLayout_31.setRowMinimumHeight(0, 1)
-        self.gridLayout_31.setRowMinimumHeight(1, 1)
-        self.gridLayout_31.setRowMinimumHeight(2, 1)
-        self.gridLayout_31.setColumnStretch(0, 1)
-        self.gridLayout_31.setColumnStretch(2, 1)
-        self.gridLayout_31.setRowStretch(0, 1)
-        self.gridLayout_31.setRowStretch(1, 1)
-        self.gridLayout_31.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_b1_2, 1, 2, 1, 1)
-        self.frame_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_3.setLineWidth(1)
-        self.frame_3.setObjectName("frame_3")
-        self.verticalLayout_17 = QtWidgets.QVBoxLayout(self.frame_3)
-        self.verticalLayout_17.setObjectName("verticalLayout_17")
-        self.label_mainAccount_9 = QtWidgets.QLabel(parent=self.frame_3)
-        self.label_mainAccount_9.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_9.setObjectName("label_mainAccount_9")
-        self.verticalLayout_17.addWidget(self.label_mainAccount_9)
-        self.gridLayout_2.addWidget(self.frame_3, 0, 7, 1, 1)
-        self.frame_41 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_41.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_41.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_41.setObjectName("frame_41")
-        self.verticalLayout_46 = QtWidgets.QVBoxLayout(self.frame_41)
-        self.verticalLayout_46.setObjectName("verticalLayout_46")
-        self.lineEdit_184 = QtWidgets.QLineEdit(parent=self.frame_41)
-        self.lineEdit_184.setEnabled(True)
-        self.lineEdit_184.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_184.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_184.setDragEnabled(False)
-        self.lineEdit_184.setReadOnly(True)
-        self.lineEdit_184.setObjectName("lineEdit_184")
-        self.verticalLayout_46.addWidget(self.lineEdit_184)
-        self.lineEdit_185 = QtWidgets.QLineEdit(parent=self.frame_41)
-        self.lineEdit_185.setEnabled(True)
-        self.lineEdit_185.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_185.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_185.setDragEnabled(False)
-        self.lineEdit_185.setReadOnly(True)
-        self.lineEdit_185.setObjectName("lineEdit_185")
-        self.verticalLayout_46.addWidget(self.lineEdit_185)
-        self.lineEdit_186 = QtWidgets.QLineEdit(parent=self.frame_41)
-        self.lineEdit_186.setEnabled(True)
-        self.lineEdit_186.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_186.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_186.setDragEnabled(False)
-        self.lineEdit_186.setReadOnly(True)
-        self.lineEdit_186.setObjectName("lineEdit_186")
-        self.verticalLayout_46.addWidget(self.lineEdit_186)
-        self.gridLayout_2.addWidget(self.frame_41, 3, 0, 1, 1)
-        self.frame_20 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_20.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_20.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_20.setLineWidth(1)
-        self.frame_20.setObjectName("frame_20")
-        self.verticalLayout_18 = QtWidgets.QVBoxLayout(self.frame_20)
-        self.verticalLayout_18.setObjectName("verticalLayout_18")
-        self.label_mainAccount_10 = QtWidgets.QLabel(parent=self.frame_20)
-        self.label_mainAccount_10.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_10.setObjectName("label_mainAccount_10")
-        self.verticalLayout_18.addWidget(self.label_mainAccount_10)
-        self.gridLayout_2.addWidget(self.frame_20, 0, 2, 1, 1)
-        self.frame_31 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_31.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_31.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_31.setLineWidth(1)
-        self.frame_31.setObjectName("frame_31")
-        self.verticalLayout_31 = QtWidgets.QVBoxLayout(self.frame_31)
-        self.verticalLayout_31.setContentsMargins(0, 0, 0, 0)
-        self.verticalLayout_31.setSpacing(0)
-        self.verticalLayout_31.setObjectName("verticalLayout_31")
-        self.lineEdit_187 = QtWidgets.QLineEdit(parent=self.frame_31)
-        self.lineEdit_187.setEnabled(True)
-        self.lineEdit_187.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_187.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_187.setDragEnabled(False)
-        self.lineEdit_187.setReadOnly(True)
-        self.lineEdit_187.setObjectName("lineEdit_187")
-        self.verticalLayout_31.addWidget(self.lineEdit_187)
-        self.lineEdit_188 = QtWidgets.QLineEdit(parent=self.frame_31)
-        self.lineEdit_188.setEnabled(True)
-        self.lineEdit_188.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_188.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_188.setDragEnabled(False)
-        self.lineEdit_188.setReadOnly(True)
-        self.lineEdit_188.setObjectName("lineEdit_188")
-        self.verticalLayout_31.addWidget(self.lineEdit_188)
-        self.lineEdit_189 = QtWidgets.QLineEdit(parent=self.frame_31)
-        self.lineEdit_189.setEnabled(True)
-        self.lineEdit_189.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_189.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_189.setDragEnabled(False)
-        self.lineEdit_189.setReadOnly(True)
-        self.lineEdit_189.setObjectName("lineEdit_189")
-        self.verticalLayout_31.addWidget(self.lineEdit_189)
-        self.gridLayout_2.addWidget(self.frame_31, 2, 0, 1, 1)
-        self.frame_21 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_21.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_21.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_21.setLineWidth(1)
-        self.frame_21.setObjectName("frame_21")
-        self.verticalLayout_19 = QtWidgets.QVBoxLayout(self.frame_21)
-        self.verticalLayout_19.setObjectName("verticalLayout_19")
-        self.label_mainAccount_11 = QtWidgets.QLabel(parent=self.frame_21)
-        self.label_mainAccount_11.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_11.setObjectName("label_mainAccount_11")
-        self.verticalLayout_19.addWidget(self.label_mainAccount_11)
-        self.gridLayout_2.addWidget(self.frame_21, 0, 5, 1, 1)
-        self.frame_22 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_22.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_22.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_22.setLineWidth(1)
-        self.frame_22.setObjectName("frame_22")
-        self.verticalLayout_20 = QtWidgets.QVBoxLayout(self.frame_22)
-        self.verticalLayout_20.setObjectName("verticalLayout_20")
-        self.label_mainAccount_12 = QtWidgets.QLabel(parent=self.frame_22)
-        self.label_mainAccount_12.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_12.setObjectName("label_mainAccount_12")
-        self.verticalLayout_20.addWidget(self.label_mainAccount_12)
-        self.gridLayout_2.addWidget(self.frame_22, 0, 4, 1, 1)
-        self.frame_23 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_23.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_23.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_23.setLineWidth(1)
-        self.frame_23.setObjectName("frame_23")
-        self.verticalLayout_21 = QtWidgets.QVBoxLayout(self.frame_23)
-        self.verticalLayout_21.setObjectName("verticalLayout_21")
-        self.label_mainAccount_13 = QtWidgets.QLabel(parent=self.frame_23)
-        self.label_mainAccount_13.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_13.setObjectName("label_mainAccount_13")
-        self.verticalLayout_21.addWidget(self.label_mainAccount_13)
-        self.gridLayout_2.addWidget(self.frame_23, 0, 3, 1, 1)
-        self.frame_24 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_24.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_24.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_24.setLineWidth(1)
-        self.frame_24.setObjectName("frame_24")
-        self.verticalLayout_22 = QtWidgets.QVBoxLayout(self.frame_24)
-        self.verticalLayout_22.setObjectName("verticalLayout_22")
-        self.label_mainAccount_14 = QtWidgets.QLabel(parent=self.frame_24)
-        self.label_mainAccount_14.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_14.setObjectName("label_mainAccount_14")
-        self.verticalLayout_22.addWidget(self.label_mainAccount_14)
-        self.gridLayout_2.addWidget(self.frame_24, 0, 1, 1, 1)
-        self.frame_9 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_9.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_9.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_9.setLineWidth(1)
-        self.frame_9.setObjectName("frame_9")
-        self.horizontalLayout_42 = QtWidgets.QHBoxLayout(self.frame_9)
-        self.horizontalLayout_42.setObjectName("horizontalLayout_42")
-        self.label_mainAccount_15 = QtWidgets.QLabel(parent=self.frame_9)
-        self.label_mainAccount_15.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_15.setObjectName("label_mainAccount_15")
-        self.horizontalLayout_42.addWidget(self.label_mainAccount_15)
-        self.gridLayout_2.addWidget(self.frame_9, 0, 8, 1, 1)
-        self.frame_7 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_7.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_7.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_7.setLineWidth(1)
-        self.frame_7.setObjectName("frame_7")
-        self.verticalLayout_23 = QtWidgets.QVBoxLayout(self.frame_7)
-        self.verticalLayout_23.setObjectName("verticalLayout_23")
-        self.label_mainAccount_16 = QtWidgets.QLabel(parent=self.frame_7)
-        self.label_mainAccount_16.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_mainAccount_16.setObjectName("label_mainAccount_16")
-        self.verticalLayout_23.addWidget(self.label_mainAccount_16)
-        self.gridLayout_2.addWidget(self.frame_7, 0, 6, 1, 1)
-        self.frame_32 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_32.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_32.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_32.setLineWidth(1)
-        self.frame_32.setObjectName("frame_32")
-        self.verticalLayout_32 = QtWidgets.QVBoxLayout(self.frame_32)
-        self.verticalLayout_32.setContentsMargins(0, 0, 0, 0)
-        self.verticalLayout_32.setSpacing(0)
-        self.verticalLayout_32.setObjectName("verticalLayout_32")
-        self.lineEdit_190 = QtWidgets.QLineEdit(parent=self.frame_32)
-        self.lineEdit_190.setEnabled(True)
-        self.lineEdit_190.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_190.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_190.setDragEnabled(False)
-        self.lineEdit_190.setReadOnly(True)
-        self.lineEdit_190.setObjectName("lineEdit_190")
-        self.verticalLayout_32.addWidget(self.lineEdit_190)
-        self.lineEdit_191 = QtWidgets.QLineEdit(parent=self.frame_32)
-        self.lineEdit_191.setEnabled(True)
-        self.lineEdit_191.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_191.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_191.setDragEnabled(False)
-        self.lineEdit_191.setReadOnly(True)
-        self.lineEdit_191.setObjectName("lineEdit_191")
-        self.verticalLayout_32.addWidget(self.lineEdit_191)
-        self.lineEdit_192 = QtWidgets.QLineEdit(parent=self.frame_32)
-        self.lineEdit_192.setEnabled(True)
-        self.lineEdit_192.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_192.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit_192.setDragEnabled(False)
-        self.lineEdit_192.setReadOnly(True)
-        self.lineEdit_192.setObjectName("lineEdit_192")
-        self.verticalLayout_32.addWidget(self.lineEdit_192)
-        self.gridLayout_2.addWidget(self.frame_32, 1, 0, 1, 1)
-        self.frame_4 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_4.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_4.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_4.setLineWidth(1)
-        self.frame_4.setObjectName("frame_4")
-        self.horizontalLayout_10 = QtWidgets.QHBoxLayout(self.frame_4)
-        self.horizontalLayout_10.setObjectName("horizontalLayout_10")
-        self.label_subAccount1_2 = QtWidgets.QLabel(parent=self.frame_4)
-        self.label_subAccount1_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_subAccount1_2.setObjectName("label_subAccount1_2")
-        self.horizontalLayout_10.addWidget(self.label_subAccount1_2)
-        self.gridLayout_2.addWidget(self.frame_4, 0, 9, 1, 1)
-        self.frame_33 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_33.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_33.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_33.setLineWidth(1)
-        self.frame_33.setObjectName("frame_33")
-        self.gridLayout_2.addWidget(self.frame_33, 0, 0, 1, 1)
-        self.frame_d1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_d1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_d1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_d1_2.setLineWidth(1)
-        self.frame_d1_2.setObjectName("frame_d1_2")
-        self.gridLayout_32 = QtWidgets.QGridLayout(self.frame_d1_2)
-        self.gridLayout_32.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_32.setSpacing(0)
-        self.gridLayout_32.setObjectName("gridLayout_32")
-        self.label_75 = QtWidgets.QLabel(parent=self.frame_d1_2)
-        self.label_75.setObjectName("label_75")
-        self.gridLayout_32.addWidget(self.label_75, 0, 1, 1, 1)
-        self.lineEdit_193 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
-        self.lineEdit_193.setEnabled(True)
-        self.lineEdit_193.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_193.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_193.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_193.setDragEnabled(False)
-        self.lineEdit_193.setObjectName("lineEdit_193")
-        self.gridLayout_32.addWidget(self.lineEdit_193, 2, 2, 1, 1)
-        self.lineEdit_194 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
-        self.lineEdit_194.setEnabled(True)
-        self.lineEdit_194.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_194.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_194.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_194.setDragEnabled(False)
-        self.lineEdit_194.setObjectName("lineEdit_194")
-        self.gridLayout_32.addWidget(self.lineEdit_194, 0, 2, 1, 1)
-        self.label_76 = QtWidgets.QLabel(parent=self.frame_d1_2)
-        self.label_76.setObjectName("label_76")
-        self.gridLayout_32.addWidget(self.label_76, 1, 1, 1, 1)
-        self.lineEdit_195 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
-        self.lineEdit_195.setEnabled(True)
-        self.lineEdit_195.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_195.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_195.setDragEnabled(False)
-        self.lineEdit_195.setObjectName("lineEdit_195")
-        self.gridLayout_32.addWidget(self.lineEdit_195, 2, 0, 1, 1)
-        self.lineEdit_196 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
-        self.lineEdit_196.setEnabled(True)
-        self.lineEdit_196.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_196.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_196.setDragEnabled(False)
-        self.lineEdit_196.setObjectName("lineEdit_196")
-        self.gridLayout_32.addWidget(self.lineEdit_196, 0, 0, 1, 1)
-        self.label_77 = QtWidgets.QLabel(parent=self.frame_d1_2)
-        self.label_77.setObjectName("label_77")
-        self.gridLayout_32.addWidget(self.label_77, 2, 1, 1, 1)
-        self.lineEdit_197 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
-        self.lineEdit_197.setEnabled(True)
-        self.lineEdit_197.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_197.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_197.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_197.setDragEnabled(False)
-        self.lineEdit_197.setReadOnly(True)
-        self.lineEdit_197.setObjectName("lineEdit_197")
-        self.gridLayout_32.addWidget(self.lineEdit_197, 1, 2, 1, 1)
-        self.lineEdit_198 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
-        self.lineEdit_198.setEnabled(True)
-        self.lineEdit_198.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_198.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_198.setDragEnabled(False)
-        self.lineEdit_198.setReadOnly(True)
-        self.lineEdit_198.setObjectName("lineEdit_198")
-        self.gridLayout_32.addWidget(self.lineEdit_198, 1, 0, 1, 1)
-        self.gridLayout_32.setRowMinimumHeight(0, 1)
-        self.gridLayout_32.setRowMinimumHeight(1, 1)
-        self.gridLayout_32.setRowMinimumHeight(2, 1)
-        self.gridLayout_32.setColumnStretch(0, 1)
-        self.gridLayout_32.setColumnStretch(2, 1)
-        self.gridLayout_32.setRowStretch(0, 1)
-        self.gridLayout_32.setRowStretch(1, 1)
-        self.gridLayout_32.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_d1_2, 1, 4, 1, 1)
-        self.frame_e1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_e1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_e1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_e1_2.setLineWidth(1)
-        self.frame_e1_2.setObjectName("frame_e1_2")
-        self.gridLayout_33 = QtWidgets.QGridLayout(self.frame_e1_2)
-        self.gridLayout_33.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_33.setSpacing(0)
-        self.gridLayout_33.setObjectName("gridLayout_33")
-        self.label_95 = QtWidgets.QLabel(parent=self.frame_e1_2)
-        self.label_95.setObjectName("label_95")
-        self.gridLayout_33.addWidget(self.label_95, 0, 1, 1, 1)
-        self.lineEdit_199 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
-        self.lineEdit_199.setEnabled(True)
-        self.lineEdit_199.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_199.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_199.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_199.setDragEnabled(False)
-        self.lineEdit_199.setObjectName("lineEdit_199")
-        self.gridLayout_33.addWidget(self.lineEdit_199, 2, 2, 1, 1)
-        self.lineEdit_200 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
-        self.lineEdit_200.setEnabled(True)
-        self.lineEdit_200.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_200.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_200.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_200.setDragEnabled(False)
-        self.lineEdit_200.setObjectName("lineEdit_200")
-        self.gridLayout_33.addWidget(self.lineEdit_200, 0, 2, 1, 1)
-        self.label_96 = QtWidgets.QLabel(parent=self.frame_e1_2)
-        self.label_96.setObjectName("label_96")
-        self.gridLayout_33.addWidget(self.label_96, 1, 1, 1, 1)
-        self.lineEdit_201 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
-        self.lineEdit_201.setEnabled(True)
-        self.lineEdit_201.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_201.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_201.setDragEnabled(False)
-        self.lineEdit_201.setObjectName("lineEdit_201")
-        self.gridLayout_33.addWidget(self.lineEdit_201, 2, 0, 1, 1)
-        self.lineEdit_202 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
-        self.lineEdit_202.setEnabled(True)
-        self.lineEdit_202.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_202.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_202.setDragEnabled(False)
-        self.lineEdit_202.setObjectName("lineEdit_202")
-        self.gridLayout_33.addWidget(self.lineEdit_202, 0, 0, 1, 1)
-        self.label_97 = QtWidgets.QLabel(parent=self.frame_e1_2)
-        self.label_97.setObjectName("label_97")
-        self.gridLayout_33.addWidget(self.label_97, 2, 1, 1, 1)
-        self.lineEdit_203 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
-        self.lineEdit_203.setEnabled(True)
-        self.lineEdit_203.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_203.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_203.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_203.setDragEnabled(False)
-        self.lineEdit_203.setReadOnly(True)
-        self.lineEdit_203.setObjectName("lineEdit_203")
-        self.gridLayout_33.addWidget(self.lineEdit_203, 1, 2, 1, 1)
-        self.lineEdit_204 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
-        self.lineEdit_204.setEnabled(True)
-        self.lineEdit_204.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_204.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_204.setDragEnabled(False)
-        self.lineEdit_204.setReadOnly(True)
-        self.lineEdit_204.setObjectName("lineEdit_204")
-        self.gridLayout_33.addWidget(self.lineEdit_204, 1, 0, 1, 1)
-        self.gridLayout_33.setRowMinimumHeight(0, 1)
-        self.gridLayout_33.setRowMinimumHeight(1, 1)
-        self.gridLayout_33.setRowMinimumHeight(2, 1)
-        self.gridLayout_33.setColumnStretch(0, 1)
-        self.gridLayout_33.setColumnStretch(2, 1)
-        self.gridLayout_33.setRowStretch(0, 1)
-        self.gridLayout_33.setRowStretch(1, 1)
-        self.gridLayout_33.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_e1_2, 1, 5, 1, 1)
-        self.frame_f1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_f1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_f1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_f1_2.setLineWidth(1)
-        self.frame_f1_2.setObjectName("frame_f1_2")
-        self.gridLayout_34 = QtWidgets.QGridLayout(self.frame_f1_2)
-        self.gridLayout_34.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_34.setSpacing(0)
-        self.gridLayout_34.setObjectName("gridLayout_34")
-        self.label_98 = QtWidgets.QLabel(parent=self.frame_f1_2)
-        self.label_98.setObjectName("label_98")
-        self.gridLayout_34.addWidget(self.label_98, 0, 1, 1, 1)
-        self.lineEdit_205 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
-        self.lineEdit_205.setEnabled(True)
-        self.lineEdit_205.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_205.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_205.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_205.setDragEnabled(False)
-        self.lineEdit_205.setObjectName("lineEdit_205")
-        self.gridLayout_34.addWidget(self.lineEdit_205, 2, 2, 1, 1)
-        self.lineEdit_206 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
-        self.lineEdit_206.setEnabled(True)
-        self.lineEdit_206.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_206.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_206.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_206.setDragEnabled(False)
-        self.lineEdit_206.setObjectName("lineEdit_206")
-        self.gridLayout_34.addWidget(self.lineEdit_206, 0, 2, 1, 1)
-        self.label_99 = QtWidgets.QLabel(parent=self.frame_f1_2)
-        self.label_99.setObjectName("label_99")
-        self.gridLayout_34.addWidget(self.label_99, 1, 1, 1, 1)
-        self.lineEdit_207 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
-        self.lineEdit_207.setEnabled(True)
-        self.lineEdit_207.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_207.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_207.setDragEnabled(False)
-        self.lineEdit_207.setObjectName("lineEdit_207")
-        self.gridLayout_34.addWidget(self.lineEdit_207, 2, 0, 1, 1)
-        self.lineEdit_208 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
-        self.lineEdit_208.setEnabled(True)
-        self.lineEdit_208.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_208.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_208.setDragEnabled(False)
-        self.lineEdit_208.setObjectName("lineEdit_208")
-        self.gridLayout_34.addWidget(self.lineEdit_208, 0, 0, 1, 1)
-        self.label_100 = QtWidgets.QLabel(parent=self.frame_f1_2)
-        self.label_100.setObjectName("label_100")
-        self.gridLayout_34.addWidget(self.label_100, 2, 1, 1, 1)
-        self.lineEdit_209 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
-        self.lineEdit_209.setEnabled(True)
-        self.lineEdit_209.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_209.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_209.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_209.setDragEnabled(False)
-        self.lineEdit_209.setReadOnly(True)
-        self.lineEdit_209.setObjectName("lineEdit_209")
-        self.gridLayout_34.addWidget(self.lineEdit_209, 1, 2, 1, 1)
-        self.lineEdit_210 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
-        self.lineEdit_210.setEnabled(True)
-        self.lineEdit_210.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_210.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_210.setDragEnabled(False)
-        self.lineEdit_210.setReadOnly(True)
-        self.lineEdit_210.setObjectName("lineEdit_210")
-        self.gridLayout_34.addWidget(self.lineEdit_210, 1, 0, 1, 1)
-        self.gridLayout_34.setRowMinimumHeight(0, 1)
-        self.gridLayout_34.setRowMinimumHeight(1, 1)
-        self.gridLayout_34.setRowMinimumHeight(2, 1)
-        self.gridLayout_34.setColumnStretch(0, 1)
-        self.gridLayout_34.setColumnStretch(2, 1)
-        self.gridLayout_34.setRowStretch(0, 1)
-        self.gridLayout_34.setRowStretch(1, 1)
-        self.gridLayout_34.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_f1_2, 1, 6, 1, 1)
-        self.frame_g1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_g1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_g1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_g1_2.setLineWidth(1)
-        self.frame_g1_2.setObjectName("frame_g1_2")
-        self.gridLayout_35 = QtWidgets.QGridLayout(self.frame_g1_2)
-        self.gridLayout_35.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_35.setSpacing(0)
-        self.gridLayout_35.setObjectName("gridLayout_35")
-        self.label_101 = QtWidgets.QLabel(parent=self.frame_g1_2)
-        self.label_101.setObjectName("label_101")
-        self.gridLayout_35.addWidget(self.label_101, 0, 1, 1, 1)
-        self.lineEdit_211 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
-        self.lineEdit_211.setEnabled(True)
-        self.lineEdit_211.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_211.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_211.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_211.setDragEnabled(False)
-        self.lineEdit_211.setObjectName("lineEdit_211")
-        self.gridLayout_35.addWidget(self.lineEdit_211, 2, 2, 1, 1)
-        self.lineEdit_212 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
-        self.lineEdit_212.setEnabled(True)
-        self.lineEdit_212.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_212.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_212.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_212.setDragEnabled(False)
-        self.lineEdit_212.setObjectName("lineEdit_212")
-        self.gridLayout_35.addWidget(self.lineEdit_212, 0, 2, 1, 1)
-        self.label_102 = QtWidgets.QLabel(parent=self.frame_g1_2)
-        self.label_102.setObjectName("label_102")
-        self.gridLayout_35.addWidget(self.label_102, 1, 1, 1, 1)
-        self.lineEdit_213 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
-        self.lineEdit_213.setEnabled(True)
-        self.lineEdit_213.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_213.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_213.setDragEnabled(False)
-        self.lineEdit_213.setObjectName("lineEdit_213")
-        self.gridLayout_35.addWidget(self.lineEdit_213, 2, 0, 1, 1)
-        self.lineEdit_214 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
-        self.lineEdit_214.setEnabled(True)
-        self.lineEdit_214.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_214.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_214.setDragEnabled(False)
-        self.lineEdit_214.setObjectName("lineEdit_214")
-        self.gridLayout_35.addWidget(self.lineEdit_214, 0, 0, 1, 1)
-        self.label_103 = QtWidgets.QLabel(parent=self.frame_g1_2)
-        self.label_103.setObjectName("label_103")
-        self.gridLayout_35.addWidget(self.label_103, 2, 1, 1, 1)
-        self.lineEdit_215 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
-        self.lineEdit_215.setEnabled(True)
-        self.lineEdit_215.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_215.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_215.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_215.setDragEnabled(False)
-        self.lineEdit_215.setReadOnly(True)
-        self.lineEdit_215.setObjectName("lineEdit_215")
-        self.gridLayout_35.addWidget(self.lineEdit_215, 1, 2, 1, 1)
-        self.lineEdit_216 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
-        self.lineEdit_216.setEnabled(True)
-        self.lineEdit_216.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_216.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_216.setDragEnabled(False)
-        self.lineEdit_216.setReadOnly(True)
-        self.lineEdit_216.setObjectName("lineEdit_216")
-        self.gridLayout_35.addWidget(self.lineEdit_216, 1, 0, 1, 1)
-        self.gridLayout_35.setRowMinimumHeight(0, 1)
-        self.gridLayout_35.setRowMinimumHeight(1, 1)
-        self.gridLayout_35.setRowMinimumHeight(2, 1)
-        self.gridLayout_35.setColumnStretch(0, 1)
-        self.gridLayout_35.setColumnStretch(2, 1)
-        self.gridLayout_35.setRowStretch(0, 1)
-        self.gridLayout_35.setRowStretch(1, 1)
-        self.gridLayout_35.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_g1_2, 1, 7, 1, 1)
-        self.frame_h1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_h1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_h1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_h1_2.setLineWidth(1)
-        self.frame_h1_2.setObjectName("frame_h1_2")
-        self.gridLayout_36 = QtWidgets.QGridLayout(self.frame_h1_2)
-        self.gridLayout_36.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_36.setSpacing(0)
-        self.gridLayout_36.setObjectName("gridLayout_36")
-        self.label_104 = QtWidgets.QLabel(parent=self.frame_h1_2)
-        self.label_104.setObjectName("label_104")
-        self.gridLayout_36.addWidget(self.label_104, 0, 1, 1, 1)
-        self.lineEdit_217 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
-        self.lineEdit_217.setEnabled(True)
-        self.lineEdit_217.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_217.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_217.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_217.setDragEnabled(False)
-        self.lineEdit_217.setObjectName("lineEdit_217")
-        self.gridLayout_36.addWidget(self.lineEdit_217, 2, 2, 1, 1)
-        self.lineEdit_218 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
-        self.lineEdit_218.setEnabled(True)
-        self.lineEdit_218.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_218.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_218.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_218.setDragEnabled(False)
-        self.lineEdit_218.setObjectName("lineEdit_218")
-        self.gridLayout_36.addWidget(self.lineEdit_218, 0, 2, 1, 1)
-        self.label_105 = QtWidgets.QLabel(parent=self.frame_h1_2)
-        self.label_105.setObjectName("label_105")
-        self.gridLayout_36.addWidget(self.label_105, 1, 1, 1, 1)
-        self.lineEdit_219 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
-        self.lineEdit_219.setEnabled(True)
-        self.lineEdit_219.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_219.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_219.setDragEnabled(False)
-        self.lineEdit_219.setObjectName("lineEdit_219")
-        self.gridLayout_36.addWidget(self.lineEdit_219, 2, 0, 1, 1)
-        self.lineEdit_220 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
-        self.lineEdit_220.setEnabled(True)
-        self.lineEdit_220.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_220.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_220.setDragEnabled(False)
-        self.lineEdit_220.setObjectName("lineEdit_220")
-        self.gridLayout_36.addWidget(self.lineEdit_220, 0, 0, 1, 1)
-        self.label_106 = QtWidgets.QLabel(parent=self.frame_h1_2)
-        self.label_106.setObjectName("label_106")
-        self.gridLayout_36.addWidget(self.label_106, 2, 1, 1, 1)
-        self.lineEdit_221 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
-        self.lineEdit_221.setEnabled(True)
-        self.lineEdit_221.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_221.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_221.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_221.setDragEnabled(False)
-        self.lineEdit_221.setReadOnly(True)
-        self.lineEdit_221.setObjectName("lineEdit_221")
-        self.gridLayout_36.addWidget(self.lineEdit_221, 1, 2, 1, 1)
-        self.lineEdit_222 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
-        self.lineEdit_222.setEnabled(True)
-        self.lineEdit_222.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_222.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_222.setDragEnabled(False)
-        self.lineEdit_222.setReadOnly(True)
-        self.lineEdit_222.setObjectName("lineEdit_222")
-        self.gridLayout_36.addWidget(self.lineEdit_222, 1, 0, 1, 1)
-        self.gridLayout_36.setRowMinimumHeight(0, 1)
-        self.gridLayout_36.setRowMinimumHeight(1, 1)
-        self.gridLayout_36.setRowMinimumHeight(2, 1)
-        self.gridLayout_36.setColumnStretch(0, 1)
-        self.gridLayout_36.setColumnStretch(2, 1)
-        self.gridLayout_36.setRowStretch(0, 1)
-        self.gridLayout_36.setRowStretch(1, 1)
-        self.gridLayout_36.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_h1_2, 1, 8, 1, 1)
-        self.frame_i1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_i1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_i1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_i1_2.setLineWidth(1)
-        self.frame_i1_2.setObjectName("frame_i1_2")
-        self.gridLayout_37 = QtWidgets.QGridLayout(self.frame_i1_2)
-        self.gridLayout_37.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_37.setSpacing(0)
-        self.gridLayout_37.setObjectName("gridLayout_37")
-        self.label_107 = QtWidgets.QLabel(parent=self.frame_i1_2)
-        self.label_107.setObjectName("label_107")
-        self.gridLayout_37.addWidget(self.label_107, 0, 1, 1, 1)
-        self.lineEdit_223 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
-        self.lineEdit_223.setEnabled(True)
-        self.lineEdit_223.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_223.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_223.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_223.setDragEnabled(False)
-        self.lineEdit_223.setObjectName("lineEdit_223")
-        self.gridLayout_37.addWidget(self.lineEdit_223, 2, 2, 1, 1)
-        self.lineEdit_224 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
-        self.lineEdit_224.setEnabled(True)
-        self.lineEdit_224.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_224.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_224.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_224.setDragEnabled(False)
-        self.lineEdit_224.setObjectName("lineEdit_224")
-        self.gridLayout_37.addWidget(self.lineEdit_224, 0, 2, 1, 1)
-        self.label_108 = QtWidgets.QLabel(parent=self.frame_i1_2)
-        self.label_108.setObjectName("label_108")
-        self.gridLayout_37.addWidget(self.label_108, 1, 1, 1, 1)
-        self.lineEdit_225 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
-        self.lineEdit_225.setEnabled(True)
-        self.lineEdit_225.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_225.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_225.setDragEnabled(False)
-        self.lineEdit_225.setObjectName("lineEdit_225")
-        self.gridLayout_37.addWidget(self.lineEdit_225, 2, 0, 1, 1)
-        self.lineEdit_226 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
-        self.lineEdit_226.setEnabled(True)
-        self.lineEdit_226.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_226.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_226.setDragEnabled(False)
-        self.lineEdit_226.setObjectName("lineEdit_226")
-        self.gridLayout_37.addWidget(self.lineEdit_226, 0, 0, 1, 1)
-        self.label_109 = QtWidgets.QLabel(parent=self.frame_i1_2)
-        self.label_109.setObjectName("label_109")
-        self.gridLayout_37.addWidget(self.label_109, 2, 1, 1, 1)
-        self.lineEdit_227 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
-        self.lineEdit_227.setEnabled(True)
-        self.lineEdit_227.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_227.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_227.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_227.setDragEnabled(False)
-        self.lineEdit_227.setReadOnly(True)
-        self.lineEdit_227.setObjectName("lineEdit_227")
-        self.gridLayout_37.addWidget(self.lineEdit_227, 1, 2, 1, 1)
-        self.lineEdit_228 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
-        self.lineEdit_228.setEnabled(True)
-        self.lineEdit_228.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_228.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_228.setDragEnabled(False)
-        self.lineEdit_228.setReadOnly(True)
-        self.lineEdit_228.setObjectName("lineEdit_228")
-        self.gridLayout_37.addWidget(self.lineEdit_228, 1, 0, 1, 1)
-        self.gridLayout_37.setRowMinimumHeight(0, 1)
-        self.gridLayout_37.setRowMinimumHeight(1, 1)
-        self.gridLayout_37.setRowMinimumHeight(2, 1)
-        self.gridLayout_37.setColumnStretch(0, 1)
-        self.gridLayout_37.setColumnStretch(2, 1)
-        self.gridLayout_37.setRowStretch(0, 1)
-        self.gridLayout_37.setRowStretch(1, 1)
-        self.gridLayout_37.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_i1_2, 1, 9, 1, 1)
-        self.frame_i2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_i2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_i2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_i2_2.setLineWidth(1)
-        self.frame_i2_2.setObjectName("frame_i2_2")
-        self.gridLayout_38 = QtWidgets.QGridLayout(self.frame_i2_2)
-        self.gridLayout_38.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_38.setSpacing(0)
-        self.gridLayout_38.setObjectName("gridLayout_38")
-        self.label_110 = QtWidgets.QLabel(parent=self.frame_i2_2)
-        self.label_110.setObjectName("label_110")
-        self.gridLayout_38.addWidget(self.label_110, 0, 1, 1, 1)
-        self.lineEdit_229 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
-        self.lineEdit_229.setEnabled(True)
-        self.lineEdit_229.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_229.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_229.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_229.setDragEnabled(False)
-        self.lineEdit_229.setObjectName("lineEdit_229")
-        self.gridLayout_38.addWidget(self.lineEdit_229, 2, 2, 1, 1)
-        self.lineEdit_230 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
-        self.lineEdit_230.setEnabled(True)
-        self.lineEdit_230.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_230.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_230.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_230.setDragEnabled(False)
-        self.lineEdit_230.setObjectName("lineEdit_230")
-        self.gridLayout_38.addWidget(self.lineEdit_230, 0, 2, 1, 1)
-        self.label_111 = QtWidgets.QLabel(parent=self.frame_i2_2)
-        self.label_111.setObjectName("label_111")
-        self.gridLayout_38.addWidget(self.label_111, 1, 1, 1, 1)
-        self.lineEdit_231 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
-        self.lineEdit_231.setEnabled(True)
-        self.lineEdit_231.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_231.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_231.setDragEnabled(False)
-        self.lineEdit_231.setObjectName("lineEdit_231")
-        self.gridLayout_38.addWidget(self.lineEdit_231, 2, 0, 1, 1)
-        self.lineEdit_232 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
-        self.lineEdit_232.setEnabled(True)
-        self.lineEdit_232.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_232.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_232.setDragEnabled(False)
-        self.lineEdit_232.setObjectName("lineEdit_232")
-        self.gridLayout_38.addWidget(self.lineEdit_232, 0, 0, 1, 1)
-        self.label_112 = QtWidgets.QLabel(parent=self.frame_i2_2)
-        self.label_112.setObjectName("label_112")
-        self.gridLayout_38.addWidget(self.label_112, 2, 1, 1, 1)
-        self.lineEdit_233 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
-        self.lineEdit_233.setEnabled(True)
-        self.lineEdit_233.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_233.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_233.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_233.setDragEnabled(False)
-        self.lineEdit_233.setReadOnly(True)
-        self.lineEdit_233.setObjectName("lineEdit_233")
-        self.gridLayout_38.addWidget(self.lineEdit_233, 1, 2, 1, 1)
-        self.lineEdit_234 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
-        self.lineEdit_234.setEnabled(True)
-        self.lineEdit_234.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_234.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_234.setDragEnabled(False)
-        self.lineEdit_234.setReadOnly(True)
-        self.lineEdit_234.setObjectName("lineEdit_234")
-        self.gridLayout_38.addWidget(self.lineEdit_234, 1, 0, 1, 1)
-        self.gridLayout_38.setRowMinimumHeight(0, 1)
-        self.gridLayout_38.setRowMinimumHeight(1, 1)
-        self.gridLayout_38.setRowMinimumHeight(2, 1)
-        self.gridLayout_38.setColumnStretch(0, 1)
-        self.gridLayout_38.setColumnStretch(2, 1)
-        self.gridLayout_38.setRowStretch(0, 1)
-        self.gridLayout_38.setRowStretch(1, 1)
-        self.gridLayout_38.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_i2_2, 2, 9, 1, 1)
-        self.frame_i3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_i3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_i3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_i3_2.setLineWidth(1)
-        self.frame_i3_2.setObjectName("frame_i3_2")
-        self.gridLayout_39 = QtWidgets.QGridLayout(self.frame_i3_2)
-        self.gridLayout_39.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_39.setSpacing(0)
-        self.gridLayout_39.setObjectName("gridLayout_39")
-        self.label_113 = QtWidgets.QLabel(parent=self.frame_i3_2)
-        self.label_113.setObjectName("label_113")
-        self.gridLayout_39.addWidget(self.label_113, 0, 1, 1, 1)
-        self.lineEdit_235 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
-        self.lineEdit_235.setEnabled(True)
-        self.lineEdit_235.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_235.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_235.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_235.setDragEnabled(False)
-        self.lineEdit_235.setObjectName("lineEdit_235")
-        self.gridLayout_39.addWidget(self.lineEdit_235, 2, 2, 1, 1)
-        self.lineEdit_236 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
-        self.lineEdit_236.setEnabled(True)
-        self.lineEdit_236.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_236.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_236.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_236.setDragEnabled(False)
-        self.lineEdit_236.setObjectName("lineEdit_236")
-        self.gridLayout_39.addWidget(self.lineEdit_236, 0, 2, 1, 1)
-        self.label_114 = QtWidgets.QLabel(parent=self.frame_i3_2)
-        self.label_114.setObjectName("label_114")
-        self.gridLayout_39.addWidget(self.label_114, 1, 1, 1, 1)
-        self.lineEdit_237 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
-        self.lineEdit_237.setEnabled(True)
-        self.lineEdit_237.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_237.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_237.setDragEnabled(False)
-        self.lineEdit_237.setObjectName("lineEdit_237")
-        self.gridLayout_39.addWidget(self.lineEdit_237, 2, 0, 1, 1)
-        self.lineEdit_238 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
-        self.lineEdit_238.setEnabled(True)
-        self.lineEdit_238.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_238.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_238.setDragEnabled(False)
-        self.lineEdit_238.setObjectName("lineEdit_238")
-        self.gridLayout_39.addWidget(self.lineEdit_238, 0, 0, 1, 1)
-        self.label_115 = QtWidgets.QLabel(parent=self.frame_i3_2)
-        self.label_115.setObjectName("label_115")
-        self.gridLayout_39.addWidget(self.label_115, 2, 1, 1, 1)
-        self.lineEdit_239 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
-        self.lineEdit_239.setEnabled(True)
-        self.lineEdit_239.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_239.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_239.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_239.setDragEnabled(False)
-        self.lineEdit_239.setReadOnly(True)
-        self.lineEdit_239.setObjectName("lineEdit_239")
-        self.gridLayout_39.addWidget(self.lineEdit_239, 1, 2, 1, 1)
-        self.lineEdit_240 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
-        self.lineEdit_240.setEnabled(True)
-        self.lineEdit_240.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_240.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_240.setDragEnabled(False)
-        self.lineEdit_240.setReadOnly(True)
-        self.lineEdit_240.setObjectName("lineEdit_240")
-        self.gridLayout_39.addWidget(self.lineEdit_240, 1, 0, 1, 1)
-        self.gridLayout_39.setRowMinimumHeight(0, 1)
-        self.gridLayout_39.setRowMinimumHeight(1, 1)
-        self.gridLayout_39.setRowMinimumHeight(2, 1)
-        self.gridLayout_39.setColumnStretch(0, 1)
-        self.gridLayout_39.setColumnStretch(2, 1)
-        self.gridLayout_39.setRowStretch(0, 1)
-        self.gridLayout_39.setRowStretch(1, 1)
-        self.gridLayout_39.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_i3_2, 3, 9, 1, 1)
-        self.frame_a2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_a2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_a2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_a2_2.setLineWidth(1)
-        self.frame_a2_2.setObjectName("frame_a2_2")
-        self.gridLayout_40 = QtWidgets.QGridLayout(self.frame_a2_2)
-        self.gridLayout_40.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_40.setSpacing(0)
-        self.gridLayout_40.setObjectName("gridLayout_40")
-        self.label_116 = QtWidgets.QLabel(parent=self.frame_a2_2)
-        self.label_116.setObjectName("label_116")
-        self.gridLayout_40.addWidget(self.label_116, 0, 1, 1, 1)
-        self.lineEdit_241 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
-        self.lineEdit_241.setEnabled(True)
-        self.lineEdit_241.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_241.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_241.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_241.setDragEnabled(False)
-        self.lineEdit_241.setObjectName("lineEdit_241")
-        self.gridLayout_40.addWidget(self.lineEdit_241, 2, 2, 1, 1)
-        self.lineEdit_242 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
-        self.lineEdit_242.setEnabled(True)
-        self.lineEdit_242.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_242.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_242.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_242.setDragEnabled(False)
-        self.lineEdit_242.setObjectName("lineEdit_242")
-        self.gridLayout_40.addWidget(self.lineEdit_242, 0, 2, 1, 1)
-        self.label_117 = QtWidgets.QLabel(parent=self.frame_a2_2)
-        self.label_117.setObjectName("label_117")
-        self.gridLayout_40.addWidget(self.label_117, 1, 1, 1, 1)
-        self.lineEdit_243 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
-        self.lineEdit_243.setEnabled(True)
-        self.lineEdit_243.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_243.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_243.setDragEnabled(False)
-        self.lineEdit_243.setObjectName("lineEdit_243")
-        self.gridLayout_40.addWidget(self.lineEdit_243, 2, 0, 1, 1)
-        self.lineEdit_244 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
-        self.lineEdit_244.setEnabled(True)
-        self.lineEdit_244.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_244.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_244.setDragEnabled(False)
-        self.lineEdit_244.setObjectName("lineEdit_244")
-        self.gridLayout_40.addWidget(self.lineEdit_244, 0, 0, 1, 1)
-        self.label_118 = QtWidgets.QLabel(parent=self.frame_a2_2)
-        self.label_118.setObjectName("label_118")
-        self.gridLayout_40.addWidget(self.label_118, 2, 1, 1, 1)
-        self.lineEdit_245 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
-        self.lineEdit_245.setEnabled(True)
-        self.lineEdit_245.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_245.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_245.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_245.setDragEnabled(False)
-        self.lineEdit_245.setReadOnly(True)
-        self.lineEdit_245.setObjectName("lineEdit_245")
-        self.gridLayout_40.addWidget(self.lineEdit_245, 1, 2, 1, 1)
-        self.lineEdit_246 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
-        self.lineEdit_246.setEnabled(True)
-        self.lineEdit_246.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_246.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_246.setDragEnabled(False)
-        self.lineEdit_246.setReadOnly(True)
-        self.lineEdit_246.setObjectName("lineEdit_246")
-        self.gridLayout_40.addWidget(self.lineEdit_246, 1, 0, 1, 1)
-        self.gridLayout_40.setRowMinimumHeight(0, 1)
-        self.gridLayout_40.setRowMinimumHeight(1, 1)
-        self.gridLayout_40.setRowMinimumHeight(2, 1)
-        self.gridLayout_40.setColumnStretch(0, 1)
-        self.gridLayout_40.setColumnStretch(2, 1)
-        self.gridLayout_40.setRowStretch(0, 1)
-        self.gridLayout_40.setRowStretch(1, 1)
-        self.gridLayout_40.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_a2_2, 2, 1, 1, 1)
-        self.frame_a3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_a3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_a3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_a3_2.setLineWidth(1)
-        self.frame_a3_2.setObjectName("frame_a3_2")
-        self.gridLayout_41 = QtWidgets.QGridLayout(self.frame_a3_2)
-        self.gridLayout_41.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_41.setSpacing(0)
-        self.gridLayout_41.setObjectName("gridLayout_41")
-        self.label_119 = QtWidgets.QLabel(parent=self.frame_a3_2)
-        self.label_119.setObjectName("label_119")
-        self.gridLayout_41.addWidget(self.label_119, 0, 1, 1, 1)
-        self.lineEdit_247 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
-        self.lineEdit_247.setEnabled(True)
-        self.lineEdit_247.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_247.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_247.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_247.setDragEnabled(False)
-        self.lineEdit_247.setObjectName("lineEdit_247")
-        self.gridLayout_41.addWidget(self.lineEdit_247, 2, 2, 1, 1)
-        self.lineEdit_248 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
-        self.lineEdit_248.setEnabled(True)
-        self.lineEdit_248.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_248.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_248.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_248.setDragEnabled(False)
-        self.lineEdit_248.setObjectName("lineEdit_248")
-        self.gridLayout_41.addWidget(self.lineEdit_248, 0, 2, 1, 1)
-        self.label_120 = QtWidgets.QLabel(parent=self.frame_a3_2)
-        self.label_120.setObjectName("label_120")
-        self.gridLayout_41.addWidget(self.label_120, 1, 1, 1, 1)
-        self.lineEdit_249 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
-        self.lineEdit_249.setEnabled(True)
-        self.lineEdit_249.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_249.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_249.setDragEnabled(False)
-        self.lineEdit_249.setObjectName("lineEdit_249")
-        self.gridLayout_41.addWidget(self.lineEdit_249, 2, 0, 1, 1)
-        self.lineEdit_250 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
-        self.lineEdit_250.setEnabled(True)
-        self.lineEdit_250.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_250.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_250.setDragEnabled(False)
-        self.lineEdit_250.setObjectName("lineEdit_250")
-        self.gridLayout_41.addWidget(self.lineEdit_250, 0, 0, 1, 1)
-        self.label_121 = QtWidgets.QLabel(parent=self.frame_a3_2)
-        self.label_121.setObjectName("label_121")
-        self.gridLayout_41.addWidget(self.label_121, 2, 1, 1, 1)
-        self.lineEdit_251 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
-        self.lineEdit_251.setEnabled(True)
-        self.lineEdit_251.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_251.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_251.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_251.setDragEnabled(False)
-        self.lineEdit_251.setReadOnly(True)
-        self.lineEdit_251.setObjectName("lineEdit_251")
-        self.gridLayout_41.addWidget(self.lineEdit_251, 1, 2, 1, 1)
-        self.lineEdit_252 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
-        self.lineEdit_252.setEnabled(True)
-        self.lineEdit_252.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_252.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_252.setDragEnabled(False)
-        self.lineEdit_252.setReadOnly(True)
-        self.lineEdit_252.setObjectName("lineEdit_252")
-        self.gridLayout_41.addWidget(self.lineEdit_252, 1, 0, 1, 1)
-        self.gridLayout_41.setRowMinimumHeight(0, 1)
-        self.gridLayout_41.setRowMinimumHeight(1, 1)
-        self.gridLayout_41.setRowMinimumHeight(2, 1)
-        self.gridLayout_41.setColumnStretch(0, 1)
-        self.gridLayout_41.setColumnStretch(2, 1)
-        self.gridLayout_41.setRowStretch(0, 1)
-        self.gridLayout_41.setRowStretch(1, 1)
-        self.gridLayout_41.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_a3_2, 3, 1, 1, 1)
-        self.frame_b3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_b3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_b3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_b3_2.setLineWidth(1)
-        self.frame_b3_2.setObjectName("frame_b3_2")
-        self.gridLayout_42 = QtWidgets.QGridLayout(self.frame_b3_2)
-        self.gridLayout_42.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_42.setSpacing(0)
-        self.gridLayout_42.setObjectName("gridLayout_42")
-        self.label_122 = QtWidgets.QLabel(parent=self.frame_b3_2)
-        self.label_122.setObjectName("label_122")
-        self.gridLayout_42.addWidget(self.label_122, 0, 1, 1, 1)
-        self.lineEdit_253 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
-        self.lineEdit_253.setEnabled(True)
-        self.lineEdit_253.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_253.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_253.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_253.setDragEnabled(False)
-        self.lineEdit_253.setObjectName("lineEdit_253")
-        self.gridLayout_42.addWidget(self.lineEdit_253, 2, 2, 1, 1)
-        self.lineEdit_254 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
-        self.lineEdit_254.setEnabled(True)
-        self.lineEdit_254.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_254.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_254.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_254.setDragEnabled(False)
-        self.lineEdit_254.setObjectName("lineEdit_254")
-        self.gridLayout_42.addWidget(self.lineEdit_254, 0, 2, 1, 1)
-        self.label_123 = QtWidgets.QLabel(parent=self.frame_b3_2)
-        self.label_123.setObjectName("label_123")
-        self.gridLayout_42.addWidget(self.label_123, 1, 1, 1, 1)
-        self.lineEdit_255 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
-        self.lineEdit_255.setEnabled(True)
-        self.lineEdit_255.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_255.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_255.setDragEnabled(False)
-        self.lineEdit_255.setObjectName("lineEdit_255")
-        self.gridLayout_42.addWidget(self.lineEdit_255, 2, 0, 1, 1)
-        self.lineEdit_256 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
-        self.lineEdit_256.setEnabled(True)
-        self.lineEdit_256.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_256.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_256.setDragEnabled(False)
-        self.lineEdit_256.setObjectName("lineEdit_256")
-        self.gridLayout_42.addWidget(self.lineEdit_256, 0, 0, 1, 1)
-        self.label_124 = QtWidgets.QLabel(parent=self.frame_b3_2)
-        self.label_124.setObjectName("label_124")
-        self.gridLayout_42.addWidget(self.label_124, 2, 1, 1, 1)
-        self.lineEdit_257 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
-        self.lineEdit_257.setEnabled(True)
-        self.lineEdit_257.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_257.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_257.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_257.setDragEnabled(False)
-        self.lineEdit_257.setReadOnly(True)
-        self.lineEdit_257.setObjectName("lineEdit_257")
-        self.gridLayout_42.addWidget(self.lineEdit_257, 1, 2, 1, 1)
-        self.lineEdit_258 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
-        self.lineEdit_258.setEnabled(True)
-        self.lineEdit_258.setStyleSheet("QLineEdit {\n"
-"    background: transparent;\n"
-"    border: none;\n"
-"}\n"
-"")
-        self.lineEdit_258.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_258.setDragEnabled(False)
-        self.lineEdit_258.setReadOnly(True)
-        self.lineEdit_258.setObjectName("lineEdit_258")
-        self.gridLayout_42.addWidget(self.lineEdit_258, 1, 0, 1, 1)
-        self.gridLayout_42.setRowMinimumHeight(0, 1)
-        self.gridLayout_42.setRowMinimumHeight(1, 1)
-        self.gridLayout_42.setRowMinimumHeight(2, 1)
-        self.gridLayout_42.setColumnStretch(0, 1)
-        self.gridLayout_42.setColumnStretch(2, 1)
-        self.gridLayout_42.setRowStretch(0, 1)
-        self.gridLayout_42.setRowStretch(1, 1)
-        self.gridLayout_42.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_b3_2, 3, 2, 1, 1)
         self.frame_c3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
         self.frame_c3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
         self.frame_c3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
@@ -4591,496 +3068,826 @@ class Ui_MainWindow(object):
         self.gridLayout_43.setRowStretch(1, 1)
         self.gridLayout_43.setRowStretch(2, 1)
         self.gridLayout_2.addWidget(self.frame_c3_2, 3, 3, 1, 1)
-        self.frame_d3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_d3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_d3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_d3_2.setLineWidth(1)
-        self.frame_d3_2.setObjectName("frame_d3_2")
-        self.gridLayout_44 = QtWidgets.QGridLayout(self.frame_d3_2)
-        self.gridLayout_44.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_44.setSpacing(0)
-        self.gridLayout_44.setObjectName("gridLayout_44")
-        self.label_128 = QtWidgets.QLabel(parent=self.frame_d3_2)
-        self.label_128.setObjectName("label_128")
-        self.gridLayout_44.addWidget(self.label_128, 0, 1, 1, 1)
-        self.lineEdit_265 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
-        self.lineEdit_265.setEnabled(True)
-        self.lineEdit_265.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_265.setStyleSheet("QLineEdit {\n"
+        self.frame_b2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_b2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_b2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_b2_2.setLineWidth(1)
+        self.frame_b2_2.setObjectName("frame_b2_2")
+        self.gridLayout_55 = QtWidgets.QGridLayout(self.frame_b2_2)
+        self.gridLayout_55.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_55.setSpacing(0)
+        self.gridLayout_55.setObjectName("gridLayout_55")
+        self.label_161 = QtWidgets.QLabel(parent=self.frame_b2_2)
+        self.label_161.setObjectName("label_161")
+        self.gridLayout_55.addWidget(self.label_161, 0, 1, 1, 1)
+        self.lineEdit_331 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
+        self.lineEdit_331.setEnabled(True)
+        self.lineEdit_331.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_331.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_265.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_265.setDragEnabled(False)
-        self.lineEdit_265.setObjectName("lineEdit_265")
-        self.gridLayout_44.addWidget(self.lineEdit_265, 2, 2, 1, 1)
-        self.lineEdit_266 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
-        self.lineEdit_266.setEnabled(True)
-        self.lineEdit_266.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_266.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_331.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_331.setDragEnabled(False)
+        self.lineEdit_331.setObjectName("lineEdit_331")
+        self.gridLayout_55.addWidget(self.lineEdit_331, 2, 2, 1, 1)
+        self.lineEdit_332 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
+        self.lineEdit_332.setEnabled(True)
+        self.lineEdit_332.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_332.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_266.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_266.setDragEnabled(False)
-        self.lineEdit_266.setObjectName("lineEdit_266")
-        self.gridLayout_44.addWidget(self.lineEdit_266, 0, 2, 1, 1)
-        self.label_129 = QtWidgets.QLabel(parent=self.frame_d3_2)
-        self.label_129.setObjectName("label_129")
-        self.gridLayout_44.addWidget(self.label_129, 1, 1, 1, 1)
-        self.lineEdit_267 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
-        self.lineEdit_267.setEnabled(True)
-        self.lineEdit_267.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_332.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_332.setDragEnabled(False)
+        self.lineEdit_332.setObjectName("lineEdit_332")
+        self.gridLayout_55.addWidget(self.lineEdit_332, 0, 2, 1, 1)
+        self.label_162 = QtWidgets.QLabel(parent=self.frame_b2_2)
+        self.label_162.setObjectName("label_162")
+        self.gridLayout_55.addWidget(self.label_162, 1, 1, 1, 1)
+        self.lineEdit_333 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
+        self.lineEdit_333.setEnabled(True)
+        self.lineEdit_333.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_267.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_267.setDragEnabled(False)
-        self.lineEdit_267.setObjectName("lineEdit_267")
-        self.gridLayout_44.addWidget(self.lineEdit_267, 2, 0, 1, 1)
-        self.lineEdit_268 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
-        self.lineEdit_268.setEnabled(True)
-        self.lineEdit_268.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_333.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_333.setDragEnabled(False)
+        self.lineEdit_333.setObjectName("lineEdit_333")
+        self.gridLayout_55.addWidget(self.lineEdit_333, 2, 0, 1, 1)
+        self.lineEdit_334 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
+        self.lineEdit_334.setEnabled(True)
+        self.lineEdit_334.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_268.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_268.setDragEnabled(False)
-        self.lineEdit_268.setObjectName("lineEdit_268")
-        self.gridLayout_44.addWidget(self.lineEdit_268, 0, 0, 1, 1)
-        self.label_130 = QtWidgets.QLabel(parent=self.frame_d3_2)
-        self.label_130.setObjectName("label_130")
-        self.gridLayout_44.addWidget(self.label_130, 2, 1, 1, 1)
-        self.lineEdit_269 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
-        self.lineEdit_269.setEnabled(True)
-        self.lineEdit_269.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_269.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_334.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_334.setDragEnabled(False)
+        self.lineEdit_334.setObjectName("lineEdit_334")
+        self.gridLayout_55.addWidget(self.lineEdit_334, 0, 0, 1, 1)
+        self.label_163 = QtWidgets.QLabel(parent=self.frame_b2_2)
+        self.label_163.setObjectName("label_163")
+        self.gridLayout_55.addWidget(self.label_163, 2, 1, 1, 1)
+        self.lineEdit_335 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
+        self.lineEdit_335.setEnabled(True)
+        self.lineEdit_335.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_335.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_269.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_269.setDragEnabled(False)
-        self.lineEdit_269.setReadOnly(True)
-        self.lineEdit_269.setObjectName("lineEdit_269")
-        self.gridLayout_44.addWidget(self.lineEdit_269, 1, 2, 1, 1)
-        self.lineEdit_270 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
-        self.lineEdit_270.setEnabled(True)
-        self.lineEdit_270.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_335.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_335.setDragEnabled(False)
+        self.lineEdit_335.setReadOnly(True)
+        self.lineEdit_335.setObjectName("lineEdit_335")
+        self.gridLayout_55.addWidget(self.lineEdit_335, 1, 2, 1, 1)
+        self.lineEdit_336 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
+        self.lineEdit_336.setEnabled(True)
+        self.lineEdit_336.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_270.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_270.setDragEnabled(False)
-        self.lineEdit_270.setReadOnly(True)
-        self.lineEdit_270.setObjectName("lineEdit_270")
-        self.gridLayout_44.addWidget(self.lineEdit_270, 1, 0, 1, 1)
-        self.gridLayout_44.setRowMinimumHeight(0, 1)
-        self.gridLayout_44.setRowMinimumHeight(1, 1)
-        self.gridLayout_44.setRowMinimumHeight(2, 1)
-        self.gridLayout_44.setColumnStretch(0, 1)
-        self.gridLayout_44.setColumnStretch(2, 1)
-        self.gridLayout_44.setRowStretch(0, 1)
-        self.gridLayout_44.setRowStretch(1, 1)
-        self.gridLayout_44.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_d3_2, 3, 4, 1, 1)
-        self.frame_e3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_e3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_e3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_e3_2.setLineWidth(1)
-        self.frame_e3_2.setObjectName("frame_e3_2")
-        self.gridLayout_45 = QtWidgets.QGridLayout(self.frame_e3_2)
-        self.gridLayout_45.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_45.setSpacing(0)
-        self.gridLayout_45.setObjectName("gridLayout_45")
-        self.label_131 = QtWidgets.QLabel(parent=self.frame_e3_2)
-        self.label_131.setObjectName("label_131")
-        self.gridLayout_45.addWidget(self.label_131, 0, 1, 1, 1)
-        self.lineEdit_271 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
-        self.lineEdit_271.setEnabled(True)
-        self.lineEdit_271.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_271.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_336.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_336.setDragEnabled(False)
+        self.lineEdit_336.setReadOnly(True)
+        self.lineEdit_336.setObjectName("lineEdit_336")
+        self.gridLayout_55.addWidget(self.lineEdit_336, 1, 0, 1, 1)
+        self.gridLayout_55.setRowMinimumHeight(0, 1)
+        self.gridLayout_55.setRowMinimumHeight(1, 1)
+        self.gridLayout_55.setRowMinimumHeight(2, 1)
+        self.gridLayout_55.setColumnStretch(0, 1)
+        self.gridLayout_55.setColumnStretch(2, 1)
+        self.gridLayout_55.setRowStretch(0, 1)
+        self.gridLayout_55.setRowStretch(1, 1)
+        self.gridLayout_55.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_b2_2, 2, 2, 1, 1)
+        self.frame_k1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_k1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_k1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_k1_2.setLineWidth(1)
+        self.frame_k1_2.setObjectName("frame_k1_2")
+        self.gridLayout_88 = QtWidgets.QGridLayout(self.frame_k1_2)
+        self.gridLayout_88.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_88.setSpacing(0)
+        self.gridLayout_88.setObjectName("gridLayout_88")
+        self.label_257 = QtWidgets.QLabel(parent=self.frame_k1_2)
+        self.label_257.setObjectName("label_257")
+        self.gridLayout_88.addWidget(self.label_257, 0, 1, 1, 1)
+        self.lineEdit_532 = QtWidgets.QLineEdit(parent=self.frame_k1_2)
+        self.lineEdit_532.setEnabled(True)
+        self.lineEdit_532.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_532.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_271.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_271.setDragEnabled(False)
-        self.lineEdit_271.setObjectName("lineEdit_271")
-        self.gridLayout_45.addWidget(self.lineEdit_271, 2, 2, 1, 1)
-        self.lineEdit_272 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
-        self.lineEdit_272.setEnabled(True)
-        self.lineEdit_272.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_272.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_532.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_532.setDragEnabled(False)
+        self.lineEdit_532.setObjectName("lineEdit_532")
+        self.gridLayout_88.addWidget(self.lineEdit_532, 2, 2, 1, 1)
+        self.lineEdit_533 = QtWidgets.QLineEdit(parent=self.frame_k1_2)
+        self.lineEdit_533.setEnabled(True)
+        self.lineEdit_533.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_533.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_272.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_272.setDragEnabled(False)
-        self.lineEdit_272.setObjectName("lineEdit_272")
-        self.gridLayout_45.addWidget(self.lineEdit_272, 0, 2, 1, 1)
-        self.label_132 = QtWidgets.QLabel(parent=self.frame_e3_2)
-        self.label_132.setObjectName("label_132")
-        self.gridLayout_45.addWidget(self.label_132, 1, 1, 1, 1)
-        self.lineEdit_273 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
-        self.lineEdit_273.setEnabled(True)
-        self.lineEdit_273.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_533.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_533.setDragEnabled(False)
+        self.lineEdit_533.setObjectName("lineEdit_533")
+        self.gridLayout_88.addWidget(self.lineEdit_533, 0, 2, 1, 1)
+        self.label_258 = QtWidgets.QLabel(parent=self.frame_k1_2)
+        self.label_258.setObjectName("label_258")
+        self.gridLayout_88.addWidget(self.label_258, 1, 1, 1, 1)
+        self.lineEdit_534 = QtWidgets.QLineEdit(parent=self.frame_k1_2)
+        self.lineEdit_534.setEnabled(True)
+        self.lineEdit_534.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_273.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_273.setDragEnabled(False)
-        self.lineEdit_273.setObjectName("lineEdit_273")
-        self.gridLayout_45.addWidget(self.lineEdit_273, 2, 0, 1, 1)
-        self.lineEdit_274 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
-        self.lineEdit_274.setEnabled(True)
-        self.lineEdit_274.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_534.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_534.setDragEnabled(False)
+        self.lineEdit_534.setObjectName("lineEdit_534")
+        self.gridLayout_88.addWidget(self.lineEdit_534, 2, 0, 1, 1)
+        self.lineEdit_535 = QtWidgets.QLineEdit(parent=self.frame_k1_2)
+        self.lineEdit_535.setEnabled(True)
+        self.lineEdit_535.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_274.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_274.setDragEnabled(False)
-        self.lineEdit_274.setObjectName("lineEdit_274")
-        self.gridLayout_45.addWidget(self.lineEdit_274, 0, 0, 1, 1)
-        self.label_133 = QtWidgets.QLabel(parent=self.frame_e3_2)
-        self.label_133.setObjectName("label_133")
-        self.gridLayout_45.addWidget(self.label_133, 2, 1, 1, 1)
-        self.lineEdit_275 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
-        self.lineEdit_275.setEnabled(True)
-        self.lineEdit_275.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_275.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_535.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_535.setDragEnabled(False)
+        self.lineEdit_535.setObjectName("lineEdit_535")
+        self.gridLayout_88.addWidget(self.lineEdit_535, 0, 0, 1, 1)
+        self.label_259 = QtWidgets.QLabel(parent=self.frame_k1_2)
+        self.label_259.setObjectName("label_259")
+        self.gridLayout_88.addWidget(self.label_259, 2, 1, 1, 1)
+        self.lineEdit_536 = QtWidgets.QLineEdit(parent=self.frame_k1_2)
+        self.lineEdit_536.setEnabled(True)
+        self.lineEdit_536.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_536.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_275.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_275.setDragEnabled(False)
-        self.lineEdit_275.setReadOnly(True)
-        self.lineEdit_275.setObjectName("lineEdit_275")
-        self.gridLayout_45.addWidget(self.lineEdit_275, 1, 2, 1, 1)
-        self.lineEdit_276 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
-        self.lineEdit_276.setEnabled(True)
-        self.lineEdit_276.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_536.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_536.setDragEnabled(False)
+        self.lineEdit_536.setReadOnly(True)
+        self.lineEdit_536.setObjectName("lineEdit_536")
+        self.gridLayout_88.addWidget(self.lineEdit_536, 1, 2, 1, 1)
+        self.lineEdit_537 = QtWidgets.QLineEdit(parent=self.frame_k1_2)
+        self.lineEdit_537.setEnabled(True)
+        self.lineEdit_537.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_276.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_276.setDragEnabled(False)
-        self.lineEdit_276.setReadOnly(True)
-        self.lineEdit_276.setObjectName("lineEdit_276")
-        self.gridLayout_45.addWidget(self.lineEdit_276, 1, 0, 1, 1)
-        self.gridLayout_45.setRowMinimumHeight(0, 1)
-        self.gridLayout_45.setRowMinimumHeight(1, 1)
-        self.gridLayout_45.setRowMinimumHeight(2, 1)
-        self.gridLayout_45.setColumnStretch(0, 1)
-        self.gridLayout_45.setColumnStretch(2, 1)
-        self.gridLayout_45.setRowStretch(0, 1)
-        self.gridLayout_45.setRowStretch(1, 1)
-        self.gridLayout_45.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_e3_2, 3, 5, 1, 1)
-        self.frame_f3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_f3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_f3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_f3_2.setLineWidth(1)
-        self.frame_f3_2.setObjectName("frame_f3_2")
-        self.gridLayout_46 = QtWidgets.QGridLayout(self.frame_f3_2)
-        self.gridLayout_46.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_46.setSpacing(0)
-        self.gridLayout_46.setObjectName("gridLayout_46")
-        self.label_134 = QtWidgets.QLabel(parent=self.frame_f3_2)
-        self.label_134.setObjectName("label_134")
-        self.gridLayout_46.addWidget(self.label_134, 0, 1, 1, 1)
-        self.lineEdit_277 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
-        self.lineEdit_277.setEnabled(True)
-        self.lineEdit_277.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_277.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_537.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_537.setDragEnabled(False)
+        self.lineEdit_537.setReadOnly(True)
+        self.lineEdit_537.setObjectName("lineEdit_537")
+        self.gridLayout_88.addWidget(self.lineEdit_537, 1, 0, 1, 1)
+        self.gridLayout_88.setRowMinimumHeight(0, 1)
+        self.gridLayout_88.setRowMinimumHeight(1, 1)
+        self.gridLayout_88.setRowMinimumHeight(2, 1)
+        self.gridLayout_88.setColumnStretch(0, 1)
+        self.gridLayout_88.setColumnStretch(2, 1)
+        self.gridLayout_88.setRowStretch(0, 1)
+        self.gridLayout_88.setRowStretch(1, 1)
+        self.gridLayout_88.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_k1_2, 1, 11, 1, 1)
+        self.frame_k2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_k2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_k2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_k2_2.setLineWidth(1)
+        self.frame_k2_2.setObjectName("frame_k2_2")
+        self.gridLayout_89 = QtWidgets.QGridLayout(self.frame_k2_2)
+        self.gridLayout_89.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_89.setSpacing(0)
+        self.gridLayout_89.setObjectName("gridLayout_89")
+        self.label_260 = QtWidgets.QLabel(parent=self.frame_k2_2)
+        self.label_260.setObjectName("label_260")
+        self.gridLayout_89.addWidget(self.label_260, 0, 1, 1, 1)
+        self.lineEdit_538 = QtWidgets.QLineEdit(parent=self.frame_k2_2)
+        self.lineEdit_538.setEnabled(True)
+        self.lineEdit_538.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_538.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_277.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_277.setDragEnabled(False)
-        self.lineEdit_277.setObjectName("lineEdit_277")
-        self.gridLayout_46.addWidget(self.lineEdit_277, 2, 2, 1, 1)
-        self.lineEdit_278 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
-        self.lineEdit_278.setEnabled(True)
-        self.lineEdit_278.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_278.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_538.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_538.setDragEnabled(False)
+        self.lineEdit_538.setObjectName("lineEdit_538")
+        self.gridLayout_89.addWidget(self.lineEdit_538, 2, 2, 1, 1)
+        self.lineEdit_539 = QtWidgets.QLineEdit(parent=self.frame_k2_2)
+        self.lineEdit_539.setEnabled(True)
+        self.lineEdit_539.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_539.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_278.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_278.setDragEnabled(False)
-        self.lineEdit_278.setObjectName("lineEdit_278")
-        self.gridLayout_46.addWidget(self.lineEdit_278, 0, 2, 1, 1)
-        self.label_135 = QtWidgets.QLabel(parent=self.frame_f3_2)
-        self.label_135.setObjectName("label_135")
-        self.gridLayout_46.addWidget(self.label_135, 1, 1, 1, 1)
-        self.lineEdit_279 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
-        self.lineEdit_279.setEnabled(True)
-        self.lineEdit_279.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_539.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_539.setDragEnabled(False)
+        self.lineEdit_539.setObjectName("lineEdit_539")
+        self.gridLayout_89.addWidget(self.lineEdit_539, 0, 2, 1, 1)
+        self.label_261 = QtWidgets.QLabel(parent=self.frame_k2_2)
+        self.label_261.setObjectName("label_261")
+        self.gridLayout_89.addWidget(self.label_261, 1, 1, 1, 1)
+        self.lineEdit_540 = QtWidgets.QLineEdit(parent=self.frame_k2_2)
+        self.lineEdit_540.setEnabled(True)
+        self.lineEdit_540.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_279.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_279.setDragEnabled(False)
-        self.lineEdit_279.setObjectName("lineEdit_279")
-        self.gridLayout_46.addWidget(self.lineEdit_279, 2, 0, 1, 1)
-        self.lineEdit_280 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
-        self.lineEdit_280.setEnabled(True)
-        self.lineEdit_280.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_540.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_540.setDragEnabled(False)
+        self.lineEdit_540.setObjectName("lineEdit_540")
+        self.gridLayout_89.addWidget(self.lineEdit_540, 2, 0, 1, 1)
+        self.lineEdit_541 = QtWidgets.QLineEdit(parent=self.frame_k2_2)
+        self.lineEdit_541.setEnabled(True)
+        self.lineEdit_541.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_280.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_280.setDragEnabled(False)
-        self.lineEdit_280.setObjectName("lineEdit_280")
-        self.gridLayout_46.addWidget(self.lineEdit_280, 0, 0, 1, 1)
-        self.label_136 = QtWidgets.QLabel(parent=self.frame_f3_2)
-        self.label_136.setObjectName("label_136")
-        self.gridLayout_46.addWidget(self.label_136, 2, 1, 1, 1)
-        self.lineEdit_281 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
-        self.lineEdit_281.setEnabled(True)
-        self.lineEdit_281.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_281.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_541.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_541.setDragEnabled(False)
+        self.lineEdit_541.setObjectName("lineEdit_541")
+        self.gridLayout_89.addWidget(self.lineEdit_541, 0, 0, 1, 1)
+        self.label_262 = QtWidgets.QLabel(parent=self.frame_k2_2)
+        self.label_262.setObjectName("label_262")
+        self.gridLayout_89.addWidget(self.label_262, 2, 1, 1, 1)
+        self.lineEdit_542 = QtWidgets.QLineEdit(parent=self.frame_k2_2)
+        self.lineEdit_542.setEnabled(True)
+        self.lineEdit_542.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_542.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_281.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_281.setDragEnabled(False)
-        self.lineEdit_281.setReadOnly(True)
-        self.lineEdit_281.setObjectName("lineEdit_281")
-        self.gridLayout_46.addWidget(self.lineEdit_281, 1, 2, 1, 1)
-        self.lineEdit_282 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
-        self.lineEdit_282.setEnabled(True)
-        self.lineEdit_282.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_542.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_542.setDragEnabled(False)
+        self.lineEdit_542.setReadOnly(True)
+        self.lineEdit_542.setObjectName("lineEdit_542")
+        self.gridLayout_89.addWidget(self.lineEdit_542, 1, 2, 1, 1)
+        self.lineEdit_543 = QtWidgets.QLineEdit(parent=self.frame_k2_2)
+        self.lineEdit_543.setEnabled(True)
+        self.lineEdit_543.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_282.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_282.setDragEnabled(False)
-        self.lineEdit_282.setReadOnly(True)
-        self.lineEdit_282.setObjectName("lineEdit_282")
-        self.gridLayout_46.addWidget(self.lineEdit_282, 1, 0, 1, 1)
-        self.gridLayout_46.setRowMinimumHeight(0, 1)
-        self.gridLayout_46.setRowMinimumHeight(1, 1)
-        self.gridLayout_46.setRowMinimumHeight(2, 1)
-        self.gridLayout_46.setColumnStretch(0, 1)
-        self.gridLayout_46.setColumnStretch(2, 1)
-        self.gridLayout_46.setRowStretch(0, 1)
-        self.gridLayout_46.setRowStretch(1, 1)
-        self.gridLayout_46.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_f3_2, 3, 6, 1, 1)
-        self.frame_g3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_g3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_g3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_g3_2.setLineWidth(1)
-        self.frame_g3_2.setObjectName("frame_g3_2")
-        self.gridLayout_47 = QtWidgets.QGridLayout(self.frame_g3_2)
-        self.gridLayout_47.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_47.setSpacing(0)
-        self.gridLayout_47.setObjectName("gridLayout_47")
-        self.label_137 = QtWidgets.QLabel(parent=self.frame_g3_2)
-        self.label_137.setObjectName("label_137")
-        self.gridLayout_47.addWidget(self.label_137, 0, 1, 1, 1)
-        self.lineEdit_283 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
-        self.lineEdit_283.setEnabled(True)
-        self.lineEdit_283.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_283.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_543.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_543.setDragEnabled(False)
+        self.lineEdit_543.setReadOnly(True)
+        self.lineEdit_543.setObjectName("lineEdit_543")
+        self.gridLayout_89.addWidget(self.lineEdit_543, 1, 0, 1, 1)
+        self.gridLayout_89.setRowMinimumHeight(0, 1)
+        self.gridLayout_89.setRowMinimumHeight(1, 1)
+        self.gridLayout_89.setRowMinimumHeight(2, 1)
+        self.gridLayout_89.setColumnStretch(0, 1)
+        self.gridLayout_89.setColumnStretch(2, 1)
+        self.gridLayout_89.setRowStretch(0, 1)
+        self.gridLayout_89.setRowStretch(1, 1)
+        self.gridLayout_89.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_k2_2, 2, 11, 1, 1)
+        self.frame_c1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_c1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_c1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_c1_2.setLineWidth(1)
+        self.frame_c1_2.setObjectName("frame_c1_2")
+        self.gridLayout_56 = QtWidgets.QGridLayout(self.frame_c1_2)
+        self.gridLayout_56.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_56.setSpacing(0)
+        self.gridLayout_56.setObjectName("gridLayout_56")
+        self.label_164 = QtWidgets.QLabel(parent=self.frame_c1_2)
+        self.label_164.setObjectName("label_164")
+        self.gridLayout_56.addWidget(self.label_164, 0, 1, 1, 1)
+        self.lineEdit_337 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
+        self.lineEdit_337.setEnabled(True)
+        self.lineEdit_337.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_337.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_283.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_283.setDragEnabled(False)
-        self.lineEdit_283.setObjectName("lineEdit_283")
-        self.gridLayout_47.addWidget(self.lineEdit_283, 2, 2, 1, 1)
-        self.lineEdit_284 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
-        self.lineEdit_284.setEnabled(True)
-        self.lineEdit_284.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_284.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_337.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_337.setDragEnabled(False)
+        self.lineEdit_337.setObjectName("lineEdit_337")
+        self.gridLayout_56.addWidget(self.lineEdit_337, 2, 2, 1, 1)
+        self.lineEdit_338 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
+        self.lineEdit_338.setEnabled(True)
+        self.lineEdit_338.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_338.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_284.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_284.setDragEnabled(False)
-        self.lineEdit_284.setObjectName("lineEdit_284")
-        self.gridLayout_47.addWidget(self.lineEdit_284, 0, 2, 1, 1)
-        self.label_138 = QtWidgets.QLabel(parent=self.frame_g3_2)
-        self.label_138.setObjectName("label_138")
-        self.gridLayout_47.addWidget(self.label_138, 1, 1, 1, 1)
-        self.lineEdit_285 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
-        self.lineEdit_285.setEnabled(True)
-        self.lineEdit_285.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_338.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_338.setDragEnabled(False)
+        self.lineEdit_338.setObjectName("lineEdit_338")
+        self.gridLayout_56.addWidget(self.lineEdit_338, 0, 2, 1, 1)
+        self.label_165 = QtWidgets.QLabel(parent=self.frame_c1_2)
+        self.label_165.setObjectName("label_165")
+        self.gridLayout_56.addWidget(self.label_165, 1, 1, 1, 1)
+        self.lineEdit_339 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
+        self.lineEdit_339.setEnabled(True)
+        self.lineEdit_339.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_285.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_285.setDragEnabled(False)
-        self.lineEdit_285.setObjectName("lineEdit_285")
-        self.gridLayout_47.addWidget(self.lineEdit_285, 2, 0, 1, 1)
-        self.lineEdit_286 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
-        self.lineEdit_286.setEnabled(True)
-        self.lineEdit_286.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_339.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_339.setDragEnabled(False)
+        self.lineEdit_339.setObjectName("lineEdit_339")
+        self.gridLayout_56.addWidget(self.lineEdit_339, 2, 0, 1, 1)
+        self.lineEdit_340 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
+        self.lineEdit_340.setEnabled(True)
+        self.lineEdit_340.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_286.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_286.setDragEnabled(False)
-        self.lineEdit_286.setObjectName("lineEdit_286")
-        self.gridLayout_47.addWidget(self.lineEdit_286, 0, 0, 1, 1)
-        self.label_139 = QtWidgets.QLabel(parent=self.frame_g3_2)
-        self.label_139.setObjectName("label_139")
-        self.gridLayout_47.addWidget(self.label_139, 2, 1, 1, 1)
-        self.lineEdit_287 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
-        self.lineEdit_287.setEnabled(True)
-        self.lineEdit_287.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_287.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_340.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_340.setDragEnabled(False)
+        self.lineEdit_340.setObjectName("lineEdit_340")
+        self.gridLayout_56.addWidget(self.lineEdit_340, 0, 0, 1, 1)
+        self.label_166 = QtWidgets.QLabel(parent=self.frame_c1_2)
+        self.label_166.setObjectName("label_166")
+        self.gridLayout_56.addWidget(self.label_166, 2, 1, 1, 1)
+        self.lineEdit_341 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
+        self.lineEdit_341.setEnabled(True)
+        self.lineEdit_341.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_341.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_287.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_287.setDragEnabled(False)
-        self.lineEdit_287.setReadOnly(True)
-        self.lineEdit_287.setObjectName("lineEdit_287")
-        self.gridLayout_47.addWidget(self.lineEdit_287, 1, 2, 1, 1)
-        self.lineEdit_288 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
-        self.lineEdit_288.setEnabled(True)
-        self.lineEdit_288.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_341.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_341.setDragEnabled(False)
+        self.lineEdit_341.setReadOnly(True)
+        self.lineEdit_341.setObjectName("lineEdit_341")
+        self.gridLayout_56.addWidget(self.lineEdit_341, 1, 2, 1, 1)
+        self.lineEdit_342 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
+        self.lineEdit_342.setEnabled(True)
+        self.lineEdit_342.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_288.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_288.setDragEnabled(False)
-        self.lineEdit_288.setReadOnly(True)
-        self.lineEdit_288.setObjectName("lineEdit_288")
-        self.gridLayout_47.addWidget(self.lineEdit_288, 1, 0, 1, 1)
-        self.gridLayout_47.setRowMinimumHeight(0, 1)
-        self.gridLayout_47.setRowMinimumHeight(1, 1)
-        self.gridLayout_47.setRowMinimumHeight(2, 1)
-        self.gridLayout_47.setColumnStretch(0, 1)
-        self.gridLayout_47.setColumnStretch(2, 1)
-        self.gridLayout_47.setRowStretch(0, 1)
-        self.gridLayout_47.setRowStretch(1, 1)
-        self.gridLayout_47.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_g3_2, 3, 7, 1, 1)
-        self.frame_h3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_h3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_h3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_h3_2.setLineWidth(1)
-        self.frame_h3_2.setObjectName("frame_h3_2")
-        self.gridLayout_48 = QtWidgets.QGridLayout(self.frame_h3_2)
-        self.gridLayout_48.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_48.setSpacing(0)
-        self.gridLayout_48.setObjectName("gridLayout_48")
-        self.label_140 = QtWidgets.QLabel(parent=self.frame_h3_2)
-        self.label_140.setObjectName("label_140")
-        self.gridLayout_48.addWidget(self.label_140, 0, 1, 1, 1)
-        self.lineEdit_289 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
-        self.lineEdit_289.setEnabled(True)
-        self.lineEdit_289.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_289.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_342.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_342.setDragEnabled(False)
+        self.lineEdit_342.setReadOnly(True)
+        self.lineEdit_342.setObjectName("lineEdit_342")
+        self.gridLayout_56.addWidget(self.lineEdit_342, 1, 0, 1, 1)
+        self.gridLayout_56.setRowMinimumHeight(0, 1)
+        self.gridLayout_56.setRowMinimumHeight(1, 1)
+        self.gridLayout_56.setRowMinimumHeight(2, 1)
+        self.gridLayout_56.setColumnStretch(0, 1)
+        self.gridLayout_56.setColumnStretch(2, 1)
+        self.gridLayout_56.setRowStretch(0, 1)
+        self.gridLayout_56.setRowStretch(1, 1)
+        self.gridLayout_56.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_c1_2, 1, 3, 1, 1)
+        self.frame_24 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_24.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_24.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_24.setLineWidth(1)
+        self.frame_24.setObjectName("frame_24")
+        self.verticalLayout_22 = QtWidgets.QVBoxLayout(self.frame_24)
+        self.verticalLayout_22.setObjectName("verticalLayout_22")
+        self.label_mainAccount_14 = QtWidgets.QLabel(parent=self.frame_24)
+        self.label_mainAccount_14.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_14.setObjectName("label_mainAccount_14")
+        self.verticalLayout_22.addWidget(self.label_mainAccount_14)
+        self.gridLayout_2.addWidget(self.frame_24, 0, 1, 1, 1)
+        self.frame_d1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_d1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_d1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_d1_2.setLineWidth(1)
+        self.frame_d1_2.setObjectName("frame_d1_2")
+        self.gridLayout_32 = QtWidgets.QGridLayout(self.frame_d1_2)
+        self.gridLayout_32.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_32.setSpacing(0)
+        self.gridLayout_32.setObjectName("gridLayout_32")
+        self.label_75 = QtWidgets.QLabel(parent=self.frame_d1_2)
+        self.label_75.setObjectName("label_75")
+        self.gridLayout_32.addWidget(self.label_75, 0, 1, 1, 1)
+        self.lineEdit_193 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
+        self.lineEdit_193.setEnabled(True)
+        self.lineEdit_193.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_193.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_289.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_289.setDragEnabled(False)
-        self.lineEdit_289.setObjectName("lineEdit_289")
-        self.gridLayout_48.addWidget(self.lineEdit_289, 2, 2, 1, 1)
-        self.lineEdit_290 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
-        self.lineEdit_290.setEnabled(True)
-        self.lineEdit_290.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_290.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_193.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_193.setDragEnabled(False)
+        self.lineEdit_193.setObjectName("lineEdit_193")
+        self.gridLayout_32.addWidget(self.lineEdit_193, 2, 2, 1, 1)
+        self.lineEdit_194 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
+        self.lineEdit_194.setEnabled(True)
+        self.lineEdit_194.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_194.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_290.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_290.setDragEnabled(False)
-        self.lineEdit_290.setObjectName("lineEdit_290")
-        self.gridLayout_48.addWidget(self.lineEdit_290, 0, 2, 1, 1)
-        self.label_141 = QtWidgets.QLabel(parent=self.frame_h3_2)
-        self.label_141.setObjectName("label_141")
-        self.gridLayout_48.addWidget(self.label_141, 1, 1, 1, 1)
-        self.lineEdit_291 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
-        self.lineEdit_291.setEnabled(True)
-        self.lineEdit_291.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_194.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_194.setDragEnabled(False)
+        self.lineEdit_194.setObjectName("lineEdit_194")
+        self.gridLayout_32.addWidget(self.lineEdit_194, 0, 2, 1, 1)
+        self.label_76 = QtWidgets.QLabel(parent=self.frame_d1_2)
+        self.label_76.setObjectName("label_76")
+        self.gridLayout_32.addWidget(self.label_76, 1, 1, 1, 1)
+        self.lineEdit_195 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
+        self.lineEdit_195.setEnabled(True)
+        self.lineEdit_195.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_291.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_291.setDragEnabled(False)
-        self.lineEdit_291.setObjectName("lineEdit_291")
-        self.gridLayout_48.addWidget(self.lineEdit_291, 2, 0, 1, 1)
-        self.lineEdit_292 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
-        self.lineEdit_292.setEnabled(True)
-        self.lineEdit_292.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_195.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_195.setDragEnabled(False)
+        self.lineEdit_195.setObjectName("lineEdit_195")
+        self.gridLayout_32.addWidget(self.lineEdit_195, 2, 0, 1, 1)
+        self.lineEdit_196 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
+        self.lineEdit_196.setEnabled(True)
+        self.lineEdit_196.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_292.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_292.setDragEnabled(False)
-        self.lineEdit_292.setObjectName("lineEdit_292")
-        self.gridLayout_48.addWidget(self.lineEdit_292, 0, 0, 1, 1)
-        self.label_142 = QtWidgets.QLabel(parent=self.frame_h3_2)
-        self.label_142.setObjectName("label_142")
-        self.gridLayout_48.addWidget(self.label_142, 2, 1, 1, 1)
-        self.lineEdit_293 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
-        self.lineEdit_293.setEnabled(True)
-        self.lineEdit_293.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_293.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_196.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_196.setDragEnabled(False)
+        self.lineEdit_196.setObjectName("lineEdit_196")
+        self.gridLayout_32.addWidget(self.lineEdit_196, 0, 0, 1, 1)
+        self.label_77 = QtWidgets.QLabel(parent=self.frame_d1_2)
+        self.label_77.setObjectName("label_77")
+        self.gridLayout_32.addWidget(self.label_77, 2, 1, 1, 1)
+        self.lineEdit_197 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
+        self.lineEdit_197.setEnabled(True)
+        self.lineEdit_197.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_197.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_293.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_293.setDragEnabled(False)
-        self.lineEdit_293.setReadOnly(True)
-        self.lineEdit_293.setObjectName("lineEdit_293")
-        self.gridLayout_48.addWidget(self.lineEdit_293, 1, 2, 1, 1)
-        self.lineEdit_294 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
-        self.lineEdit_294.setEnabled(True)
-        self.lineEdit_294.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_197.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_197.setDragEnabled(False)
+        self.lineEdit_197.setReadOnly(True)
+        self.lineEdit_197.setObjectName("lineEdit_197")
+        self.gridLayout_32.addWidget(self.lineEdit_197, 1, 2, 1, 1)
+        self.lineEdit_198 = QtWidgets.QLineEdit(parent=self.frame_d1_2)
+        self.lineEdit_198.setEnabled(True)
+        self.lineEdit_198.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_294.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_294.setDragEnabled(False)
-        self.lineEdit_294.setReadOnly(True)
-        self.lineEdit_294.setObjectName("lineEdit_294")
-        self.gridLayout_48.addWidget(self.lineEdit_294, 1, 0, 1, 1)
-        self.gridLayout_48.setRowMinimumHeight(0, 1)
-        self.gridLayout_48.setRowMinimumHeight(1, 1)
-        self.gridLayout_48.setRowMinimumHeight(2, 1)
-        self.gridLayout_48.setColumnStretch(0, 1)
-        self.gridLayout_48.setColumnStretch(2, 1)
-        self.gridLayout_48.setRowStretch(0, 1)
-        self.gridLayout_48.setRowStretch(1, 1)
-        self.gridLayout_48.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_h3_2, 3, 8, 1, 1)
+        self.lineEdit_198.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_198.setDragEnabled(False)
+        self.lineEdit_198.setReadOnly(True)
+        self.lineEdit_198.setObjectName("lineEdit_198")
+        self.gridLayout_32.addWidget(self.lineEdit_198, 1, 0, 1, 1)
+        self.gridLayout_32.setRowMinimumHeight(0, 1)
+        self.gridLayout_32.setRowMinimumHeight(1, 1)
+        self.gridLayout_32.setRowMinimumHeight(2, 1)
+        self.gridLayout_32.setColumnStretch(0, 1)
+        self.gridLayout_32.setColumnStretch(2, 1)
+        self.gridLayout_32.setRowStretch(0, 1)
+        self.gridLayout_32.setRowStretch(1, 1)
+        self.gridLayout_32.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_d1_2, 1, 4, 1, 1)
+        self.frame_i2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_i2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_i2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_i2_2.setLineWidth(1)
+        self.frame_i2_2.setObjectName("frame_i2_2")
+        self.gridLayout_38 = QtWidgets.QGridLayout(self.frame_i2_2)
+        self.gridLayout_38.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_38.setSpacing(0)
+        self.gridLayout_38.setObjectName("gridLayout_38")
+        self.label_110 = QtWidgets.QLabel(parent=self.frame_i2_2)
+        self.label_110.setObjectName("label_110")
+        self.gridLayout_38.addWidget(self.label_110, 0, 1, 1, 1)
+        self.lineEdit_229 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
+        self.lineEdit_229.setEnabled(True)
+        self.lineEdit_229.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_229.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_229.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_229.setDragEnabled(False)
+        self.lineEdit_229.setObjectName("lineEdit_229")
+        self.gridLayout_38.addWidget(self.lineEdit_229, 2, 2, 1, 1)
+        self.lineEdit_230 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
+        self.lineEdit_230.setEnabled(True)
+        self.lineEdit_230.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_230.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_230.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_230.setDragEnabled(False)
+        self.lineEdit_230.setObjectName("lineEdit_230")
+        self.gridLayout_38.addWidget(self.lineEdit_230, 0, 2, 1, 1)
+        self.label_111 = QtWidgets.QLabel(parent=self.frame_i2_2)
+        self.label_111.setObjectName("label_111")
+        self.gridLayout_38.addWidget(self.label_111, 1, 1, 1, 1)
+        self.lineEdit_231 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
+        self.lineEdit_231.setEnabled(True)
+        self.lineEdit_231.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_231.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_231.setDragEnabled(False)
+        self.lineEdit_231.setObjectName("lineEdit_231")
+        self.gridLayout_38.addWidget(self.lineEdit_231, 2, 0, 1, 1)
+        self.lineEdit_232 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
+        self.lineEdit_232.setEnabled(True)
+        self.lineEdit_232.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_232.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_232.setDragEnabled(False)
+        self.lineEdit_232.setObjectName("lineEdit_232")
+        self.gridLayout_38.addWidget(self.lineEdit_232, 0, 0, 1, 1)
+        self.label_112 = QtWidgets.QLabel(parent=self.frame_i2_2)
+        self.label_112.setObjectName("label_112")
+        self.gridLayout_38.addWidget(self.label_112, 2, 1, 1, 1)
+        self.lineEdit_233 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
+        self.lineEdit_233.setEnabled(True)
+        self.lineEdit_233.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_233.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_233.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_233.setDragEnabled(False)
+        self.lineEdit_233.setReadOnly(True)
+        self.lineEdit_233.setObjectName("lineEdit_233")
+        self.gridLayout_38.addWidget(self.lineEdit_233, 1, 2, 1, 1)
+        self.lineEdit_234 = QtWidgets.QLineEdit(parent=self.frame_i2_2)
+        self.lineEdit_234.setEnabled(True)
+        self.lineEdit_234.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_234.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_234.setDragEnabled(False)
+        self.lineEdit_234.setReadOnly(True)
+        self.lineEdit_234.setObjectName("lineEdit_234")
+        self.gridLayout_38.addWidget(self.lineEdit_234, 1, 0, 1, 1)
+        self.gridLayout_38.setRowMinimumHeight(0, 1)
+        self.gridLayout_38.setRowMinimumHeight(1, 1)
+        self.gridLayout_38.setRowMinimumHeight(2, 1)
+        self.gridLayout_38.setColumnStretch(0, 1)
+        self.gridLayout_38.setColumnStretch(2, 1)
+        self.gridLayout_38.setRowStretch(0, 1)
+        self.gridLayout_38.setRowStretch(1, 1)
+        self.gridLayout_38.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_i2_2, 2, 9, 1, 1)
+        self.frame_20 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_20.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_20.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_20.setLineWidth(1)
+        self.frame_20.setObjectName("frame_20")
+        self.verticalLayout_18 = QtWidgets.QVBoxLayout(self.frame_20)
+        self.verticalLayout_18.setObjectName("verticalLayout_18")
+        self.label_mainAccount_10 = QtWidgets.QLabel(parent=self.frame_20)
+        self.label_mainAccount_10.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_10.setObjectName("label_mainAccount_10")
+        self.verticalLayout_18.addWidget(self.label_mainAccount_10)
+        self.gridLayout_2.addWidget(self.frame_20, 0, 2, 1, 1)
+        self.frame_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_3.setLineWidth(1)
+        self.frame_3.setObjectName("frame_3")
+        self.verticalLayout_17 = QtWidgets.QVBoxLayout(self.frame_3)
+        self.verticalLayout_17.setObjectName("verticalLayout_17")
+        self.label_mainAccount_9 = QtWidgets.QLabel(parent=self.frame_3)
+        self.label_mainAccount_9.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_9.setObjectName("label_mainAccount_9")
+        self.verticalLayout_17.addWidget(self.label_mainAccount_9)
+        self.gridLayout_2.addWidget(self.frame_3, 0, 7, 1, 1)
+        self.frame_g1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_g1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_g1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_g1_2.setLineWidth(1)
+        self.frame_g1_2.setObjectName("frame_g1_2")
+        self.gridLayout_35 = QtWidgets.QGridLayout(self.frame_g1_2)
+        self.gridLayout_35.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_35.setSpacing(0)
+        self.gridLayout_35.setObjectName("gridLayout_35")
+        self.label_101 = QtWidgets.QLabel(parent=self.frame_g1_2)
+        self.label_101.setObjectName("label_101")
+        self.gridLayout_35.addWidget(self.label_101, 0, 1, 1, 1)
+        self.lineEdit_211 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
+        self.lineEdit_211.setEnabled(True)
+        self.lineEdit_211.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_211.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_211.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_211.setDragEnabled(False)
+        self.lineEdit_211.setObjectName("lineEdit_211")
+        self.gridLayout_35.addWidget(self.lineEdit_211, 2, 2, 1, 1)
+        self.lineEdit_212 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
+        self.lineEdit_212.setEnabled(True)
+        self.lineEdit_212.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_212.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_212.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_212.setDragEnabled(False)
+        self.lineEdit_212.setObjectName("lineEdit_212")
+        self.gridLayout_35.addWidget(self.lineEdit_212, 0, 2, 1, 1)
+        self.label_102 = QtWidgets.QLabel(parent=self.frame_g1_2)
+        self.label_102.setObjectName("label_102")
+        self.gridLayout_35.addWidget(self.label_102, 1, 1, 1, 1)
+        self.lineEdit_213 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
+        self.lineEdit_213.setEnabled(True)
+        self.lineEdit_213.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_213.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_213.setDragEnabled(False)
+        self.lineEdit_213.setObjectName("lineEdit_213")
+        self.gridLayout_35.addWidget(self.lineEdit_213, 2, 0, 1, 1)
+        self.lineEdit_214 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
+        self.lineEdit_214.setEnabled(True)
+        self.lineEdit_214.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_214.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_214.setDragEnabled(False)
+        self.lineEdit_214.setObjectName("lineEdit_214")
+        self.gridLayout_35.addWidget(self.lineEdit_214, 0, 0, 1, 1)
+        self.label_103 = QtWidgets.QLabel(parent=self.frame_g1_2)
+        self.label_103.setObjectName("label_103")
+        self.gridLayout_35.addWidget(self.label_103, 2, 1, 1, 1)
+        self.lineEdit_215 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
+        self.lineEdit_215.setEnabled(True)
+        self.lineEdit_215.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_215.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_215.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_215.setDragEnabled(False)
+        self.lineEdit_215.setReadOnly(True)
+        self.lineEdit_215.setObjectName("lineEdit_215")
+        self.gridLayout_35.addWidget(self.lineEdit_215, 1, 2, 1, 1)
+        self.lineEdit_216 = QtWidgets.QLineEdit(parent=self.frame_g1_2)
+        self.lineEdit_216.setEnabled(True)
+        self.lineEdit_216.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_216.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_216.setDragEnabled(False)
+        self.lineEdit_216.setReadOnly(True)
+        self.lineEdit_216.setObjectName("lineEdit_216")
+        self.gridLayout_35.addWidget(self.lineEdit_216, 1, 0, 1, 1)
+        self.gridLayout_35.setRowMinimumHeight(0, 1)
+        self.gridLayout_35.setRowMinimumHeight(1, 1)
+        self.gridLayout_35.setRowMinimumHeight(2, 1)
+        self.gridLayout_35.setColumnStretch(0, 1)
+        self.gridLayout_35.setColumnStretch(2, 1)
+        self.gridLayout_35.setRowStretch(0, 1)
+        self.gridLayout_35.setRowStretch(1, 1)
+        self.gridLayout_35.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_g1_2, 1, 7, 1, 1)
+        self.frame_j1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_j1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_j1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_j1_2.setLineWidth(1)
+        self.frame_j1_2.setObjectName("frame_j1_2")
+        self.gridLayout_86 = QtWidgets.QGridLayout(self.frame_j1_2)
+        self.gridLayout_86.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_86.setSpacing(0)
+        self.gridLayout_86.setObjectName("gridLayout_86")
+        self.label_251 = QtWidgets.QLabel(parent=self.frame_j1_2)
+        self.label_251.setObjectName("label_251")
+        self.gridLayout_86.addWidget(self.label_251, 0, 1, 1, 1)
+        self.lineEdit_520 = QtWidgets.QLineEdit(parent=self.frame_j1_2)
+        self.lineEdit_520.setEnabled(True)
+        self.lineEdit_520.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_520.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_520.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_520.setDragEnabled(False)
+        self.lineEdit_520.setObjectName("lineEdit_520")
+        self.gridLayout_86.addWidget(self.lineEdit_520, 2, 2, 1, 1)
+        self.lineEdit_521 = QtWidgets.QLineEdit(parent=self.frame_j1_2)
+        self.lineEdit_521.setEnabled(True)
+        self.lineEdit_521.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_521.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_521.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_521.setDragEnabled(False)
+        self.lineEdit_521.setObjectName("lineEdit_521")
+        self.gridLayout_86.addWidget(self.lineEdit_521, 0, 2, 1, 1)
+        self.label_252 = QtWidgets.QLabel(parent=self.frame_j1_2)
+        self.label_252.setObjectName("label_252")
+        self.gridLayout_86.addWidget(self.label_252, 1, 1, 1, 1)
+        self.lineEdit_522 = QtWidgets.QLineEdit(parent=self.frame_j1_2)
+        self.lineEdit_522.setEnabled(True)
+        self.lineEdit_522.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_522.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_522.setDragEnabled(False)
+        self.lineEdit_522.setObjectName("lineEdit_522")
+        self.gridLayout_86.addWidget(self.lineEdit_522, 2, 0, 1, 1)
+        self.lineEdit_523 = QtWidgets.QLineEdit(parent=self.frame_j1_2)
+        self.lineEdit_523.setEnabled(True)
+        self.lineEdit_523.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_523.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_523.setDragEnabled(False)
+        self.lineEdit_523.setObjectName("lineEdit_523")
+        self.gridLayout_86.addWidget(self.lineEdit_523, 0, 0, 1, 1)
+        self.label_253 = QtWidgets.QLabel(parent=self.frame_j1_2)
+        self.label_253.setObjectName("label_253")
+        self.gridLayout_86.addWidget(self.label_253, 2, 1, 1, 1)
+        self.lineEdit_524 = QtWidgets.QLineEdit(parent=self.frame_j1_2)
+        self.lineEdit_524.setEnabled(True)
+        self.lineEdit_524.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_524.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_524.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_524.setDragEnabled(False)
+        self.lineEdit_524.setReadOnly(True)
+        self.lineEdit_524.setObjectName("lineEdit_524")
+        self.gridLayout_86.addWidget(self.lineEdit_524, 1, 2, 1, 1)
+        self.lineEdit_525 = QtWidgets.QLineEdit(parent=self.frame_j1_2)
+        self.lineEdit_525.setEnabled(True)
+        self.lineEdit_525.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_525.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_525.setDragEnabled(False)
+        self.lineEdit_525.setReadOnly(True)
+        self.lineEdit_525.setObjectName("lineEdit_525")
+        self.gridLayout_86.addWidget(self.lineEdit_525, 1, 0, 1, 1)
+        self.gridLayout_86.setRowMinimumHeight(0, 1)
+        self.gridLayout_86.setRowMinimumHeight(1, 1)
+        self.gridLayout_86.setRowMinimumHeight(2, 1)
+        self.gridLayout_86.setColumnStretch(0, 1)
+        self.gridLayout_86.setColumnStretch(2, 1)
+        self.gridLayout_86.setRowStretch(0, 1)
+        self.gridLayout_86.setRowStretch(1, 1)
+        self.gridLayout_86.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_j1_2, 1, 10, 1, 1)
         self.frame_h2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
         self.frame_h2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
         self.frame_h2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
@@ -5179,6 +3986,49 @@ class Ui_MainWindow(object):
         self.gridLayout_49.setRowStretch(1, 1)
         self.gridLayout_49.setRowStretch(2, 1)
         self.gridLayout_2.addWidget(self.frame_h2_2, 2, 8, 1, 1)
+        self.frame_41 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_41.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_41.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_41.setObjectName("frame_41")
+        self.verticalLayout_46 = QtWidgets.QVBoxLayout(self.frame_41)
+        self.verticalLayout_46.setObjectName("verticalLayout_46")
+        self.lineEdit_184 = QtWidgets.QLineEdit(parent=self.frame_41)
+        self.lineEdit_184.setEnabled(True)
+        self.lineEdit_184.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_184.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_184.setDragEnabled(False)
+        self.lineEdit_184.setReadOnly(True)
+        self.lineEdit_184.setObjectName("lineEdit_184")
+        self.verticalLayout_46.addWidget(self.lineEdit_184)
+        self.lineEdit_185 = QtWidgets.QLineEdit(parent=self.frame_41)
+        self.lineEdit_185.setEnabled(True)
+        self.lineEdit_185.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_185.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_185.setDragEnabled(False)
+        self.lineEdit_185.setReadOnly(True)
+        self.lineEdit_185.setObjectName("lineEdit_185")
+        self.verticalLayout_46.addWidget(self.lineEdit_185)
+        self.lineEdit_186 = QtWidgets.QLineEdit(parent=self.frame_41)
+        self.lineEdit_186.setEnabled(True)
+        self.lineEdit_186.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_186.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_186.setDragEnabled(False)
+        self.lineEdit_186.setReadOnly(True)
+        self.lineEdit_186.setObjectName("lineEdit_186")
+        self.verticalLayout_46.addWidget(self.lineEdit_186)
+        self.gridLayout_2.addWidget(self.frame_41, 3, 0, 1, 1)
         self.frame_g2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
         self.frame_g2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
         self.frame_g2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
@@ -5277,104 +4127,820 @@ class Ui_MainWindow(object):
         self.gridLayout_50.setRowStretch(1, 1)
         self.gridLayout_50.setRowStretch(2, 1)
         self.gridLayout_2.addWidget(self.frame_g2_2, 2, 7, 1, 1)
-        self.frame_f2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_f2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_f2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_f2_2.setLineWidth(1)
-        self.frame_f2_2.setObjectName("frame_f2_2")
-        self.gridLayout_51 = QtWidgets.QGridLayout(self.frame_f2_2)
-        self.gridLayout_51.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_51.setSpacing(0)
-        self.gridLayout_51.setObjectName("gridLayout_51")
-        self.label_149 = QtWidgets.QLabel(parent=self.frame_f2_2)
-        self.label_149.setObjectName("label_149")
-        self.gridLayout_51.addWidget(self.label_149, 0, 1, 1, 1)
-        self.lineEdit_307 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
-        self.lineEdit_307.setEnabled(True)
-        self.lineEdit_307.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_307.setStyleSheet("QLineEdit {\n"
+        self.frame_g3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_g3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_g3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_g3_2.setLineWidth(1)
+        self.frame_g3_2.setObjectName("frame_g3_2")
+        self.gridLayout_47 = QtWidgets.QGridLayout(self.frame_g3_2)
+        self.gridLayout_47.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_47.setSpacing(0)
+        self.gridLayout_47.setObjectName("gridLayout_47")
+        self.label_137 = QtWidgets.QLabel(parent=self.frame_g3_2)
+        self.label_137.setObjectName("label_137")
+        self.gridLayout_47.addWidget(self.label_137, 0, 1, 1, 1)
+        self.lineEdit_283 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
+        self.lineEdit_283.setEnabled(True)
+        self.lineEdit_283.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_283.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_307.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_307.setDragEnabled(False)
-        self.lineEdit_307.setObjectName("lineEdit_307")
-        self.gridLayout_51.addWidget(self.lineEdit_307, 2, 2, 1, 1)
-        self.lineEdit_308 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
-        self.lineEdit_308.setEnabled(True)
-        self.lineEdit_308.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_308.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_283.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_283.setDragEnabled(False)
+        self.lineEdit_283.setObjectName("lineEdit_283")
+        self.gridLayout_47.addWidget(self.lineEdit_283, 2, 2, 1, 1)
+        self.lineEdit_284 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
+        self.lineEdit_284.setEnabled(True)
+        self.lineEdit_284.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_284.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_308.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_308.setDragEnabled(False)
-        self.lineEdit_308.setObjectName("lineEdit_308")
-        self.gridLayout_51.addWidget(self.lineEdit_308, 0, 2, 1, 1)
-        self.label_150 = QtWidgets.QLabel(parent=self.frame_f2_2)
-        self.label_150.setObjectName("label_150")
-        self.gridLayout_51.addWidget(self.label_150, 1, 1, 1, 1)
-        self.lineEdit_309 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
-        self.lineEdit_309.setEnabled(True)
-        self.lineEdit_309.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_284.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_284.setDragEnabled(False)
+        self.lineEdit_284.setObjectName("lineEdit_284")
+        self.gridLayout_47.addWidget(self.lineEdit_284, 0, 2, 1, 1)
+        self.label_138 = QtWidgets.QLabel(parent=self.frame_g3_2)
+        self.label_138.setObjectName("label_138")
+        self.gridLayout_47.addWidget(self.label_138, 1, 1, 1, 1)
+        self.lineEdit_285 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
+        self.lineEdit_285.setEnabled(True)
+        self.lineEdit_285.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_309.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_309.setDragEnabled(False)
-        self.lineEdit_309.setObjectName("lineEdit_309")
-        self.gridLayout_51.addWidget(self.lineEdit_309, 2, 0, 1, 1)
-        self.lineEdit_310 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
-        self.lineEdit_310.setEnabled(True)
-        self.lineEdit_310.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_285.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_285.setDragEnabled(False)
+        self.lineEdit_285.setObjectName("lineEdit_285")
+        self.gridLayout_47.addWidget(self.lineEdit_285, 2, 0, 1, 1)
+        self.lineEdit_286 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
+        self.lineEdit_286.setEnabled(True)
+        self.lineEdit_286.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_310.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_310.setDragEnabled(False)
-        self.lineEdit_310.setObjectName("lineEdit_310")
-        self.gridLayout_51.addWidget(self.lineEdit_310, 0, 0, 1, 1)
-        self.label_151 = QtWidgets.QLabel(parent=self.frame_f2_2)
-        self.label_151.setObjectName("label_151")
-        self.gridLayout_51.addWidget(self.label_151, 2, 1, 1, 1)
-        self.lineEdit_311 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
-        self.lineEdit_311.setEnabled(True)
-        self.lineEdit_311.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_311.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_286.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_286.setDragEnabled(False)
+        self.lineEdit_286.setObjectName("lineEdit_286")
+        self.gridLayout_47.addWidget(self.lineEdit_286, 0, 0, 1, 1)
+        self.label_139 = QtWidgets.QLabel(parent=self.frame_g3_2)
+        self.label_139.setObjectName("label_139")
+        self.gridLayout_47.addWidget(self.label_139, 2, 1, 1, 1)
+        self.lineEdit_287 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
+        self.lineEdit_287.setEnabled(True)
+        self.lineEdit_287.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_287.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_311.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_311.setDragEnabled(False)
-        self.lineEdit_311.setReadOnly(True)
-        self.lineEdit_311.setObjectName("lineEdit_311")
-        self.gridLayout_51.addWidget(self.lineEdit_311, 1, 2, 1, 1)
-        self.lineEdit_312 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
-        self.lineEdit_312.setEnabled(True)
-        self.lineEdit_312.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_287.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_287.setDragEnabled(False)
+        self.lineEdit_287.setReadOnly(True)
+        self.lineEdit_287.setObjectName("lineEdit_287")
+        self.gridLayout_47.addWidget(self.lineEdit_287, 1, 2, 1, 1)
+        self.lineEdit_288 = QtWidgets.QLineEdit(parent=self.frame_g3_2)
+        self.lineEdit_288.setEnabled(True)
+        self.lineEdit_288.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_312.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_312.setDragEnabled(False)
-        self.lineEdit_312.setReadOnly(True)
-        self.lineEdit_312.setObjectName("lineEdit_312")
-        self.gridLayout_51.addWidget(self.lineEdit_312, 1, 0, 1, 1)
-        self.gridLayout_51.setRowMinimumHeight(0, 1)
-        self.gridLayout_51.setRowMinimumHeight(1, 1)
-        self.gridLayout_51.setRowMinimumHeight(2, 1)
-        self.gridLayout_51.setColumnStretch(0, 1)
-        self.gridLayout_51.setColumnStretch(2, 1)
-        self.gridLayout_51.setRowStretch(0, 1)
-        self.gridLayout_51.setRowStretch(1, 1)
-        self.gridLayout_51.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_f2_2, 2, 6, 1, 1)
+        self.lineEdit_288.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_288.setDragEnabled(False)
+        self.lineEdit_288.setReadOnly(True)
+        self.lineEdit_288.setObjectName("lineEdit_288")
+        self.gridLayout_47.addWidget(self.lineEdit_288, 1, 0, 1, 1)
+        self.gridLayout_47.setRowMinimumHeight(0, 1)
+        self.gridLayout_47.setRowMinimumHeight(1, 1)
+        self.gridLayout_47.setRowMinimumHeight(2, 1)
+        self.gridLayout_47.setColumnStretch(0, 1)
+        self.gridLayout_47.setColumnStretch(2, 1)
+        self.gridLayout_47.setRowStretch(0, 1)
+        self.gridLayout_47.setRowStretch(1, 1)
+        self.gridLayout_47.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_g3_2, 3, 7, 1, 1)
+        self.frame_21 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_21.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_21.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_21.setLineWidth(1)
+        self.frame_21.setObjectName("frame_21")
+        self.verticalLayout_19 = QtWidgets.QVBoxLayout(self.frame_21)
+        self.verticalLayout_19.setObjectName("verticalLayout_19")
+        self.label_mainAccount_16 = QtWidgets.QLabel(parent=self.frame_21)
+        self.label_mainAccount_16.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_16.setObjectName("label_mainAccount_16")
+        self.verticalLayout_19.addWidget(self.label_mainAccount_16)
+        self.gridLayout_2.addWidget(self.frame_21, 0, 5, 1, 1)
+        self.frame_a2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_a2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_a2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_a2_2.setLineWidth(1)
+        self.frame_a2_2.setObjectName("frame_a2_2")
+        self.gridLayout_40 = QtWidgets.QGridLayout(self.frame_a2_2)
+        self.gridLayout_40.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_40.setSpacing(0)
+        self.gridLayout_40.setObjectName("gridLayout_40")
+        self.label_116 = QtWidgets.QLabel(parent=self.frame_a2_2)
+        self.label_116.setObjectName("label_116")
+        self.gridLayout_40.addWidget(self.label_116, 0, 1, 1, 1)
+        self.lineEdit_241 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
+        self.lineEdit_241.setEnabled(True)
+        self.lineEdit_241.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_241.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_241.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_241.setDragEnabled(False)
+        self.lineEdit_241.setObjectName("lineEdit_241")
+        self.gridLayout_40.addWidget(self.lineEdit_241, 2, 2, 1, 1)
+        self.lineEdit_242 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
+        self.lineEdit_242.setEnabled(True)
+        self.lineEdit_242.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_242.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_242.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_242.setDragEnabled(False)
+        self.lineEdit_242.setObjectName("lineEdit_242")
+        self.gridLayout_40.addWidget(self.lineEdit_242, 0, 2, 1, 1)
+        self.label_117 = QtWidgets.QLabel(parent=self.frame_a2_2)
+        self.label_117.setObjectName("label_117")
+        self.gridLayout_40.addWidget(self.label_117, 1, 1, 1, 1)
+        self.lineEdit_243 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
+        self.lineEdit_243.setEnabled(True)
+        self.lineEdit_243.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_243.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_243.setDragEnabled(False)
+        self.lineEdit_243.setObjectName("lineEdit_243")
+        self.gridLayout_40.addWidget(self.lineEdit_243, 2, 0, 1, 1)
+        self.lineEdit_244 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
+        self.lineEdit_244.setEnabled(True)
+        self.lineEdit_244.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_244.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_244.setDragEnabled(False)
+        self.lineEdit_244.setObjectName("lineEdit_244")
+        self.gridLayout_40.addWidget(self.lineEdit_244, 0, 0, 1, 1)
+        self.label_118 = QtWidgets.QLabel(parent=self.frame_a2_2)
+        self.label_118.setObjectName("label_118")
+        self.gridLayout_40.addWidget(self.label_118, 2, 1, 1, 1)
+        self.lineEdit_245 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
+        self.lineEdit_245.setEnabled(True)
+        self.lineEdit_245.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_245.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_245.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_245.setDragEnabled(False)
+        self.lineEdit_245.setReadOnly(True)
+        self.lineEdit_245.setObjectName("lineEdit_245")
+        self.gridLayout_40.addWidget(self.lineEdit_245, 1, 2, 1, 1)
+        self.lineEdit_246 = QtWidgets.QLineEdit(parent=self.frame_a2_2)
+        self.lineEdit_246.setEnabled(True)
+        self.lineEdit_246.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_246.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_246.setDragEnabled(False)
+        self.lineEdit_246.setReadOnly(True)
+        self.lineEdit_246.setObjectName("lineEdit_246")
+        self.gridLayout_40.addWidget(self.lineEdit_246, 1, 0, 1, 1)
+        self.gridLayout_40.setRowMinimumHeight(0, 1)
+        self.gridLayout_40.setRowMinimumHeight(1, 1)
+        self.gridLayout_40.setRowMinimumHeight(2, 1)
+        self.gridLayout_40.setColumnStretch(0, 1)
+        self.gridLayout_40.setColumnStretch(2, 1)
+        self.gridLayout_40.setRowStretch(0, 1)
+        self.gridLayout_40.setRowStretch(1, 1)
+        self.gridLayout_40.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_a2_2, 2, 1, 1, 1)
+        self.frame_f1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_f1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_f1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_f1_2.setLineWidth(1)
+        self.frame_f1_2.setObjectName("frame_f1_2")
+        self.gridLayout_34 = QtWidgets.QGridLayout(self.frame_f1_2)
+        self.gridLayout_34.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_34.setSpacing(0)
+        self.gridLayout_34.setObjectName("gridLayout_34")
+        self.label_98 = QtWidgets.QLabel(parent=self.frame_f1_2)
+        self.label_98.setObjectName("label_98")
+        self.gridLayout_34.addWidget(self.label_98, 0, 1, 1, 1)
+        self.lineEdit_205 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
+        self.lineEdit_205.setEnabled(True)
+        self.lineEdit_205.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_205.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_205.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_205.setDragEnabled(False)
+        self.lineEdit_205.setObjectName("lineEdit_205")
+        self.gridLayout_34.addWidget(self.lineEdit_205, 2, 2, 1, 1)
+        self.lineEdit_206 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
+        self.lineEdit_206.setEnabled(True)
+        self.lineEdit_206.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_206.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_206.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_206.setDragEnabled(False)
+        self.lineEdit_206.setObjectName("lineEdit_206")
+        self.gridLayout_34.addWidget(self.lineEdit_206, 0, 2, 1, 1)
+        self.label_99 = QtWidgets.QLabel(parent=self.frame_f1_2)
+        self.label_99.setObjectName("label_99")
+        self.gridLayout_34.addWidget(self.label_99, 1, 1, 1, 1)
+        self.lineEdit_207 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
+        self.lineEdit_207.setEnabled(True)
+        self.lineEdit_207.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_207.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_207.setDragEnabled(False)
+        self.lineEdit_207.setObjectName("lineEdit_207")
+        self.gridLayout_34.addWidget(self.lineEdit_207, 2, 0, 1, 1)
+        self.lineEdit_208 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
+        self.lineEdit_208.setEnabled(True)
+        self.lineEdit_208.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_208.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_208.setDragEnabled(False)
+        self.lineEdit_208.setObjectName("lineEdit_208")
+        self.gridLayout_34.addWidget(self.lineEdit_208, 0, 0, 1, 1)
+        self.label_100 = QtWidgets.QLabel(parent=self.frame_f1_2)
+        self.label_100.setObjectName("label_100")
+        self.gridLayout_34.addWidget(self.label_100, 2, 1, 1, 1)
+        self.lineEdit_209 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
+        self.lineEdit_209.setEnabled(True)
+        self.lineEdit_209.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_209.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_209.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_209.setDragEnabled(False)
+        self.lineEdit_209.setReadOnly(True)
+        self.lineEdit_209.setObjectName("lineEdit_209")
+        self.gridLayout_34.addWidget(self.lineEdit_209, 1, 2, 1, 1)
+        self.lineEdit_210 = QtWidgets.QLineEdit(parent=self.frame_f1_2)
+        self.lineEdit_210.setEnabled(True)
+        self.lineEdit_210.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_210.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_210.setDragEnabled(False)
+        self.lineEdit_210.setReadOnly(True)
+        self.lineEdit_210.setObjectName("lineEdit_210")
+        self.gridLayout_34.addWidget(self.lineEdit_210, 1, 0, 1, 1)
+        self.gridLayout_34.setRowMinimumHeight(0, 1)
+        self.gridLayout_34.setRowMinimumHeight(1, 1)
+        self.gridLayout_34.setRowMinimumHeight(2, 1)
+        self.gridLayout_34.setColumnStretch(0, 1)
+        self.gridLayout_34.setColumnStretch(2, 1)
+        self.gridLayout_34.setRowStretch(0, 1)
+        self.gridLayout_34.setRowStretch(1, 1)
+        self.gridLayout_34.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_f1_2, 1, 6, 1, 1)
+        self.frame_32 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_32.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_32.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_32.setLineWidth(1)
+        self.frame_32.setObjectName("frame_32")
+        self.verticalLayout_32 = QtWidgets.QVBoxLayout(self.frame_32)
+        self.verticalLayout_32.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_32.setSpacing(0)
+        self.verticalLayout_32.setObjectName("verticalLayout_32")
+        self.lineEdit_190 = QtWidgets.QLineEdit(parent=self.frame_32)
+        self.lineEdit_190.setEnabled(True)
+        self.lineEdit_190.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_190.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_190.setDragEnabled(False)
+        self.lineEdit_190.setReadOnly(True)
+        self.lineEdit_190.setObjectName("lineEdit_190")
+        self.verticalLayout_32.addWidget(self.lineEdit_190)
+        self.lineEdit_191 = QtWidgets.QLineEdit(parent=self.frame_32)
+        self.lineEdit_191.setEnabled(True)
+        self.lineEdit_191.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_191.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_191.setDragEnabled(False)
+        self.lineEdit_191.setReadOnly(True)
+        self.lineEdit_191.setObjectName("lineEdit_191")
+        self.verticalLayout_32.addWidget(self.lineEdit_191)
+        self.lineEdit_192 = QtWidgets.QLineEdit(parent=self.frame_32)
+        self.lineEdit_192.setEnabled(True)
+        self.lineEdit_192.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_192.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_192.setDragEnabled(False)
+        self.lineEdit_192.setReadOnly(True)
+        self.lineEdit_192.setObjectName("lineEdit_192")
+        self.verticalLayout_32.addWidget(self.lineEdit_192)
+        self.gridLayout_2.addWidget(self.frame_32, 1, 0, 1, 1)
+        self.frame_31 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_31.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_31.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_31.setLineWidth(1)
+        self.frame_31.setObjectName("frame_31")
+        self.verticalLayout_31 = QtWidgets.QVBoxLayout(self.frame_31)
+        self.verticalLayout_31.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_31.setSpacing(0)
+        self.verticalLayout_31.setObjectName("verticalLayout_31")
+        self.lineEdit_187 = QtWidgets.QLineEdit(parent=self.frame_31)
+        self.lineEdit_187.setEnabled(True)
+        self.lineEdit_187.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_187.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_187.setDragEnabled(False)
+        self.lineEdit_187.setReadOnly(True)
+        self.lineEdit_187.setObjectName("lineEdit_187")
+        self.verticalLayout_31.addWidget(self.lineEdit_187)
+        self.lineEdit_188 = QtWidgets.QLineEdit(parent=self.frame_31)
+        self.lineEdit_188.setEnabled(True)
+        self.lineEdit_188.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_188.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_188.setDragEnabled(False)
+        self.lineEdit_188.setReadOnly(True)
+        self.lineEdit_188.setObjectName("lineEdit_188")
+        self.verticalLayout_31.addWidget(self.lineEdit_188)
+        self.lineEdit_189 = QtWidgets.QLineEdit(parent=self.frame_31)
+        self.lineEdit_189.setEnabled(True)
+        self.lineEdit_189.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_189.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_189.setDragEnabled(False)
+        self.lineEdit_189.setReadOnly(True)
+        self.lineEdit_189.setObjectName("lineEdit_189")
+        self.verticalLayout_31.addWidget(self.lineEdit_189)
+        self.gridLayout_2.addWidget(self.frame_31, 2, 0, 1, 1)
+        self.frame_7 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_7.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_7.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_7.setLineWidth(1)
+        self.frame_7.setObjectName("frame_7")
+        self.verticalLayout_23 = QtWidgets.QVBoxLayout(self.frame_7)
+        self.verticalLayout_23.setObjectName("verticalLayout_23")
+        self.label_mainAccount_12 = QtWidgets.QLabel(parent=self.frame_7)
+        self.label_mainAccount_12.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_12.setObjectName("label_mainAccount_12")
+        self.verticalLayout_23.addWidget(self.label_mainAccount_12)
+        self.gridLayout_2.addWidget(self.frame_7, 0, 6, 1, 1)
+        self.frame_j3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_j3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_j3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_j3_2.setLineWidth(1)
+        self.frame_j3_2.setObjectName("frame_j3_2")
+        self.gridLayout_85 = QtWidgets.QGridLayout(self.frame_j3_2)
+        self.gridLayout_85.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_85.setSpacing(0)
+        self.gridLayout_85.setObjectName("gridLayout_85")
+        self.label_248 = QtWidgets.QLabel(parent=self.frame_j3_2)
+        self.label_248.setObjectName("label_248")
+        self.gridLayout_85.addWidget(self.label_248, 0, 1, 1, 1)
+        self.lineEdit_514 = QtWidgets.QLineEdit(parent=self.frame_j3_2)
+        self.lineEdit_514.setEnabled(True)
+        self.lineEdit_514.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_514.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_514.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_514.setDragEnabled(False)
+        self.lineEdit_514.setObjectName("lineEdit_514")
+        self.gridLayout_85.addWidget(self.lineEdit_514, 2, 2, 1, 1)
+        self.lineEdit_515 = QtWidgets.QLineEdit(parent=self.frame_j3_2)
+        self.lineEdit_515.setEnabled(True)
+        self.lineEdit_515.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_515.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_515.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_515.setDragEnabled(False)
+        self.lineEdit_515.setObjectName("lineEdit_515")
+        self.gridLayout_85.addWidget(self.lineEdit_515, 0, 2, 1, 1)
+        self.label_249 = QtWidgets.QLabel(parent=self.frame_j3_2)
+        self.label_249.setObjectName("label_249")
+        self.gridLayout_85.addWidget(self.label_249, 1, 1, 1, 1)
+        self.lineEdit_516 = QtWidgets.QLineEdit(parent=self.frame_j3_2)
+        self.lineEdit_516.setEnabled(True)
+        self.lineEdit_516.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_516.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_516.setDragEnabled(False)
+        self.lineEdit_516.setObjectName("lineEdit_516")
+        self.gridLayout_85.addWidget(self.lineEdit_516, 2, 0, 1, 1)
+        self.lineEdit_517 = QtWidgets.QLineEdit(parent=self.frame_j3_2)
+        self.lineEdit_517.setEnabled(True)
+        self.lineEdit_517.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_517.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_517.setDragEnabled(False)
+        self.lineEdit_517.setObjectName("lineEdit_517")
+        self.gridLayout_85.addWidget(self.lineEdit_517, 0, 0, 1, 1)
+        self.label_250 = QtWidgets.QLabel(parent=self.frame_j3_2)
+        self.label_250.setObjectName("label_250")
+        self.gridLayout_85.addWidget(self.label_250, 2, 1, 1, 1)
+        self.lineEdit_518 = QtWidgets.QLineEdit(parent=self.frame_j3_2)
+        self.lineEdit_518.setEnabled(True)
+        self.lineEdit_518.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_518.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_518.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_518.setDragEnabled(False)
+        self.lineEdit_518.setReadOnly(True)
+        self.lineEdit_518.setObjectName("lineEdit_518")
+        self.gridLayout_85.addWidget(self.lineEdit_518, 1, 2, 1, 1)
+        self.lineEdit_519 = QtWidgets.QLineEdit(parent=self.frame_j3_2)
+        self.lineEdit_519.setEnabled(True)
+        self.lineEdit_519.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_519.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_519.setDragEnabled(False)
+        self.lineEdit_519.setReadOnly(True)
+        self.lineEdit_519.setObjectName("lineEdit_519")
+        self.gridLayout_85.addWidget(self.lineEdit_519, 1, 0, 1, 1)
+        self.gridLayout_85.setRowMinimumHeight(0, 1)
+        self.gridLayout_85.setRowMinimumHeight(1, 1)
+        self.gridLayout_85.setRowMinimumHeight(2, 1)
+        self.gridLayout_85.setColumnStretch(0, 1)
+        self.gridLayout_85.setColumnStretch(2, 1)
+        self.gridLayout_85.setRowStretch(0, 1)
+        self.gridLayout_85.setRowStretch(1, 1)
+        self.gridLayout_85.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_j3_2, 3, 10, 1, 1)
+        self.frame_k3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_k3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_k3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_k3_2.setLineWidth(1)
+        self.frame_k3_2.setObjectName("frame_k3_2")
+        self.gridLayout_90 = QtWidgets.QGridLayout(self.frame_k3_2)
+        self.gridLayout_90.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_90.setSpacing(0)
+        self.gridLayout_90.setObjectName("gridLayout_90")
+        self.label_263 = QtWidgets.QLabel(parent=self.frame_k3_2)
+        self.label_263.setObjectName("label_263")
+        self.gridLayout_90.addWidget(self.label_263, 0, 1, 1, 1)
+        self.lineEdit_544 = QtWidgets.QLineEdit(parent=self.frame_k3_2)
+        self.lineEdit_544.setEnabled(True)
+        self.lineEdit_544.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_544.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_544.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_544.setDragEnabled(False)
+        self.lineEdit_544.setObjectName("lineEdit_544")
+        self.gridLayout_90.addWidget(self.lineEdit_544, 2, 2, 1, 1)
+        self.lineEdit_545 = QtWidgets.QLineEdit(parent=self.frame_k3_2)
+        self.lineEdit_545.setEnabled(True)
+        self.lineEdit_545.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_545.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_545.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_545.setDragEnabled(False)
+        self.lineEdit_545.setObjectName("lineEdit_545")
+        self.gridLayout_90.addWidget(self.lineEdit_545, 0, 2, 1, 1)
+        self.label_264 = QtWidgets.QLabel(parent=self.frame_k3_2)
+        self.label_264.setObjectName("label_264")
+        self.gridLayout_90.addWidget(self.label_264, 1, 1, 1, 1)
+        self.lineEdit_546 = QtWidgets.QLineEdit(parent=self.frame_k3_2)
+        self.lineEdit_546.setEnabled(True)
+        self.lineEdit_546.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_546.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_546.setDragEnabled(False)
+        self.lineEdit_546.setObjectName("lineEdit_546")
+        self.gridLayout_90.addWidget(self.lineEdit_546, 2, 0, 1, 1)
+        self.lineEdit_547 = QtWidgets.QLineEdit(parent=self.frame_k3_2)
+        self.lineEdit_547.setEnabled(True)
+        self.lineEdit_547.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_547.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_547.setDragEnabled(False)
+        self.lineEdit_547.setObjectName("lineEdit_547")
+        self.gridLayout_90.addWidget(self.lineEdit_547, 0, 0, 1, 1)
+        self.label_265 = QtWidgets.QLabel(parent=self.frame_k3_2)
+        self.label_265.setObjectName("label_265")
+        self.gridLayout_90.addWidget(self.label_265, 2, 1, 1, 1)
+        self.lineEdit_548 = QtWidgets.QLineEdit(parent=self.frame_k3_2)
+        self.lineEdit_548.setEnabled(True)
+        self.lineEdit_548.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_548.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_548.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_548.setDragEnabled(False)
+        self.lineEdit_548.setReadOnly(True)
+        self.lineEdit_548.setObjectName("lineEdit_548")
+        self.gridLayout_90.addWidget(self.lineEdit_548, 1, 2, 1, 1)
+        self.lineEdit_549 = QtWidgets.QLineEdit(parent=self.frame_k3_2)
+        self.lineEdit_549.setEnabled(True)
+        self.lineEdit_549.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_549.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_549.setDragEnabled(False)
+        self.lineEdit_549.setReadOnly(True)
+        self.lineEdit_549.setObjectName("lineEdit_549")
+        self.gridLayout_90.addWidget(self.lineEdit_549, 1, 0, 1, 1)
+        self.gridLayout_90.setRowMinimumHeight(0, 1)
+        self.gridLayout_90.setRowMinimumHeight(1, 1)
+        self.gridLayout_90.setRowMinimumHeight(2, 1)
+        self.gridLayout_90.setColumnStretch(0, 1)
+        self.gridLayout_90.setColumnStretch(2, 1)
+        self.gridLayout_90.setRowStretch(0, 1)
+        self.gridLayout_90.setRowStretch(1, 1)
+        self.gridLayout_90.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_k3_2, 3, 11, 1, 1)
+        self.frame_e1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_e1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_e1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_e1_2.setLineWidth(1)
+        self.frame_e1_2.setObjectName("frame_e1_2")
+        self.gridLayout_33 = QtWidgets.QGridLayout(self.frame_e1_2)
+        self.gridLayout_33.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_33.setSpacing(0)
+        self.gridLayout_33.setObjectName("gridLayout_33")
+        self.label_95 = QtWidgets.QLabel(parent=self.frame_e1_2)
+        self.label_95.setObjectName("label_95")
+        self.gridLayout_33.addWidget(self.label_95, 0, 1, 1, 1)
+        self.lineEdit_199 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
+        self.lineEdit_199.setEnabled(True)
+        self.lineEdit_199.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_199.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_199.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_199.setDragEnabled(False)
+        self.lineEdit_199.setObjectName("lineEdit_199")
+        self.gridLayout_33.addWidget(self.lineEdit_199, 2, 2, 1, 1)
+        self.lineEdit_200 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
+        self.lineEdit_200.setEnabled(True)
+        self.lineEdit_200.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_200.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_200.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_200.setDragEnabled(False)
+        self.lineEdit_200.setObjectName("lineEdit_200")
+        self.gridLayout_33.addWidget(self.lineEdit_200, 0, 2, 1, 1)
+        self.label_96 = QtWidgets.QLabel(parent=self.frame_e1_2)
+        self.label_96.setObjectName("label_96")
+        self.gridLayout_33.addWidget(self.label_96, 1, 1, 1, 1)
+        self.lineEdit_201 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
+        self.lineEdit_201.setEnabled(True)
+        self.lineEdit_201.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_201.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_201.setDragEnabled(False)
+        self.lineEdit_201.setObjectName("lineEdit_201")
+        self.gridLayout_33.addWidget(self.lineEdit_201, 2, 0, 1, 1)
+        self.lineEdit_202 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
+        self.lineEdit_202.setEnabled(True)
+        self.lineEdit_202.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_202.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_202.setDragEnabled(False)
+        self.lineEdit_202.setObjectName("lineEdit_202")
+        self.gridLayout_33.addWidget(self.lineEdit_202, 0, 0, 1, 1)
+        self.label_97 = QtWidgets.QLabel(parent=self.frame_e1_2)
+        self.label_97.setObjectName("label_97")
+        self.gridLayout_33.addWidget(self.label_97, 2, 1, 1, 1)
+        self.lineEdit_203 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
+        self.lineEdit_203.setEnabled(True)
+        self.lineEdit_203.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_203.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_203.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_203.setDragEnabled(False)
+        self.lineEdit_203.setReadOnly(True)
+        self.lineEdit_203.setObjectName("lineEdit_203")
+        self.gridLayout_33.addWidget(self.lineEdit_203, 1, 2, 1, 1)
+        self.lineEdit_204 = QtWidgets.QLineEdit(parent=self.frame_e1_2)
+        self.lineEdit_204.setEnabled(True)
+        self.lineEdit_204.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_204.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_204.setDragEnabled(False)
+        self.lineEdit_204.setReadOnly(True)
+        self.lineEdit_204.setObjectName("lineEdit_204")
+        self.gridLayout_33.addWidget(self.lineEdit_204, 1, 0, 1, 1)
+        self.gridLayout_33.setRowMinimumHeight(0, 1)
+        self.gridLayout_33.setRowMinimumHeight(1, 1)
+        self.gridLayout_33.setRowMinimumHeight(2, 1)
+        self.gridLayout_33.setColumnStretch(0, 1)
+        self.gridLayout_33.setColumnStretch(2, 1)
+        self.gridLayout_33.setRowStretch(0, 1)
+        self.gridLayout_33.setRowStretch(1, 1)
+        self.gridLayout_33.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_e1_2, 1, 5, 1, 1)
+        self.frame_i3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_i3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_i3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_i3_2.setLineWidth(1)
+        self.frame_i3_2.setObjectName("frame_i3_2")
+        self.gridLayout_39 = QtWidgets.QGridLayout(self.frame_i3_2)
+        self.gridLayout_39.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_39.setSpacing(0)
+        self.gridLayout_39.setObjectName("gridLayout_39")
+        self.label_113 = QtWidgets.QLabel(parent=self.frame_i3_2)
+        self.label_113.setObjectName("label_113")
+        self.gridLayout_39.addWidget(self.label_113, 0, 1, 1, 1)
+        self.lineEdit_235 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
+        self.lineEdit_235.setEnabled(True)
+        self.lineEdit_235.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_235.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_235.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_235.setDragEnabled(False)
+        self.lineEdit_235.setObjectName("lineEdit_235")
+        self.gridLayout_39.addWidget(self.lineEdit_235, 2, 2, 1, 1)
+        self.lineEdit_236 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
+        self.lineEdit_236.setEnabled(True)
+        self.lineEdit_236.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_236.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_236.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_236.setDragEnabled(False)
+        self.lineEdit_236.setObjectName("lineEdit_236")
+        self.gridLayout_39.addWidget(self.lineEdit_236, 0, 2, 1, 1)
+        self.label_114 = QtWidgets.QLabel(parent=self.frame_i3_2)
+        self.label_114.setObjectName("label_114")
+        self.gridLayout_39.addWidget(self.label_114, 1, 1, 1, 1)
+        self.lineEdit_237 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
+        self.lineEdit_237.setEnabled(True)
+        self.lineEdit_237.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_237.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_237.setDragEnabled(False)
+        self.lineEdit_237.setObjectName("lineEdit_237")
+        self.gridLayout_39.addWidget(self.lineEdit_237, 2, 0, 1, 1)
+        self.lineEdit_238 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
+        self.lineEdit_238.setEnabled(True)
+        self.lineEdit_238.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_238.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_238.setDragEnabled(False)
+        self.lineEdit_238.setObjectName("lineEdit_238")
+        self.gridLayout_39.addWidget(self.lineEdit_238, 0, 0, 1, 1)
+        self.label_115 = QtWidgets.QLabel(parent=self.frame_i3_2)
+        self.label_115.setObjectName("label_115")
+        self.gridLayout_39.addWidget(self.label_115, 2, 1, 1, 1)
+        self.lineEdit_239 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
+        self.lineEdit_239.setEnabled(True)
+        self.lineEdit_239.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_239.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_239.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_239.setDragEnabled(False)
+        self.lineEdit_239.setReadOnly(True)
+        self.lineEdit_239.setObjectName("lineEdit_239")
+        self.gridLayout_39.addWidget(self.lineEdit_239, 1, 2, 1, 1)
+        self.lineEdit_240 = QtWidgets.QLineEdit(parent=self.frame_i3_2)
+        self.lineEdit_240.setEnabled(True)
+        self.lineEdit_240.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_240.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_240.setDragEnabled(False)
+        self.lineEdit_240.setReadOnly(True)
+        self.lineEdit_240.setObjectName("lineEdit_240")
+        self.gridLayout_39.addWidget(self.lineEdit_240, 1, 0, 1, 1)
+        self.gridLayout_39.setRowMinimumHeight(0, 1)
+        self.gridLayout_39.setRowMinimumHeight(1, 1)
+        self.gridLayout_39.setRowMinimumHeight(2, 1)
+        self.gridLayout_39.setColumnStretch(0, 1)
+        self.gridLayout_39.setColumnStretch(2, 1)
+        self.gridLayout_39.setRowStretch(0, 1)
+        self.gridLayout_39.setRowStretch(1, 1)
+        self.gridLayout_39.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_i3_2, 3, 9, 1, 1)
+        self.frame_44 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_44.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_44.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_44.setLineWidth(1)
+        self.frame_44.setObjectName("frame_44")
+        self.horizontalLayout_19 = QtWidgets.QHBoxLayout(self.frame_44)
+        self.horizontalLayout_19.setObjectName("horizontalLayout_19")
+        self.label_subAccount1_11 = QtWidgets.QLabel(parent=self.frame_44)
+        self.label_subAccount1_11.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_subAccount1_11.setObjectName("label_subAccount1_11")
+        self.horizontalLayout_19.addWidget(self.label_subAccount1_11)
+        self.gridLayout_2.addWidget(self.frame_44, 0, 13, 1, 1)
         self.frame_e2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
         self.frame_e2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
         self.frame_e2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
@@ -5571,6 +5137,1186 @@ class Ui_MainWindow(object):
         self.gridLayout_53.setRowStretch(1, 1)
         self.gridLayout_53.setRowStretch(2, 1)
         self.gridLayout_2.addWidget(self.frame_d2_2, 2, 4, 1, 1)
+        self.frame_45 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_45.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_45.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_45.setLineWidth(1)
+        self.frame_45.setObjectName("frame_45")
+        self.horizontalLayout_22 = QtWidgets.QHBoxLayout(self.frame_45)
+        self.horizontalLayout_22.setObjectName("horizontalLayout_22")
+        self.label_subAccount1_14 = QtWidgets.QLabel(parent=self.frame_45)
+        self.label_subAccount1_14.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_subAccount1_14.setObjectName("label_subAccount1_14")
+        self.horizontalLayout_22.addWidget(self.label_subAccount1_14)
+        self.gridLayout_2.addWidget(self.frame_45, 0, 14, 1, 1)
+        self.frame_h1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_h1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_h1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_h1_2.setLineWidth(1)
+        self.frame_h1_2.setObjectName("frame_h1_2")
+        self.gridLayout_36 = QtWidgets.QGridLayout(self.frame_h1_2)
+        self.gridLayout_36.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_36.setSpacing(0)
+        self.gridLayout_36.setObjectName("gridLayout_36")
+        self.label_104 = QtWidgets.QLabel(parent=self.frame_h1_2)
+        self.label_104.setObjectName("label_104")
+        self.gridLayout_36.addWidget(self.label_104, 0, 1, 1, 1)
+        self.lineEdit_217 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
+        self.lineEdit_217.setEnabled(True)
+        self.lineEdit_217.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_217.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_217.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_217.setDragEnabled(False)
+        self.lineEdit_217.setObjectName("lineEdit_217")
+        self.gridLayout_36.addWidget(self.lineEdit_217, 2, 2, 1, 1)
+        self.lineEdit_218 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
+        self.lineEdit_218.setEnabled(True)
+        self.lineEdit_218.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_218.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_218.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_218.setDragEnabled(False)
+        self.lineEdit_218.setObjectName("lineEdit_218")
+        self.gridLayout_36.addWidget(self.lineEdit_218, 0, 2, 1, 1)
+        self.label_105 = QtWidgets.QLabel(parent=self.frame_h1_2)
+        self.label_105.setObjectName("label_105")
+        self.gridLayout_36.addWidget(self.label_105, 1, 1, 1, 1)
+        self.lineEdit_219 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
+        self.lineEdit_219.setEnabled(True)
+        self.lineEdit_219.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_219.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_219.setDragEnabled(False)
+        self.lineEdit_219.setObjectName("lineEdit_219")
+        self.gridLayout_36.addWidget(self.lineEdit_219, 2, 0, 1, 1)
+        self.lineEdit_220 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
+        self.lineEdit_220.setEnabled(True)
+        self.lineEdit_220.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_220.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_220.setDragEnabled(False)
+        self.lineEdit_220.setObjectName("lineEdit_220")
+        self.gridLayout_36.addWidget(self.lineEdit_220, 0, 0, 1, 1)
+        self.label_106 = QtWidgets.QLabel(parent=self.frame_h1_2)
+        self.label_106.setObjectName("label_106")
+        self.gridLayout_36.addWidget(self.label_106, 2, 1, 1, 1)
+        self.lineEdit_221 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
+        self.lineEdit_221.setEnabled(True)
+        self.lineEdit_221.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_221.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_221.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_221.setDragEnabled(False)
+        self.lineEdit_221.setReadOnly(True)
+        self.lineEdit_221.setObjectName("lineEdit_221")
+        self.gridLayout_36.addWidget(self.lineEdit_221, 1, 2, 1, 1)
+        self.lineEdit_222 = QtWidgets.QLineEdit(parent=self.frame_h1_2)
+        self.lineEdit_222.setEnabled(True)
+        self.lineEdit_222.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_222.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_222.setDragEnabled(False)
+        self.lineEdit_222.setReadOnly(True)
+        self.lineEdit_222.setObjectName("lineEdit_222")
+        self.gridLayout_36.addWidget(self.lineEdit_222, 1, 0, 1, 1)
+        self.gridLayout_36.setRowMinimumHeight(0, 1)
+        self.gridLayout_36.setRowMinimumHeight(1, 1)
+        self.gridLayout_36.setRowMinimumHeight(2, 1)
+        self.gridLayout_36.setColumnStretch(0, 1)
+        self.gridLayout_36.setColumnStretch(2, 1)
+        self.gridLayout_36.setRowStretch(0, 1)
+        self.gridLayout_36.setRowStretch(1, 1)
+        self.gridLayout_36.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_h1_2, 1, 8, 1, 1)
+        self.frame_a3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_a3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_a3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_a3_2.setLineWidth(1)
+        self.frame_a3_2.setObjectName("frame_a3_2")
+        self.gridLayout_41 = QtWidgets.QGridLayout(self.frame_a3_2)
+        self.gridLayout_41.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_41.setSpacing(0)
+        self.gridLayout_41.setObjectName("gridLayout_41")
+        self.label_119 = QtWidgets.QLabel(parent=self.frame_a3_2)
+        self.label_119.setObjectName("label_119")
+        self.gridLayout_41.addWidget(self.label_119, 0, 1, 1, 1)
+        self.lineEdit_247 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
+        self.lineEdit_247.setEnabled(True)
+        self.lineEdit_247.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_247.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_247.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_247.setDragEnabled(False)
+        self.lineEdit_247.setObjectName("lineEdit_247")
+        self.gridLayout_41.addWidget(self.lineEdit_247, 2, 2, 1, 1)
+        self.lineEdit_248 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
+        self.lineEdit_248.setEnabled(True)
+        self.lineEdit_248.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_248.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_248.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_248.setDragEnabled(False)
+        self.lineEdit_248.setObjectName("lineEdit_248")
+        self.gridLayout_41.addWidget(self.lineEdit_248, 0, 2, 1, 1)
+        self.label_120 = QtWidgets.QLabel(parent=self.frame_a3_2)
+        self.label_120.setObjectName("label_120")
+        self.gridLayout_41.addWidget(self.label_120, 1, 1, 1, 1)
+        self.lineEdit_249 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
+        self.lineEdit_249.setEnabled(True)
+        self.lineEdit_249.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_249.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_249.setDragEnabled(False)
+        self.lineEdit_249.setObjectName("lineEdit_249")
+        self.gridLayout_41.addWidget(self.lineEdit_249, 2, 0, 1, 1)
+        self.lineEdit_250 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
+        self.lineEdit_250.setEnabled(True)
+        self.lineEdit_250.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_250.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_250.setDragEnabled(False)
+        self.lineEdit_250.setObjectName("lineEdit_250")
+        self.gridLayout_41.addWidget(self.lineEdit_250, 0, 0, 1, 1)
+        self.label_121 = QtWidgets.QLabel(parent=self.frame_a3_2)
+        self.label_121.setObjectName("label_121")
+        self.gridLayout_41.addWidget(self.label_121, 2, 1, 1, 1)
+        self.lineEdit_251 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
+        self.lineEdit_251.setEnabled(True)
+        self.lineEdit_251.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_251.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_251.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_251.setDragEnabled(False)
+        self.lineEdit_251.setReadOnly(True)
+        self.lineEdit_251.setObjectName("lineEdit_251")
+        self.gridLayout_41.addWidget(self.lineEdit_251, 1, 2, 1, 1)
+        self.lineEdit_252 = QtWidgets.QLineEdit(parent=self.frame_a3_2)
+        self.lineEdit_252.setEnabled(True)
+        self.lineEdit_252.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_252.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_252.setDragEnabled(False)
+        self.lineEdit_252.setReadOnly(True)
+        self.lineEdit_252.setObjectName("lineEdit_252")
+        self.gridLayout_41.addWidget(self.lineEdit_252, 1, 0, 1, 1)
+        self.gridLayout_41.setRowMinimumHeight(0, 1)
+        self.gridLayout_41.setRowMinimumHeight(1, 1)
+        self.gridLayout_41.setRowMinimumHeight(2, 1)
+        self.gridLayout_41.setColumnStretch(0, 1)
+        self.gridLayout_41.setColumnStretch(2, 1)
+        self.gridLayout_41.setRowStretch(0, 1)
+        self.gridLayout_41.setRowStretch(1, 1)
+        self.gridLayout_41.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_a3_2, 3, 1, 1, 1)
+        self.frame_h3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_h3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_h3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_h3_2.setLineWidth(1)
+        self.frame_h3_2.setObjectName("frame_h3_2")
+        self.gridLayout_48 = QtWidgets.QGridLayout(self.frame_h3_2)
+        self.gridLayout_48.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_48.setSpacing(0)
+        self.gridLayout_48.setObjectName("gridLayout_48")
+        self.label_140 = QtWidgets.QLabel(parent=self.frame_h3_2)
+        self.label_140.setObjectName("label_140")
+        self.gridLayout_48.addWidget(self.label_140, 0, 1, 1, 1)
+        self.lineEdit_289 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
+        self.lineEdit_289.setEnabled(True)
+        self.lineEdit_289.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_289.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_289.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_289.setDragEnabled(False)
+        self.lineEdit_289.setObjectName("lineEdit_289")
+        self.gridLayout_48.addWidget(self.lineEdit_289, 2, 2, 1, 1)
+        self.lineEdit_290 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
+        self.lineEdit_290.setEnabled(True)
+        self.lineEdit_290.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_290.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_290.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_290.setDragEnabled(False)
+        self.lineEdit_290.setObjectName("lineEdit_290")
+        self.gridLayout_48.addWidget(self.lineEdit_290, 0, 2, 1, 1)
+        self.label_141 = QtWidgets.QLabel(parent=self.frame_h3_2)
+        self.label_141.setObjectName("label_141")
+        self.gridLayout_48.addWidget(self.label_141, 1, 1, 1, 1)
+        self.lineEdit_291 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
+        self.lineEdit_291.setEnabled(True)
+        self.lineEdit_291.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_291.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_291.setDragEnabled(False)
+        self.lineEdit_291.setObjectName("lineEdit_291")
+        self.gridLayout_48.addWidget(self.lineEdit_291, 2, 0, 1, 1)
+        self.lineEdit_292 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
+        self.lineEdit_292.setEnabled(True)
+        self.lineEdit_292.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_292.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_292.setDragEnabled(False)
+        self.lineEdit_292.setObjectName("lineEdit_292")
+        self.gridLayout_48.addWidget(self.lineEdit_292, 0, 0, 1, 1)
+        self.label_142 = QtWidgets.QLabel(parent=self.frame_h3_2)
+        self.label_142.setObjectName("label_142")
+        self.gridLayout_48.addWidget(self.label_142, 2, 1, 1, 1)
+        self.lineEdit_293 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
+        self.lineEdit_293.setEnabled(True)
+        self.lineEdit_293.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_293.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_293.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_293.setDragEnabled(False)
+        self.lineEdit_293.setReadOnly(True)
+        self.lineEdit_293.setObjectName("lineEdit_293")
+        self.gridLayout_48.addWidget(self.lineEdit_293, 1, 2, 1, 1)
+        self.lineEdit_294 = QtWidgets.QLineEdit(parent=self.frame_h3_2)
+        self.lineEdit_294.setEnabled(True)
+        self.lineEdit_294.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_294.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_294.setDragEnabled(False)
+        self.lineEdit_294.setReadOnly(True)
+        self.lineEdit_294.setObjectName("lineEdit_294")
+        self.gridLayout_48.addWidget(self.lineEdit_294, 1, 0, 1, 1)
+        self.gridLayout_48.setRowMinimumHeight(0, 1)
+        self.gridLayout_48.setRowMinimumHeight(1, 1)
+        self.gridLayout_48.setRowMinimumHeight(2, 1)
+        self.gridLayout_48.setColumnStretch(0, 1)
+        self.gridLayout_48.setColumnStretch(2, 1)
+        self.gridLayout_48.setRowStretch(0, 1)
+        self.gridLayout_48.setRowStretch(1, 1)
+        self.gridLayout_48.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_h3_2, 3, 8, 1, 1)
+        self.frame_f2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_f2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_f2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_f2_2.setLineWidth(1)
+        self.frame_f2_2.setObjectName("frame_f2_2")
+        self.gridLayout_51 = QtWidgets.QGridLayout(self.frame_f2_2)
+        self.gridLayout_51.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_51.setSpacing(0)
+        self.gridLayout_51.setObjectName("gridLayout_51")
+        self.label_149 = QtWidgets.QLabel(parent=self.frame_f2_2)
+        self.label_149.setObjectName("label_149")
+        self.gridLayout_51.addWidget(self.label_149, 0, 1, 1, 1)
+        self.lineEdit_307 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
+        self.lineEdit_307.setEnabled(True)
+        self.lineEdit_307.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_307.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_307.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_307.setDragEnabled(False)
+        self.lineEdit_307.setObjectName("lineEdit_307")
+        self.gridLayout_51.addWidget(self.lineEdit_307, 2, 2, 1, 1)
+        self.lineEdit_308 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
+        self.lineEdit_308.setEnabled(True)
+        self.lineEdit_308.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_308.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_308.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_308.setDragEnabled(False)
+        self.lineEdit_308.setObjectName("lineEdit_308")
+        self.gridLayout_51.addWidget(self.lineEdit_308, 0, 2, 1, 1)
+        self.label_150 = QtWidgets.QLabel(parent=self.frame_f2_2)
+        self.label_150.setObjectName("label_150")
+        self.gridLayout_51.addWidget(self.label_150, 1, 1, 1, 1)
+        self.lineEdit_309 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
+        self.lineEdit_309.setEnabled(True)
+        self.lineEdit_309.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_309.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_309.setDragEnabled(False)
+        self.lineEdit_309.setObjectName("lineEdit_309")
+        self.gridLayout_51.addWidget(self.lineEdit_309, 2, 0, 1, 1)
+        self.lineEdit_310 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
+        self.lineEdit_310.setEnabled(True)
+        self.lineEdit_310.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_310.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_310.setDragEnabled(False)
+        self.lineEdit_310.setObjectName("lineEdit_310")
+        self.gridLayout_51.addWidget(self.lineEdit_310, 0, 0, 1, 1)
+        self.label_151 = QtWidgets.QLabel(parent=self.frame_f2_2)
+        self.label_151.setObjectName("label_151")
+        self.gridLayout_51.addWidget(self.label_151, 2, 1, 1, 1)
+        self.lineEdit_311 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
+        self.lineEdit_311.setEnabled(True)
+        self.lineEdit_311.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_311.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_311.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_311.setDragEnabled(False)
+        self.lineEdit_311.setReadOnly(True)
+        self.lineEdit_311.setObjectName("lineEdit_311")
+        self.gridLayout_51.addWidget(self.lineEdit_311, 1, 2, 1, 1)
+        self.lineEdit_312 = QtWidgets.QLineEdit(parent=self.frame_f2_2)
+        self.lineEdit_312.setEnabled(True)
+        self.lineEdit_312.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_312.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_312.setDragEnabled(False)
+        self.lineEdit_312.setReadOnly(True)
+        self.lineEdit_312.setObjectName("lineEdit_312")
+        self.gridLayout_51.addWidget(self.lineEdit_312, 1, 0, 1, 1)
+        self.gridLayout_51.setRowMinimumHeight(0, 1)
+        self.gridLayout_51.setRowMinimumHeight(1, 1)
+        self.gridLayout_51.setRowMinimumHeight(2, 1)
+        self.gridLayout_51.setColumnStretch(0, 1)
+        self.gridLayout_51.setColumnStretch(2, 1)
+        self.gridLayout_51.setRowStretch(0, 1)
+        self.gridLayout_51.setRowStretch(1, 1)
+        self.gridLayout_51.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_f2_2, 2, 6, 1, 1)
+        self.frame_b3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_b3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_b3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_b3_2.setLineWidth(1)
+        self.frame_b3_2.setObjectName("frame_b3_2")
+        self.gridLayout_42 = QtWidgets.QGridLayout(self.frame_b3_2)
+        self.gridLayout_42.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_42.setSpacing(0)
+        self.gridLayout_42.setObjectName("gridLayout_42")
+        self.label_122 = QtWidgets.QLabel(parent=self.frame_b3_2)
+        self.label_122.setObjectName("label_122")
+        self.gridLayout_42.addWidget(self.label_122, 0, 1, 1, 1)
+        self.lineEdit_253 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
+        self.lineEdit_253.setEnabled(True)
+        self.lineEdit_253.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_253.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_253.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_253.setDragEnabled(False)
+        self.lineEdit_253.setObjectName("lineEdit_253")
+        self.gridLayout_42.addWidget(self.lineEdit_253, 2, 2, 1, 1)
+        self.lineEdit_254 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
+        self.lineEdit_254.setEnabled(True)
+        self.lineEdit_254.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_254.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_254.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_254.setDragEnabled(False)
+        self.lineEdit_254.setObjectName("lineEdit_254")
+        self.gridLayout_42.addWidget(self.lineEdit_254, 0, 2, 1, 1)
+        self.label_123 = QtWidgets.QLabel(parent=self.frame_b3_2)
+        self.label_123.setObjectName("label_123")
+        self.gridLayout_42.addWidget(self.label_123, 1, 1, 1, 1)
+        self.lineEdit_255 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
+        self.lineEdit_255.setEnabled(True)
+        self.lineEdit_255.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_255.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_255.setDragEnabled(False)
+        self.lineEdit_255.setObjectName("lineEdit_255")
+        self.gridLayout_42.addWidget(self.lineEdit_255, 2, 0, 1, 1)
+        self.lineEdit_256 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
+        self.lineEdit_256.setEnabled(True)
+        self.lineEdit_256.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_256.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_256.setDragEnabled(False)
+        self.lineEdit_256.setObjectName("lineEdit_256")
+        self.gridLayout_42.addWidget(self.lineEdit_256, 0, 0, 1, 1)
+        self.label_124 = QtWidgets.QLabel(parent=self.frame_b3_2)
+        self.label_124.setObjectName("label_124")
+        self.gridLayout_42.addWidget(self.label_124, 2, 1, 1, 1)
+        self.lineEdit_257 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
+        self.lineEdit_257.setEnabled(True)
+        self.lineEdit_257.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_257.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_257.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_257.setDragEnabled(False)
+        self.lineEdit_257.setReadOnly(True)
+        self.lineEdit_257.setObjectName("lineEdit_257")
+        self.gridLayout_42.addWidget(self.lineEdit_257, 1, 2, 1, 1)
+        self.lineEdit_258 = QtWidgets.QLineEdit(parent=self.frame_b3_2)
+        self.lineEdit_258.setEnabled(True)
+        self.lineEdit_258.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_258.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_258.setDragEnabled(False)
+        self.lineEdit_258.setReadOnly(True)
+        self.lineEdit_258.setObjectName("lineEdit_258")
+        self.gridLayout_42.addWidget(self.lineEdit_258, 1, 0, 1, 1)
+        self.gridLayout_42.setRowMinimumHeight(0, 1)
+        self.gridLayout_42.setRowMinimumHeight(1, 1)
+        self.gridLayout_42.setRowMinimumHeight(2, 1)
+        self.gridLayout_42.setColumnStretch(0, 1)
+        self.gridLayout_42.setColumnStretch(2, 1)
+        self.gridLayout_42.setRowStretch(0, 1)
+        self.gridLayout_42.setRowStretch(1, 1)
+        self.gridLayout_42.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_b3_2, 3, 2, 1, 1)
+        self.frame_14 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_14.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_14.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_14.setLineWidth(1)
+        self.frame_14.setObjectName("frame_14")
+        self.horizontalLayout_15 = QtWidgets.QHBoxLayout(self.frame_14)
+        self.horizontalLayout_15.setObjectName("horizontalLayout_15")
+        self.label_subAccount1_7 = QtWidgets.QLabel(parent=self.frame_14)
+        self.label_subAccount1_7.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_subAccount1_7.setObjectName("label_subAccount1_7")
+        self.horizontalLayout_15.addWidget(self.label_subAccount1_7)
+        self.gridLayout_2.addWidget(self.frame_14, 0, 11, 1, 1)
+        self.frame_j2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_j2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_j2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_j2_2.setLineWidth(1)
+        self.frame_j2_2.setObjectName("frame_j2_2")
+        self.gridLayout_87 = QtWidgets.QGridLayout(self.frame_j2_2)
+        self.gridLayout_87.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_87.setSpacing(0)
+        self.gridLayout_87.setObjectName("gridLayout_87")
+        self.label_254 = QtWidgets.QLabel(parent=self.frame_j2_2)
+        self.label_254.setObjectName("label_254")
+        self.gridLayout_87.addWidget(self.label_254, 0, 1, 1, 1)
+        self.lineEdit_526 = QtWidgets.QLineEdit(parent=self.frame_j2_2)
+        self.lineEdit_526.setEnabled(True)
+        self.lineEdit_526.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_526.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_526.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_526.setDragEnabled(False)
+        self.lineEdit_526.setObjectName("lineEdit_526")
+        self.gridLayout_87.addWidget(self.lineEdit_526, 2, 2, 1, 1)
+        self.lineEdit_527 = QtWidgets.QLineEdit(parent=self.frame_j2_2)
+        self.lineEdit_527.setEnabled(True)
+        self.lineEdit_527.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_527.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_527.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_527.setDragEnabled(False)
+        self.lineEdit_527.setObjectName("lineEdit_527")
+        self.gridLayout_87.addWidget(self.lineEdit_527, 0, 2, 1, 1)
+        self.label_255 = QtWidgets.QLabel(parent=self.frame_j2_2)
+        self.label_255.setObjectName("label_255")
+        self.gridLayout_87.addWidget(self.label_255, 1, 1, 1, 1)
+        self.lineEdit_528 = QtWidgets.QLineEdit(parent=self.frame_j2_2)
+        self.lineEdit_528.setEnabled(True)
+        self.lineEdit_528.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_528.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_528.setDragEnabled(False)
+        self.lineEdit_528.setObjectName("lineEdit_528")
+        self.gridLayout_87.addWidget(self.lineEdit_528, 2, 0, 1, 1)
+        self.lineEdit_529 = QtWidgets.QLineEdit(parent=self.frame_j2_2)
+        self.lineEdit_529.setEnabled(True)
+        self.lineEdit_529.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_529.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_529.setDragEnabled(False)
+        self.lineEdit_529.setObjectName("lineEdit_529")
+        self.gridLayout_87.addWidget(self.lineEdit_529, 0, 0, 1, 1)
+        self.label_256 = QtWidgets.QLabel(parent=self.frame_j2_2)
+        self.label_256.setObjectName("label_256")
+        self.gridLayout_87.addWidget(self.label_256, 2, 1, 1, 1)
+        self.lineEdit_530 = QtWidgets.QLineEdit(parent=self.frame_j2_2)
+        self.lineEdit_530.setEnabled(True)
+        self.lineEdit_530.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_530.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_530.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_530.setDragEnabled(False)
+        self.lineEdit_530.setReadOnly(True)
+        self.lineEdit_530.setObjectName("lineEdit_530")
+        self.gridLayout_87.addWidget(self.lineEdit_530, 1, 2, 1, 1)
+        self.lineEdit_531 = QtWidgets.QLineEdit(parent=self.frame_j2_2)
+        self.lineEdit_531.setEnabled(True)
+        self.lineEdit_531.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_531.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_531.setDragEnabled(False)
+        self.lineEdit_531.setReadOnly(True)
+        self.lineEdit_531.setObjectName("lineEdit_531")
+        self.gridLayout_87.addWidget(self.lineEdit_531, 1, 0, 1, 1)
+        self.gridLayout_87.setRowMinimumHeight(0, 1)
+        self.gridLayout_87.setRowMinimumHeight(1, 1)
+        self.gridLayout_87.setRowMinimumHeight(2, 1)
+        self.gridLayout_87.setColumnStretch(0, 1)
+        self.gridLayout_87.setColumnStretch(2, 1)
+        self.gridLayout_87.setRowStretch(0, 1)
+        self.gridLayout_87.setRowStretch(1, 1)
+        self.gridLayout_87.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_j2_2, 2, 10, 1, 1)
+        self.frame_a1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_a1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_a1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_a1_2.setLineWidth(1)
+        self.frame_a1_2.setObjectName("frame_a1_2")
+        self.gridLayout_5 = QtWidgets.QGridLayout(self.frame_a1_2)
+        self.gridLayout_5.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_5.setSpacing(0)
+        self.gridLayout_5.setObjectName("gridLayout_5")
+        self.label_12 = QtWidgets.QLabel(parent=self.frame_a1_2)
+        self.label_12.setObjectName("label_12")
+        self.gridLayout_5.addWidget(self.label_12, 0, 1, 1, 1)
+        self.lineEdit_13 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
+        self.lineEdit_13.setEnabled(True)
+        self.lineEdit_13.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_13.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_13.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_13.setDragEnabled(False)
+        self.lineEdit_13.setObjectName("lineEdit_13")
+        self.gridLayout_5.addWidget(self.lineEdit_13, 2, 2, 1, 1)
+        self.lineEdit_14 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
+        self.lineEdit_14.setEnabled(True)
+        self.lineEdit_14.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_14.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_14.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_14.setDragEnabled(False)
+        self.lineEdit_14.setObjectName("lineEdit_14")
+        self.gridLayout_5.addWidget(self.lineEdit_14, 0, 2, 1, 1)
+        self.label_7 = QtWidgets.QLabel(parent=self.frame_a1_2)
+        self.label_7.setObjectName("label_7")
+        self.gridLayout_5.addWidget(self.label_7, 1, 1, 1, 1)
+        self.lineEdit_15 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
+        self.lineEdit_15.setEnabled(True)
+        self.lineEdit_15.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_15.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_15.setDragEnabled(False)
+        self.lineEdit_15.setObjectName("lineEdit_15")
+        self.gridLayout_5.addWidget(self.lineEdit_15, 2, 0, 1, 1)
+        self.lineEdit_16 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
+        self.lineEdit_16.setEnabled(True)
+        self.lineEdit_16.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_16.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_16.setDragEnabled(False)
+        self.lineEdit_16.setObjectName("lineEdit_16")
+        self.gridLayout_5.addWidget(self.lineEdit_16, 0, 0, 1, 1)
+        self.label_13 = QtWidgets.QLabel(parent=self.frame_a1_2)
+        self.label_13.setObjectName("label_13")
+        self.gridLayout_5.addWidget(self.label_13, 2, 1, 1, 1)
+        self.lineEdit_17 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
+        self.lineEdit_17.setEnabled(True)
+        self.lineEdit_17.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_17.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_17.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_17.setDragEnabled(False)
+        self.lineEdit_17.setReadOnly(True)
+        self.lineEdit_17.setObjectName("lineEdit_17")
+        self.gridLayout_5.addWidget(self.lineEdit_17, 1, 2, 1, 1)
+        self.lineEdit_18 = QtWidgets.QLineEdit(parent=self.frame_a1_2)
+        self.lineEdit_18.setEnabled(True)
+        self.lineEdit_18.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_18.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_18.setDragEnabled(False)
+        self.lineEdit_18.setReadOnly(True)
+        self.lineEdit_18.setObjectName("lineEdit_18")
+        self.gridLayout_5.addWidget(self.lineEdit_18, 1, 0, 1, 1)
+        self.gridLayout_5.setRowMinimumHeight(0, 1)
+        self.gridLayout_5.setRowMinimumHeight(1, 1)
+        self.gridLayout_5.setRowMinimumHeight(2, 1)
+        self.gridLayout_5.setColumnStretch(0, 1)
+        self.gridLayout_5.setColumnStretch(2, 1)
+        self.gridLayout_5.setRowStretch(0, 1)
+        self.gridLayout_5.setRowStretch(1, 1)
+        self.gridLayout_5.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_a1_2, 1, 1, 1, 1)
+        self.frame_e3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_e3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_e3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_e3_2.setLineWidth(1)
+        self.frame_e3_2.setObjectName("frame_e3_2")
+        self.gridLayout_45 = QtWidgets.QGridLayout(self.frame_e3_2)
+        self.gridLayout_45.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_45.setSpacing(0)
+        self.gridLayout_45.setObjectName("gridLayout_45")
+        self.label_131 = QtWidgets.QLabel(parent=self.frame_e3_2)
+        self.label_131.setObjectName("label_131")
+        self.gridLayout_45.addWidget(self.label_131, 0, 1, 1, 1)
+        self.lineEdit_271 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
+        self.lineEdit_271.setEnabled(True)
+        self.lineEdit_271.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_271.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_271.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_271.setDragEnabled(False)
+        self.lineEdit_271.setObjectName("lineEdit_271")
+        self.gridLayout_45.addWidget(self.lineEdit_271, 2, 2, 1, 1)
+        self.lineEdit_272 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
+        self.lineEdit_272.setEnabled(True)
+        self.lineEdit_272.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_272.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_272.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_272.setDragEnabled(False)
+        self.lineEdit_272.setObjectName("lineEdit_272")
+        self.gridLayout_45.addWidget(self.lineEdit_272, 0, 2, 1, 1)
+        self.label_132 = QtWidgets.QLabel(parent=self.frame_e3_2)
+        self.label_132.setObjectName("label_132")
+        self.gridLayout_45.addWidget(self.label_132, 1, 1, 1, 1)
+        self.lineEdit_273 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
+        self.lineEdit_273.setEnabled(True)
+        self.lineEdit_273.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_273.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_273.setDragEnabled(False)
+        self.lineEdit_273.setObjectName("lineEdit_273")
+        self.gridLayout_45.addWidget(self.lineEdit_273, 2, 0, 1, 1)
+        self.lineEdit_274 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
+        self.lineEdit_274.setEnabled(True)
+        self.lineEdit_274.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_274.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_274.setDragEnabled(False)
+        self.lineEdit_274.setObjectName("lineEdit_274")
+        self.gridLayout_45.addWidget(self.lineEdit_274, 0, 0, 1, 1)
+        self.label_133 = QtWidgets.QLabel(parent=self.frame_e3_2)
+        self.label_133.setObjectName("label_133")
+        self.gridLayout_45.addWidget(self.label_133, 2, 1, 1, 1)
+        self.lineEdit_275 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
+        self.lineEdit_275.setEnabled(True)
+        self.lineEdit_275.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_275.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_275.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_275.setDragEnabled(False)
+        self.lineEdit_275.setReadOnly(True)
+        self.lineEdit_275.setObjectName("lineEdit_275")
+        self.gridLayout_45.addWidget(self.lineEdit_275, 1, 2, 1, 1)
+        self.lineEdit_276 = QtWidgets.QLineEdit(parent=self.frame_e3_2)
+        self.lineEdit_276.setEnabled(True)
+        self.lineEdit_276.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_276.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_276.setDragEnabled(False)
+        self.lineEdit_276.setReadOnly(True)
+        self.lineEdit_276.setObjectName("lineEdit_276")
+        self.gridLayout_45.addWidget(self.lineEdit_276, 1, 0, 1, 1)
+        self.gridLayout_45.setRowMinimumHeight(0, 1)
+        self.gridLayout_45.setRowMinimumHeight(1, 1)
+        self.gridLayout_45.setRowMinimumHeight(2, 1)
+        self.gridLayout_45.setColumnStretch(0, 1)
+        self.gridLayout_45.setColumnStretch(2, 1)
+        self.gridLayout_45.setRowStretch(0, 1)
+        self.gridLayout_45.setRowStretch(1, 1)
+        self.gridLayout_45.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_e3_2, 3, 5, 1, 1)
+        self.frame_i1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_i1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_i1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_i1_2.setLineWidth(1)
+        self.frame_i1_2.setObjectName("frame_i1_2")
+        self.gridLayout_37 = QtWidgets.QGridLayout(self.frame_i1_2)
+        self.gridLayout_37.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_37.setSpacing(0)
+        self.gridLayout_37.setObjectName("gridLayout_37")
+        self.label_107 = QtWidgets.QLabel(parent=self.frame_i1_2)
+        self.label_107.setObjectName("label_107")
+        self.gridLayout_37.addWidget(self.label_107, 0, 1, 1, 1)
+        self.lineEdit_223 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
+        self.lineEdit_223.setEnabled(True)
+        self.lineEdit_223.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_223.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_223.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_223.setDragEnabled(False)
+        self.lineEdit_223.setObjectName("lineEdit_223")
+        self.gridLayout_37.addWidget(self.lineEdit_223, 2, 2, 1, 1)
+        self.lineEdit_224 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
+        self.lineEdit_224.setEnabled(True)
+        self.lineEdit_224.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_224.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_224.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_224.setDragEnabled(False)
+        self.lineEdit_224.setObjectName("lineEdit_224")
+        self.gridLayout_37.addWidget(self.lineEdit_224, 0, 2, 1, 1)
+        self.label_108 = QtWidgets.QLabel(parent=self.frame_i1_2)
+        self.label_108.setObjectName("label_108")
+        self.gridLayout_37.addWidget(self.label_108, 1, 1, 1, 1)
+        self.lineEdit_225 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
+        self.lineEdit_225.setEnabled(True)
+        self.lineEdit_225.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_225.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_225.setDragEnabled(False)
+        self.lineEdit_225.setObjectName("lineEdit_225")
+        self.gridLayout_37.addWidget(self.lineEdit_225, 2, 0, 1, 1)
+        self.lineEdit_226 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
+        self.lineEdit_226.setEnabled(True)
+        self.lineEdit_226.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_226.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_226.setDragEnabled(False)
+        self.lineEdit_226.setObjectName("lineEdit_226")
+        self.gridLayout_37.addWidget(self.lineEdit_226, 0, 0, 1, 1)
+        self.label_109 = QtWidgets.QLabel(parent=self.frame_i1_2)
+        self.label_109.setObjectName("label_109")
+        self.gridLayout_37.addWidget(self.label_109, 2, 1, 1, 1)
+        self.lineEdit_227 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
+        self.lineEdit_227.setEnabled(True)
+        self.lineEdit_227.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_227.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_227.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_227.setDragEnabled(False)
+        self.lineEdit_227.setReadOnly(True)
+        self.lineEdit_227.setObjectName("lineEdit_227")
+        self.gridLayout_37.addWidget(self.lineEdit_227, 1, 2, 1, 1)
+        self.lineEdit_228 = QtWidgets.QLineEdit(parent=self.frame_i1_2)
+        self.lineEdit_228.setEnabled(True)
+        self.lineEdit_228.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_228.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_228.setDragEnabled(False)
+        self.lineEdit_228.setReadOnly(True)
+        self.lineEdit_228.setObjectName("lineEdit_228")
+        self.gridLayout_37.addWidget(self.lineEdit_228, 1, 0, 1, 1)
+        self.gridLayout_37.setRowMinimumHeight(0, 1)
+        self.gridLayout_37.setRowMinimumHeight(1, 1)
+        self.gridLayout_37.setRowMinimumHeight(2, 1)
+        self.gridLayout_37.setColumnStretch(0, 1)
+        self.gridLayout_37.setColumnStretch(2, 1)
+        self.gridLayout_37.setRowStretch(0, 1)
+        self.gridLayout_37.setRowStretch(1, 1)
+        self.gridLayout_37.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_i1_2, 1, 9, 1, 1)
+        self.frame_9 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_9.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_9.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_9.setLineWidth(1)
+        self.frame_9.setObjectName("frame_9")
+        self.horizontalLayout_42 = QtWidgets.QHBoxLayout(self.frame_9)
+        self.horizontalLayout_42.setObjectName("horizontalLayout_42")
+        self.label_mainAccount_15 = QtWidgets.QLabel(parent=self.frame_9)
+        self.label_mainAccount_15.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_15.setObjectName("label_mainAccount_15")
+        self.horizontalLayout_42.addWidget(self.label_mainAccount_15)
+        self.gridLayout_2.addWidget(self.frame_9, 0, 8, 1, 1)
+        self.frame_65 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_65.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_65.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_65.setLineWidth(1)
+        self.frame_65.setObjectName("frame_65")
+        self.horizontalLayout_30 = QtWidgets.QHBoxLayout(self.frame_65)
+        self.horizontalLayout_30.setObjectName("horizontalLayout_30")
+        self.label_subAccount1_22 = QtWidgets.QLabel(parent=self.frame_65)
+        self.label_subAccount1_22.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_subAccount1_22.setObjectName("label_subAccount1_22")
+        self.horizontalLayout_30.addWidget(self.label_subAccount1_22)
+        self.gridLayout_2.addWidget(self.frame_65, 0, 12, 1, 1)
+        self.frame_13 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_13.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_13.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_13.setLineWidth(1)
+        self.frame_13.setObjectName("frame_13")
+        self.horizontalLayout_12 = QtWidgets.QHBoxLayout(self.frame_13)
+        self.horizontalLayout_12.setObjectName("horizontalLayout_12")
+        self.label_subAccount1_4 = QtWidgets.QLabel(parent=self.frame_13)
+        self.label_subAccount1_4.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_subAccount1_4.setObjectName("label_subAccount1_4")
+        self.horizontalLayout_12.addWidget(self.label_subAccount1_4)
+        self.gridLayout_2.addWidget(self.frame_13, 0, 10, 1, 1)
+        self.frame_33 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_33.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_33.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_33.setLineWidth(1)
+        self.frame_33.setObjectName("frame_33")
+        self.gridLayout_2.addWidget(self.frame_33, 0, 0, 1, 1)
+        self.frame_22 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_22.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_22.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_22.setLineWidth(1)
+        self.frame_22.setObjectName("frame_22")
+        self.verticalLayout_20 = QtWidgets.QVBoxLayout(self.frame_22)
+        self.verticalLayout_20.setObjectName("verticalLayout_20")
+        self.label_mainAccount_13 = QtWidgets.QLabel(parent=self.frame_22)
+        self.label_mainAccount_13.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_13.setObjectName("label_mainAccount_13")
+        self.verticalLayout_20.addWidget(self.label_mainAccount_13)
+        self.gridLayout_2.addWidget(self.frame_22, 0, 4, 1, 1)
+        self.frame_4 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_4.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_4.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_4.setLineWidth(1)
+        self.frame_4.setObjectName("frame_4")
+        self.horizontalLayout_10 = QtWidgets.QHBoxLayout(self.frame_4)
+        self.horizontalLayout_10.setObjectName("horizontalLayout_10")
+        self.label_subAccount1_2 = QtWidgets.QLabel(parent=self.frame_4)
+        self.label_subAccount1_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_subAccount1_2.setObjectName("label_subAccount1_2")
+        self.horizontalLayout_10.addWidget(self.label_subAccount1_2)
+        self.gridLayout_2.addWidget(self.frame_4, 0, 9, 1, 1)
+        self.frame_d3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_d3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_d3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_d3_2.setLineWidth(1)
+        self.frame_d3_2.setObjectName("frame_d3_2")
+        self.gridLayout_44 = QtWidgets.QGridLayout(self.frame_d3_2)
+        self.gridLayout_44.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_44.setSpacing(0)
+        self.gridLayout_44.setObjectName("gridLayout_44")
+        self.label_128 = QtWidgets.QLabel(parent=self.frame_d3_2)
+        self.label_128.setObjectName("label_128")
+        self.gridLayout_44.addWidget(self.label_128, 0, 1, 1, 1)
+        self.lineEdit_265 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
+        self.lineEdit_265.setEnabled(True)
+        self.lineEdit_265.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_265.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_265.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_265.setDragEnabled(False)
+        self.lineEdit_265.setObjectName("lineEdit_265")
+        self.gridLayout_44.addWidget(self.lineEdit_265, 2, 2, 1, 1)
+        self.lineEdit_266 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
+        self.lineEdit_266.setEnabled(True)
+        self.lineEdit_266.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_266.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_266.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_266.setDragEnabled(False)
+        self.lineEdit_266.setObjectName("lineEdit_266")
+        self.gridLayout_44.addWidget(self.lineEdit_266, 0, 2, 1, 1)
+        self.label_129 = QtWidgets.QLabel(parent=self.frame_d3_2)
+        self.label_129.setObjectName("label_129")
+        self.gridLayout_44.addWidget(self.label_129, 1, 1, 1, 1)
+        self.lineEdit_267 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
+        self.lineEdit_267.setEnabled(True)
+        self.lineEdit_267.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_267.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_267.setDragEnabled(False)
+        self.lineEdit_267.setObjectName("lineEdit_267")
+        self.gridLayout_44.addWidget(self.lineEdit_267, 2, 0, 1, 1)
+        self.lineEdit_268 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
+        self.lineEdit_268.setEnabled(True)
+        self.lineEdit_268.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_268.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_268.setDragEnabled(False)
+        self.lineEdit_268.setObjectName("lineEdit_268")
+        self.gridLayout_44.addWidget(self.lineEdit_268, 0, 0, 1, 1)
+        self.label_130 = QtWidgets.QLabel(parent=self.frame_d3_2)
+        self.label_130.setObjectName("label_130")
+        self.gridLayout_44.addWidget(self.label_130, 2, 1, 1, 1)
+        self.lineEdit_269 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
+        self.lineEdit_269.setEnabled(True)
+        self.lineEdit_269.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_269.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_269.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_269.setDragEnabled(False)
+        self.lineEdit_269.setReadOnly(True)
+        self.lineEdit_269.setObjectName("lineEdit_269")
+        self.gridLayout_44.addWidget(self.lineEdit_269, 1, 2, 1, 1)
+        self.lineEdit_270 = QtWidgets.QLineEdit(parent=self.frame_d3_2)
+        self.lineEdit_270.setEnabled(True)
+        self.lineEdit_270.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_270.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_270.setDragEnabled(False)
+        self.lineEdit_270.setReadOnly(True)
+        self.lineEdit_270.setObjectName("lineEdit_270")
+        self.gridLayout_44.addWidget(self.lineEdit_270, 1, 0, 1, 1)
+        self.gridLayout_44.setRowMinimumHeight(0, 1)
+        self.gridLayout_44.setRowMinimumHeight(1, 1)
+        self.gridLayout_44.setRowMinimumHeight(2, 1)
+        self.gridLayout_44.setColumnStretch(0, 1)
+        self.gridLayout_44.setColumnStretch(2, 1)
+        self.gridLayout_44.setRowStretch(0, 1)
+        self.gridLayout_44.setRowStretch(1, 1)
+        self.gridLayout_44.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_d3_2, 3, 4, 1, 1)
+        self.frame_f3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_f3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_f3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_f3_2.setLineWidth(1)
+        self.frame_f3_2.setObjectName("frame_f3_2")
+        self.gridLayout_46 = QtWidgets.QGridLayout(self.frame_f3_2)
+        self.gridLayout_46.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_46.setSpacing(0)
+        self.gridLayout_46.setObjectName("gridLayout_46")
+        self.label_134 = QtWidgets.QLabel(parent=self.frame_f3_2)
+        self.label_134.setObjectName("label_134")
+        self.gridLayout_46.addWidget(self.label_134, 0, 1, 1, 1)
+        self.lineEdit_277 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
+        self.lineEdit_277.setEnabled(True)
+        self.lineEdit_277.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_277.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_277.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_277.setDragEnabled(False)
+        self.lineEdit_277.setObjectName("lineEdit_277")
+        self.gridLayout_46.addWidget(self.lineEdit_277, 2, 2, 1, 1)
+        self.lineEdit_278 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
+        self.lineEdit_278.setEnabled(True)
+        self.lineEdit_278.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_278.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_278.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_278.setDragEnabled(False)
+        self.lineEdit_278.setObjectName("lineEdit_278")
+        self.gridLayout_46.addWidget(self.lineEdit_278, 0, 2, 1, 1)
+        self.label_135 = QtWidgets.QLabel(parent=self.frame_f3_2)
+        self.label_135.setObjectName("label_135")
+        self.gridLayout_46.addWidget(self.label_135, 1, 1, 1, 1)
+        self.lineEdit_279 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
+        self.lineEdit_279.setEnabled(True)
+        self.lineEdit_279.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_279.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_279.setDragEnabled(False)
+        self.lineEdit_279.setObjectName("lineEdit_279")
+        self.gridLayout_46.addWidget(self.lineEdit_279, 2, 0, 1, 1)
+        self.lineEdit_280 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
+        self.lineEdit_280.setEnabled(True)
+        self.lineEdit_280.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_280.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_280.setDragEnabled(False)
+        self.lineEdit_280.setObjectName("lineEdit_280")
+        self.gridLayout_46.addWidget(self.lineEdit_280, 0, 0, 1, 1)
+        self.label_136 = QtWidgets.QLabel(parent=self.frame_f3_2)
+        self.label_136.setObjectName("label_136")
+        self.gridLayout_46.addWidget(self.label_136, 2, 1, 1, 1)
+        self.lineEdit_281 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
+        self.lineEdit_281.setEnabled(True)
+        self.lineEdit_281.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_281.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_281.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_281.setDragEnabled(False)
+        self.lineEdit_281.setReadOnly(True)
+        self.lineEdit_281.setObjectName("lineEdit_281")
+        self.gridLayout_46.addWidget(self.lineEdit_281, 1, 2, 1, 1)
+        self.lineEdit_282 = QtWidgets.QLineEdit(parent=self.frame_f3_2)
+        self.lineEdit_282.setEnabled(True)
+        self.lineEdit_282.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_282.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_282.setDragEnabled(False)
+        self.lineEdit_282.setReadOnly(True)
+        self.lineEdit_282.setObjectName("lineEdit_282")
+        self.gridLayout_46.addWidget(self.lineEdit_282, 1, 0, 1, 1)
+        self.gridLayout_46.setRowMinimumHeight(0, 1)
+        self.gridLayout_46.setRowMinimumHeight(1, 1)
+        self.gridLayout_46.setRowMinimumHeight(2, 1)
+        self.gridLayout_46.setColumnStretch(0, 1)
+        self.gridLayout_46.setColumnStretch(2, 1)
+        self.gridLayout_46.setRowStretch(0, 1)
+        self.gridLayout_46.setRowStretch(1, 1)
+        self.gridLayout_46.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_f3_2, 3, 6, 1, 1)
+        self.frame_23 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_23.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_23.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_23.setLineWidth(1)
+        self.frame_23.setObjectName("frame_23")
+        self.verticalLayout_21 = QtWidgets.QVBoxLayout(self.frame_23)
+        self.verticalLayout_21.setObjectName("verticalLayout_21")
+        self.label_mainAccount_11 = QtWidgets.QLabel(parent=self.frame_23)
+        self.label_mainAccount_11.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_11.setObjectName("label_mainAccount_11")
+        self.verticalLayout_21.addWidget(self.label_mainAccount_11)
+        self.gridLayout_2.addWidget(self.frame_23, 0, 3, 1, 1)
         self.frame_c2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
         self.frame_c2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
         self.frame_c2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
@@ -5669,203 +6415,987 @@ class Ui_MainWindow(object):
         self.gridLayout_54.setRowStretch(1, 1)
         self.gridLayout_54.setRowStretch(2, 1)
         self.gridLayout_2.addWidget(self.frame_c2_2, 2, 3, 1, 1)
-        self.frame_b2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_b2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_b2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_b2_2.setLineWidth(1)
-        self.frame_b2_2.setObjectName("frame_b2_2")
-        self.gridLayout_55 = QtWidgets.QGridLayout(self.frame_b2_2)
-        self.gridLayout_55.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_55.setSpacing(0)
-        self.gridLayout_55.setObjectName("gridLayout_55")
-        self.label_161 = QtWidgets.QLabel(parent=self.frame_b2_2)
-        self.label_161.setObjectName("label_161")
-        self.gridLayout_55.addWidget(self.label_161, 0, 1, 1, 1)
-        self.lineEdit_331 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
-        self.lineEdit_331.setEnabled(True)
-        self.lineEdit_331.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_331.setStyleSheet("QLineEdit {\n"
+        self.frame_b1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_b1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_b1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_b1_2.setLineWidth(1)
+        self.frame_b1_2.setObjectName("frame_b1_2")
+        self.gridLayout_31 = QtWidgets.QGridLayout(self.frame_b1_2)
+        self.gridLayout_31.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_31.setSpacing(0)
+        self.gridLayout_31.setObjectName("gridLayout_31")
+        self.label_71 = QtWidgets.QLabel(parent=self.frame_b1_2)
+        self.label_71.setObjectName("label_71")
+        self.gridLayout_31.addWidget(self.label_71, 0, 1, 1, 1)
+        self.lineEdit_169 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
+        self.lineEdit_169.setEnabled(True)
+        self.lineEdit_169.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_169.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_331.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_331.setDragEnabled(False)
-        self.lineEdit_331.setObjectName("lineEdit_331")
-        self.gridLayout_55.addWidget(self.lineEdit_331, 2, 2, 1, 1)
-        self.lineEdit_332 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
-        self.lineEdit_332.setEnabled(True)
-        self.lineEdit_332.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_332.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_169.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_169.setDragEnabled(False)
+        self.lineEdit_169.setObjectName("lineEdit_169")
+        self.gridLayout_31.addWidget(self.lineEdit_169, 2, 2, 1, 1)
+        self.lineEdit_179 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
+        self.lineEdit_179.setEnabled(True)
+        self.lineEdit_179.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_179.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_332.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_332.setDragEnabled(False)
-        self.lineEdit_332.setObjectName("lineEdit_332")
-        self.gridLayout_55.addWidget(self.lineEdit_332, 0, 2, 1, 1)
-        self.label_162 = QtWidgets.QLabel(parent=self.frame_b2_2)
-        self.label_162.setObjectName("label_162")
-        self.gridLayout_55.addWidget(self.label_162, 1, 1, 1, 1)
-        self.lineEdit_333 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
-        self.lineEdit_333.setEnabled(True)
-        self.lineEdit_333.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_179.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_179.setDragEnabled(False)
+        self.lineEdit_179.setObjectName("lineEdit_179")
+        self.gridLayout_31.addWidget(self.lineEdit_179, 0, 2, 1, 1)
+        self.label_73 = QtWidgets.QLabel(parent=self.frame_b1_2)
+        self.label_73.setObjectName("label_73")
+        self.gridLayout_31.addWidget(self.label_73, 1, 1, 1, 1)
+        self.lineEdit_180 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
+        self.lineEdit_180.setEnabled(True)
+        self.lineEdit_180.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_333.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_333.setDragEnabled(False)
-        self.lineEdit_333.setObjectName("lineEdit_333")
-        self.gridLayout_55.addWidget(self.lineEdit_333, 2, 0, 1, 1)
-        self.lineEdit_334 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
-        self.lineEdit_334.setEnabled(True)
-        self.lineEdit_334.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_180.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_180.setDragEnabled(False)
+        self.lineEdit_180.setObjectName("lineEdit_180")
+        self.gridLayout_31.addWidget(self.lineEdit_180, 2, 0, 1, 1)
+        self.lineEdit_181 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
+        self.lineEdit_181.setEnabled(True)
+        self.lineEdit_181.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_334.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_334.setDragEnabled(False)
-        self.lineEdit_334.setObjectName("lineEdit_334")
-        self.gridLayout_55.addWidget(self.lineEdit_334, 0, 0, 1, 1)
-        self.label_163 = QtWidgets.QLabel(parent=self.frame_b2_2)
-        self.label_163.setObjectName("label_163")
-        self.gridLayout_55.addWidget(self.label_163, 2, 1, 1, 1)
-        self.lineEdit_335 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
-        self.lineEdit_335.setEnabled(True)
-        self.lineEdit_335.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_335.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_181.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_181.setDragEnabled(False)
+        self.lineEdit_181.setObjectName("lineEdit_181")
+        self.gridLayout_31.addWidget(self.lineEdit_181, 0, 0, 1, 1)
+        self.label_74 = QtWidgets.QLabel(parent=self.frame_b1_2)
+        self.label_74.setObjectName("label_74")
+        self.gridLayout_31.addWidget(self.label_74, 2, 1, 1, 1)
+        self.lineEdit_182 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
+        self.lineEdit_182.setEnabled(True)
+        self.lineEdit_182.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_182.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_335.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_335.setDragEnabled(False)
-        self.lineEdit_335.setReadOnly(True)
-        self.lineEdit_335.setObjectName("lineEdit_335")
-        self.gridLayout_55.addWidget(self.lineEdit_335, 1, 2, 1, 1)
-        self.lineEdit_336 = QtWidgets.QLineEdit(parent=self.frame_b2_2)
-        self.lineEdit_336.setEnabled(True)
-        self.lineEdit_336.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_182.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_182.setDragEnabled(False)
+        self.lineEdit_182.setReadOnly(True)
+        self.lineEdit_182.setObjectName("lineEdit_182")
+        self.gridLayout_31.addWidget(self.lineEdit_182, 1, 2, 1, 1)
+        self.lineEdit_183 = QtWidgets.QLineEdit(parent=self.frame_b1_2)
+        self.lineEdit_183.setEnabled(True)
+        self.lineEdit_183.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_336.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_336.setDragEnabled(False)
-        self.lineEdit_336.setReadOnly(True)
-        self.lineEdit_336.setObjectName("lineEdit_336")
-        self.gridLayout_55.addWidget(self.lineEdit_336, 1, 0, 1, 1)
-        self.gridLayout_55.setRowMinimumHeight(0, 1)
-        self.gridLayout_55.setRowMinimumHeight(1, 1)
-        self.gridLayout_55.setRowMinimumHeight(2, 1)
-        self.gridLayout_55.setColumnStretch(0, 1)
-        self.gridLayout_55.setColumnStretch(2, 1)
-        self.gridLayout_55.setRowStretch(0, 1)
-        self.gridLayout_55.setRowStretch(1, 1)
-        self.gridLayout_55.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_b2_2, 2, 2, 1, 1)
-        self.frame_c1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
-        self.frame_c1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
-        self.frame_c1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
-        self.frame_c1_2.setLineWidth(1)
-        self.frame_c1_2.setObjectName("frame_c1_2")
-        self.gridLayout_56 = QtWidgets.QGridLayout(self.frame_c1_2)
-        self.gridLayout_56.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_56.setSpacing(0)
-        self.gridLayout_56.setObjectName("gridLayout_56")
-        self.label_164 = QtWidgets.QLabel(parent=self.frame_c1_2)
-        self.label_164.setObjectName("label_164")
-        self.gridLayout_56.addWidget(self.label_164, 0, 1, 1, 1)
-        self.lineEdit_337 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
-        self.lineEdit_337.setEnabled(True)
-        self.lineEdit_337.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_337.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_183.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_183.setDragEnabled(False)
+        self.lineEdit_183.setReadOnly(True)
+        self.lineEdit_183.setObjectName("lineEdit_183")
+        self.gridLayout_31.addWidget(self.lineEdit_183, 1, 0, 1, 1)
+        self.gridLayout_31.setRowMinimumHeight(0, 1)
+        self.gridLayout_31.setRowMinimumHeight(1, 1)
+        self.gridLayout_31.setRowMinimumHeight(2, 1)
+        self.gridLayout_31.setColumnStretch(0, 1)
+        self.gridLayout_31.setColumnStretch(2, 1)
+        self.gridLayout_31.setRowStretch(0, 1)
+        self.gridLayout_31.setRowStretch(1, 1)
+        self.gridLayout_31.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_b1_2, 1, 2, 1, 1)
+        self.frame_l1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_l1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_l1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_l1_2.setLineWidth(1)
+        self.frame_l1_2.setObjectName("frame_l1_2")
+        self.gridLayout_125 = QtWidgets.QGridLayout(self.frame_l1_2)
+        self.gridLayout_125.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_125.setSpacing(0)
+        self.gridLayout_125.setObjectName("gridLayout_125")
+        self.label_365 = QtWidgets.QLabel(parent=self.frame_l1_2)
+        self.label_365.setObjectName("label_365")
+        self.gridLayout_125.addWidget(self.label_365, 0, 1, 1, 1)
+        self.lineEdit_757 = QtWidgets.QLineEdit(parent=self.frame_l1_2)
+        self.lineEdit_757.setEnabled(True)
+        self.lineEdit_757.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_757.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_337.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_337.setDragEnabled(False)
-        self.lineEdit_337.setObjectName("lineEdit_337")
-        self.gridLayout_56.addWidget(self.lineEdit_337, 2, 2, 1, 1)
-        self.lineEdit_338 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
-        self.lineEdit_338.setEnabled(True)
-        self.lineEdit_338.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_338.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_757.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_757.setDragEnabled(False)
+        self.lineEdit_757.setObjectName("lineEdit_757")
+        self.gridLayout_125.addWidget(self.lineEdit_757, 2, 2, 1, 1)
+        self.lineEdit_758 = QtWidgets.QLineEdit(parent=self.frame_l1_2)
+        self.lineEdit_758.setEnabled(True)
+        self.lineEdit_758.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_758.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_338.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_338.setDragEnabled(False)
-        self.lineEdit_338.setObjectName("lineEdit_338")
-        self.gridLayout_56.addWidget(self.lineEdit_338, 0, 2, 1, 1)
-        self.label_165 = QtWidgets.QLabel(parent=self.frame_c1_2)
-        self.label_165.setObjectName("label_165")
-        self.gridLayout_56.addWidget(self.label_165, 1, 1, 1, 1)
-        self.lineEdit_339 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
-        self.lineEdit_339.setEnabled(True)
-        self.lineEdit_339.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_758.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_758.setDragEnabled(False)
+        self.lineEdit_758.setObjectName("lineEdit_758")
+        self.gridLayout_125.addWidget(self.lineEdit_758, 0, 2, 1, 1)
+        self.label_366 = QtWidgets.QLabel(parent=self.frame_l1_2)
+        self.label_366.setObjectName("label_366")
+        self.gridLayout_125.addWidget(self.label_366, 1, 1, 1, 1)
+        self.lineEdit_759 = QtWidgets.QLineEdit(parent=self.frame_l1_2)
+        self.lineEdit_759.setEnabled(True)
+        self.lineEdit_759.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_339.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_339.setDragEnabled(False)
-        self.lineEdit_339.setObjectName("lineEdit_339")
-        self.gridLayout_56.addWidget(self.lineEdit_339, 2, 0, 1, 1)
-        self.lineEdit_340 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
-        self.lineEdit_340.setEnabled(True)
-        self.lineEdit_340.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_759.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_759.setDragEnabled(False)
+        self.lineEdit_759.setObjectName("lineEdit_759")
+        self.gridLayout_125.addWidget(self.lineEdit_759, 2, 0, 1, 1)
+        self.lineEdit_760 = QtWidgets.QLineEdit(parent=self.frame_l1_2)
+        self.lineEdit_760.setEnabled(True)
+        self.lineEdit_760.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_340.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_340.setDragEnabled(False)
-        self.lineEdit_340.setObjectName("lineEdit_340")
-        self.gridLayout_56.addWidget(self.lineEdit_340, 0, 0, 1, 1)
-        self.label_166 = QtWidgets.QLabel(parent=self.frame_c1_2)
-        self.label_166.setObjectName("label_166")
-        self.gridLayout_56.addWidget(self.label_166, 2, 1, 1, 1)
-        self.lineEdit_341 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
-        self.lineEdit_341.setEnabled(True)
-        self.lineEdit_341.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.lineEdit_341.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_760.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_760.setDragEnabled(False)
+        self.lineEdit_760.setObjectName("lineEdit_760")
+        self.gridLayout_125.addWidget(self.lineEdit_760, 0, 0, 1, 1)
+        self.label_367 = QtWidgets.QLabel(parent=self.frame_l1_2)
+        self.label_367.setObjectName("label_367")
+        self.gridLayout_125.addWidget(self.label_367, 2, 1, 1, 1)
+        self.lineEdit_761 = QtWidgets.QLineEdit(parent=self.frame_l1_2)
+        self.lineEdit_761.setEnabled(True)
+        self.lineEdit_761.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_761.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_341.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_341.setDragEnabled(False)
-        self.lineEdit_341.setReadOnly(True)
-        self.lineEdit_341.setObjectName("lineEdit_341")
-        self.gridLayout_56.addWidget(self.lineEdit_341, 1, 2, 1, 1)
-        self.lineEdit_342 = QtWidgets.QLineEdit(parent=self.frame_c1_2)
-        self.lineEdit_342.setEnabled(True)
-        self.lineEdit_342.setStyleSheet("QLineEdit {\n"
+        self.lineEdit_761.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_761.setDragEnabled(False)
+        self.lineEdit_761.setReadOnly(True)
+        self.lineEdit_761.setObjectName("lineEdit_761")
+        self.gridLayout_125.addWidget(self.lineEdit_761, 1, 2, 1, 1)
+        self.lineEdit_762 = QtWidgets.QLineEdit(parent=self.frame_l1_2)
+        self.lineEdit_762.setEnabled(True)
+        self.lineEdit_762.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "}\n"
 "")
-        self.lineEdit_342.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
-        self.lineEdit_342.setDragEnabled(False)
-        self.lineEdit_342.setReadOnly(True)
-        self.lineEdit_342.setObjectName("lineEdit_342")
-        self.gridLayout_56.addWidget(self.lineEdit_342, 1, 0, 1, 1)
-        self.gridLayout_56.setRowMinimumHeight(0, 1)
-        self.gridLayout_56.setRowMinimumHeight(1, 1)
-        self.gridLayout_56.setRowMinimumHeight(2, 1)
-        self.gridLayout_56.setColumnStretch(0, 1)
-        self.gridLayout_56.setColumnStretch(2, 1)
-        self.gridLayout_56.setRowStretch(0, 1)
-        self.gridLayout_56.setRowStretch(1, 1)
-        self.gridLayout_56.setRowStretch(2, 1)
-        self.gridLayout_2.addWidget(self.frame_c1_2, 1, 3, 1, 1)
-        self.gridLayout_2.setColumnStretch(0, 1)
+        self.lineEdit_762.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_762.setDragEnabled(False)
+        self.lineEdit_762.setReadOnly(True)
+        self.lineEdit_762.setObjectName("lineEdit_762")
+        self.gridLayout_125.addWidget(self.lineEdit_762, 1, 0, 1, 1)
+        self.gridLayout_125.setRowMinimumHeight(0, 1)
+        self.gridLayout_125.setRowMinimumHeight(1, 1)
+        self.gridLayout_125.setRowMinimumHeight(2, 1)
+        self.gridLayout_125.setColumnStretch(0, 1)
+        self.gridLayout_125.setColumnStretch(2, 1)
+        self.gridLayout_125.setRowStretch(0, 1)
+        self.gridLayout_125.setRowStretch(1, 1)
+        self.gridLayout_125.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_l1_2, 1, 12, 1, 1)
+        self.frame_m1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_m1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_m1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_m1_2.setLineWidth(1)
+        self.frame_m1_2.setObjectName("frame_m1_2")
+        self.gridLayout_126 = QtWidgets.QGridLayout(self.frame_m1_2)
+        self.gridLayout_126.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_126.setSpacing(0)
+        self.gridLayout_126.setObjectName("gridLayout_126")
+        self.label_368 = QtWidgets.QLabel(parent=self.frame_m1_2)
+        self.label_368.setObjectName("label_368")
+        self.gridLayout_126.addWidget(self.label_368, 0, 1, 1, 1)
+        self.lineEdit_763 = QtWidgets.QLineEdit(parent=self.frame_m1_2)
+        self.lineEdit_763.setEnabled(True)
+        self.lineEdit_763.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_763.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_763.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_763.setDragEnabled(False)
+        self.lineEdit_763.setObjectName("lineEdit_763")
+        self.gridLayout_126.addWidget(self.lineEdit_763, 2, 2, 1, 1)
+        self.lineEdit_764 = QtWidgets.QLineEdit(parent=self.frame_m1_2)
+        self.lineEdit_764.setEnabled(True)
+        self.lineEdit_764.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_764.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_764.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_764.setDragEnabled(False)
+        self.lineEdit_764.setObjectName("lineEdit_764")
+        self.gridLayout_126.addWidget(self.lineEdit_764, 0, 2, 1, 1)
+        self.label_369 = QtWidgets.QLabel(parent=self.frame_m1_2)
+        self.label_369.setObjectName("label_369")
+        self.gridLayout_126.addWidget(self.label_369, 1, 1, 1, 1)
+        self.lineEdit_765 = QtWidgets.QLineEdit(parent=self.frame_m1_2)
+        self.lineEdit_765.setEnabled(True)
+        self.lineEdit_765.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_765.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_765.setDragEnabled(False)
+        self.lineEdit_765.setObjectName("lineEdit_765")
+        self.gridLayout_126.addWidget(self.lineEdit_765, 2, 0, 1, 1)
+        self.lineEdit_766 = QtWidgets.QLineEdit(parent=self.frame_m1_2)
+        self.lineEdit_766.setEnabled(True)
+        self.lineEdit_766.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_766.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_766.setDragEnabled(False)
+        self.lineEdit_766.setObjectName("lineEdit_766")
+        self.gridLayout_126.addWidget(self.lineEdit_766, 0, 0, 1, 1)
+        self.label_370 = QtWidgets.QLabel(parent=self.frame_m1_2)
+        self.label_370.setObjectName("label_370")
+        self.gridLayout_126.addWidget(self.label_370, 2, 1, 1, 1)
+        self.lineEdit_767 = QtWidgets.QLineEdit(parent=self.frame_m1_2)
+        self.lineEdit_767.setEnabled(True)
+        self.lineEdit_767.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_767.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_767.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_767.setDragEnabled(False)
+        self.lineEdit_767.setReadOnly(True)
+        self.lineEdit_767.setObjectName("lineEdit_767")
+        self.gridLayout_126.addWidget(self.lineEdit_767, 1, 2, 1, 1)
+        self.lineEdit_768 = QtWidgets.QLineEdit(parent=self.frame_m1_2)
+        self.lineEdit_768.setEnabled(True)
+        self.lineEdit_768.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_768.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_768.setDragEnabled(False)
+        self.lineEdit_768.setReadOnly(True)
+        self.lineEdit_768.setObjectName("lineEdit_768")
+        self.gridLayout_126.addWidget(self.lineEdit_768, 1, 0, 1, 1)
+        self.gridLayout_126.setRowMinimumHeight(0, 1)
+        self.gridLayout_126.setRowMinimumHeight(1, 1)
+        self.gridLayout_126.setRowMinimumHeight(2, 1)
+        self.gridLayout_126.setColumnStretch(0, 1)
+        self.gridLayout_126.setColumnStretch(2, 1)
+        self.gridLayout_126.setRowStretch(0, 1)
+        self.gridLayout_126.setRowStretch(1, 1)
+        self.gridLayout_126.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_m1_2, 1, 13, 1, 1)
+        self.frame_n1_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_n1_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_n1_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_n1_2.setLineWidth(1)
+        self.frame_n1_2.setObjectName("frame_n1_2")
+        self.gridLayout_127 = QtWidgets.QGridLayout(self.frame_n1_2)
+        self.gridLayout_127.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_127.setSpacing(0)
+        self.gridLayout_127.setObjectName("gridLayout_127")
+        self.label_371 = QtWidgets.QLabel(parent=self.frame_n1_2)
+        self.label_371.setObjectName("label_371")
+        self.gridLayout_127.addWidget(self.label_371, 0, 1, 1, 1)
+        self.lineEdit_769 = QtWidgets.QLineEdit(parent=self.frame_n1_2)
+        self.lineEdit_769.setEnabled(True)
+        self.lineEdit_769.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_769.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_769.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_769.setDragEnabled(False)
+        self.lineEdit_769.setObjectName("lineEdit_769")
+        self.gridLayout_127.addWidget(self.lineEdit_769, 2, 2, 1, 1)
+        self.lineEdit_770 = QtWidgets.QLineEdit(parent=self.frame_n1_2)
+        self.lineEdit_770.setEnabled(True)
+        self.lineEdit_770.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_770.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_770.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_770.setDragEnabled(False)
+        self.lineEdit_770.setObjectName("lineEdit_770")
+        self.gridLayout_127.addWidget(self.lineEdit_770, 0, 2, 1, 1)
+        self.label_372 = QtWidgets.QLabel(parent=self.frame_n1_2)
+        self.label_372.setObjectName("label_372")
+        self.gridLayout_127.addWidget(self.label_372, 1, 1, 1, 1)
+        self.lineEdit_771 = QtWidgets.QLineEdit(parent=self.frame_n1_2)
+        self.lineEdit_771.setEnabled(True)
+        self.lineEdit_771.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_771.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_771.setDragEnabled(False)
+        self.lineEdit_771.setObjectName("lineEdit_771")
+        self.gridLayout_127.addWidget(self.lineEdit_771, 2, 0, 1, 1)
+        self.lineEdit_772 = QtWidgets.QLineEdit(parent=self.frame_n1_2)
+        self.lineEdit_772.setEnabled(True)
+        self.lineEdit_772.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_772.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_772.setDragEnabled(False)
+        self.lineEdit_772.setObjectName("lineEdit_772")
+        self.gridLayout_127.addWidget(self.lineEdit_772, 0, 0, 1, 1)
+        self.label_373 = QtWidgets.QLabel(parent=self.frame_n1_2)
+        self.label_373.setObjectName("label_373")
+        self.gridLayout_127.addWidget(self.label_373, 2, 1, 1, 1)
+        self.lineEdit_773 = QtWidgets.QLineEdit(parent=self.frame_n1_2)
+        self.lineEdit_773.setEnabled(True)
+        self.lineEdit_773.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_773.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_773.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_773.setDragEnabled(False)
+        self.lineEdit_773.setReadOnly(True)
+        self.lineEdit_773.setObjectName("lineEdit_773")
+        self.gridLayout_127.addWidget(self.lineEdit_773, 1, 2, 1, 1)
+        self.lineEdit_774 = QtWidgets.QLineEdit(parent=self.frame_n1_2)
+        self.lineEdit_774.setEnabled(True)
+        self.lineEdit_774.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_774.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_774.setDragEnabled(False)
+        self.lineEdit_774.setReadOnly(True)
+        self.lineEdit_774.setObjectName("lineEdit_774")
+        self.gridLayout_127.addWidget(self.lineEdit_774, 1, 0, 1, 1)
+        self.gridLayout_127.setRowMinimumHeight(0, 1)
+        self.gridLayout_127.setRowMinimumHeight(1, 1)
+        self.gridLayout_127.setRowMinimumHeight(2, 1)
+        self.gridLayout_127.setColumnStretch(0, 1)
+        self.gridLayout_127.setColumnStretch(2, 1)
+        self.gridLayout_127.setRowStretch(0, 1)
+        self.gridLayout_127.setRowStretch(1, 1)
+        self.gridLayout_127.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_n1_2, 1, 14, 1, 1)
+        self.frame_l2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_l2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_l2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_l2_2.setLineWidth(1)
+        self.frame_l2_2.setObjectName("frame_l2_2")
+        self.gridLayout_128 = QtWidgets.QGridLayout(self.frame_l2_2)
+        self.gridLayout_128.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_128.setSpacing(0)
+        self.gridLayout_128.setObjectName("gridLayout_128")
+        self.label_374 = QtWidgets.QLabel(parent=self.frame_l2_2)
+        self.label_374.setObjectName("label_374")
+        self.gridLayout_128.addWidget(self.label_374, 0, 1, 1, 1)
+        self.lineEdit_775 = QtWidgets.QLineEdit(parent=self.frame_l2_2)
+        self.lineEdit_775.setEnabled(True)
+        self.lineEdit_775.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_775.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_775.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_775.setDragEnabled(False)
+        self.lineEdit_775.setObjectName("lineEdit_775")
+        self.gridLayout_128.addWidget(self.lineEdit_775, 2, 2, 1, 1)
+        self.lineEdit_776 = QtWidgets.QLineEdit(parent=self.frame_l2_2)
+        self.lineEdit_776.setEnabled(True)
+        self.lineEdit_776.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_776.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_776.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_776.setDragEnabled(False)
+        self.lineEdit_776.setObjectName("lineEdit_776")
+        self.gridLayout_128.addWidget(self.lineEdit_776, 0, 2, 1, 1)
+        self.label_375 = QtWidgets.QLabel(parent=self.frame_l2_2)
+        self.label_375.setObjectName("label_375")
+        self.gridLayout_128.addWidget(self.label_375, 1, 1, 1, 1)
+        self.lineEdit_777 = QtWidgets.QLineEdit(parent=self.frame_l2_2)
+        self.lineEdit_777.setEnabled(True)
+        self.lineEdit_777.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_777.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_777.setDragEnabled(False)
+        self.lineEdit_777.setObjectName("lineEdit_777")
+        self.gridLayout_128.addWidget(self.lineEdit_777, 2, 0, 1, 1)
+        self.lineEdit_778 = QtWidgets.QLineEdit(parent=self.frame_l2_2)
+        self.lineEdit_778.setEnabled(True)
+        self.lineEdit_778.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_778.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_778.setDragEnabled(False)
+        self.lineEdit_778.setObjectName("lineEdit_778")
+        self.gridLayout_128.addWidget(self.lineEdit_778, 0, 0, 1, 1)
+        self.label_376 = QtWidgets.QLabel(parent=self.frame_l2_2)
+        self.label_376.setObjectName("label_376")
+        self.gridLayout_128.addWidget(self.label_376, 2, 1, 1, 1)
+        self.lineEdit_779 = QtWidgets.QLineEdit(parent=self.frame_l2_2)
+        self.lineEdit_779.setEnabled(True)
+        self.lineEdit_779.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_779.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_779.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_779.setDragEnabled(False)
+        self.lineEdit_779.setReadOnly(True)
+        self.lineEdit_779.setObjectName("lineEdit_779")
+        self.gridLayout_128.addWidget(self.lineEdit_779, 1, 2, 1, 1)
+        self.lineEdit_780 = QtWidgets.QLineEdit(parent=self.frame_l2_2)
+        self.lineEdit_780.setEnabled(True)
+        self.lineEdit_780.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_780.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_780.setDragEnabled(False)
+        self.lineEdit_780.setReadOnly(True)
+        self.lineEdit_780.setObjectName("lineEdit_780")
+        self.gridLayout_128.addWidget(self.lineEdit_780, 1, 0, 1, 1)
+        self.gridLayout_128.setRowMinimumHeight(0, 1)
+        self.gridLayout_128.setRowMinimumHeight(1, 1)
+        self.gridLayout_128.setRowMinimumHeight(2, 1)
+        self.gridLayout_128.setColumnStretch(0, 1)
+        self.gridLayout_128.setColumnStretch(2, 1)
+        self.gridLayout_128.setRowStretch(0, 1)
+        self.gridLayout_128.setRowStretch(1, 1)
+        self.gridLayout_128.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_l2_2, 2, 12, 1, 1)
+        self.frame_m2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_m2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_m2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_m2_2.setLineWidth(1)
+        self.frame_m2_2.setObjectName("frame_m2_2")
+        self.gridLayout_129 = QtWidgets.QGridLayout(self.frame_m2_2)
+        self.gridLayout_129.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_129.setSpacing(0)
+        self.gridLayout_129.setObjectName("gridLayout_129")
+        self.label_377 = QtWidgets.QLabel(parent=self.frame_m2_2)
+        self.label_377.setObjectName("label_377")
+        self.gridLayout_129.addWidget(self.label_377, 0, 1, 1, 1)
+        self.lineEdit_781 = QtWidgets.QLineEdit(parent=self.frame_m2_2)
+        self.lineEdit_781.setEnabled(True)
+        self.lineEdit_781.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_781.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_781.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_781.setDragEnabled(False)
+        self.lineEdit_781.setObjectName("lineEdit_781")
+        self.gridLayout_129.addWidget(self.lineEdit_781, 2, 2, 1, 1)
+        self.lineEdit_782 = QtWidgets.QLineEdit(parent=self.frame_m2_2)
+        self.lineEdit_782.setEnabled(True)
+        self.lineEdit_782.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_782.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_782.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_782.setDragEnabled(False)
+        self.lineEdit_782.setObjectName("lineEdit_782")
+        self.gridLayout_129.addWidget(self.lineEdit_782, 0, 2, 1, 1)
+        self.label_378 = QtWidgets.QLabel(parent=self.frame_m2_2)
+        self.label_378.setObjectName("label_378")
+        self.gridLayout_129.addWidget(self.label_378, 1, 1, 1, 1)
+        self.lineEdit_783 = QtWidgets.QLineEdit(parent=self.frame_m2_2)
+        self.lineEdit_783.setEnabled(True)
+        self.lineEdit_783.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_783.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_783.setDragEnabled(False)
+        self.lineEdit_783.setObjectName("lineEdit_783")
+        self.gridLayout_129.addWidget(self.lineEdit_783, 2, 0, 1, 1)
+        self.lineEdit_784 = QtWidgets.QLineEdit(parent=self.frame_m2_2)
+        self.lineEdit_784.setEnabled(True)
+        self.lineEdit_784.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_784.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_784.setDragEnabled(False)
+        self.lineEdit_784.setObjectName("lineEdit_784")
+        self.gridLayout_129.addWidget(self.lineEdit_784, 0, 0, 1, 1)
+        self.label_379 = QtWidgets.QLabel(parent=self.frame_m2_2)
+        self.label_379.setObjectName("label_379")
+        self.gridLayout_129.addWidget(self.label_379, 2, 1, 1, 1)
+        self.lineEdit_785 = QtWidgets.QLineEdit(parent=self.frame_m2_2)
+        self.lineEdit_785.setEnabled(True)
+        self.lineEdit_785.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_785.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_785.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_785.setDragEnabled(False)
+        self.lineEdit_785.setReadOnly(True)
+        self.lineEdit_785.setObjectName("lineEdit_785")
+        self.gridLayout_129.addWidget(self.lineEdit_785, 1, 2, 1, 1)
+        self.lineEdit_786 = QtWidgets.QLineEdit(parent=self.frame_m2_2)
+        self.lineEdit_786.setEnabled(True)
+        self.lineEdit_786.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_786.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_786.setDragEnabled(False)
+        self.lineEdit_786.setReadOnly(True)
+        self.lineEdit_786.setObjectName("lineEdit_786")
+        self.gridLayout_129.addWidget(self.lineEdit_786, 1, 0, 1, 1)
+        self.gridLayout_129.setRowMinimumHeight(0, 1)
+        self.gridLayout_129.setRowMinimumHeight(1, 1)
+        self.gridLayout_129.setRowMinimumHeight(2, 1)
+        self.gridLayout_129.setColumnStretch(0, 1)
+        self.gridLayout_129.setColumnStretch(2, 1)
+        self.gridLayout_129.setRowStretch(0, 1)
+        self.gridLayout_129.setRowStretch(1, 1)
+        self.gridLayout_129.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_m2_2, 2, 13, 1, 1)
+        self.frame_n2_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_n2_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_n2_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_n2_2.setLineWidth(1)
+        self.frame_n2_2.setObjectName("frame_n2_2")
+        self.gridLayout_130 = QtWidgets.QGridLayout(self.frame_n2_2)
+        self.gridLayout_130.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_130.setSpacing(0)
+        self.gridLayout_130.setObjectName("gridLayout_130")
+        self.label_380 = QtWidgets.QLabel(parent=self.frame_n2_2)
+        self.label_380.setObjectName("label_380")
+        self.gridLayout_130.addWidget(self.label_380, 0, 1, 1, 1)
+        self.lineEdit_787 = QtWidgets.QLineEdit(parent=self.frame_n2_2)
+        self.lineEdit_787.setEnabled(True)
+        self.lineEdit_787.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_787.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_787.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_787.setDragEnabled(False)
+        self.lineEdit_787.setObjectName("lineEdit_787")
+        self.gridLayout_130.addWidget(self.lineEdit_787, 2, 2, 1, 1)
+        self.lineEdit_788 = QtWidgets.QLineEdit(parent=self.frame_n2_2)
+        self.lineEdit_788.setEnabled(True)
+        self.lineEdit_788.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_788.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_788.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_788.setDragEnabled(False)
+        self.lineEdit_788.setObjectName("lineEdit_788")
+        self.gridLayout_130.addWidget(self.lineEdit_788, 0, 2, 1, 1)
+        self.label_381 = QtWidgets.QLabel(parent=self.frame_n2_2)
+        self.label_381.setObjectName("label_381")
+        self.gridLayout_130.addWidget(self.label_381, 1, 1, 1, 1)
+        self.lineEdit_789 = QtWidgets.QLineEdit(parent=self.frame_n2_2)
+        self.lineEdit_789.setEnabled(True)
+        self.lineEdit_789.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_789.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_789.setDragEnabled(False)
+        self.lineEdit_789.setObjectName("lineEdit_789")
+        self.gridLayout_130.addWidget(self.lineEdit_789, 2, 0, 1, 1)
+        self.lineEdit_790 = QtWidgets.QLineEdit(parent=self.frame_n2_2)
+        self.lineEdit_790.setEnabled(True)
+        self.lineEdit_790.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_790.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_790.setDragEnabled(False)
+        self.lineEdit_790.setObjectName("lineEdit_790")
+        self.gridLayout_130.addWidget(self.lineEdit_790, 0, 0, 1, 1)
+        self.label_382 = QtWidgets.QLabel(parent=self.frame_n2_2)
+        self.label_382.setObjectName("label_382")
+        self.gridLayout_130.addWidget(self.label_382, 2, 1, 1, 1)
+        self.lineEdit_791 = QtWidgets.QLineEdit(parent=self.frame_n2_2)
+        self.lineEdit_791.setEnabled(True)
+        self.lineEdit_791.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_791.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_791.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_791.setDragEnabled(False)
+        self.lineEdit_791.setReadOnly(True)
+        self.lineEdit_791.setObjectName("lineEdit_791")
+        self.gridLayout_130.addWidget(self.lineEdit_791, 1, 2, 1, 1)
+        self.lineEdit_792 = QtWidgets.QLineEdit(parent=self.frame_n2_2)
+        self.lineEdit_792.setEnabled(True)
+        self.lineEdit_792.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_792.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_792.setDragEnabled(False)
+        self.lineEdit_792.setReadOnly(True)
+        self.lineEdit_792.setObjectName("lineEdit_792")
+        self.gridLayout_130.addWidget(self.lineEdit_792, 1, 0, 1, 1)
+        self.gridLayout_130.setRowMinimumHeight(0, 1)
+        self.gridLayout_130.setRowMinimumHeight(1, 1)
+        self.gridLayout_130.setRowMinimumHeight(2, 1)
+        self.gridLayout_130.setColumnStretch(0, 1)
+        self.gridLayout_130.setColumnStretch(2, 1)
+        self.gridLayout_130.setRowStretch(0, 1)
+        self.gridLayout_130.setRowStretch(1, 1)
+        self.gridLayout_130.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_n2_2, 2, 14, 1, 1)
+        self.frame_l3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_l3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_l3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_l3_2.setLineWidth(1)
+        self.frame_l3_2.setObjectName("frame_l3_2")
+        self.gridLayout_131 = QtWidgets.QGridLayout(self.frame_l3_2)
+        self.gridLayout_131.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_131.setSpacing(0)
+        self.gridLayout_131.setObjectName("gridLayout_131")
+        self.label_383 = QtWidgets.QLabel(parent=self.frame_l3_2)
+        self.label_383.setObjectName("label_383")
+        self.gridLayout_131.addWidget(self.label_383, 0, 1, 1, 1)
+        self.lineEdit_793 = QtWidgets.QLineEdit(parent=self.frame_l3_2)
+        self.lineEdit_793.setEnabled(True)
+        self.lineEdit_793.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_793.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_793.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_793.setDragEnabled(False)
+        self.lineEdit_793.setObjectName("lineEdit_793")
+        self.gridLayout_131.addWidget(self.lineEdit_793, 2, 2, 1, 1)
+        self.lineEdit_794 = QtWidgets.QLineEdit(parent=self.frame_l3_2)
+        self.lineEdit_794.setEnabled(True)
+        self.lineEdit_794.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_794.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_794.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_794.setDragEnabled(False)
+        self.lineEdit_794.setObjectName("lineEdit_794")
+        self.gridLayout_131.addWidget(self.lineEdit_794, 0, 2, 1, 1)
+        self.label_384 = QtWidgets.QLabel(parent=self.frame_l3_2)
+        self.label_384.setObjectName("label_384")
+        self.gridLayout_131.addWidget(self.label_384, 1, 1, 1, 1)
+        self.lineEdit_795 = QtWidgets.QLineEdit(parent=self.frame_l3_2)
+        self.lineEdit_795.setEnabled(True)
+        self.lineEdit_795.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_795.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_795.setDragEnabled(False)
+        self.lineEdit_795.setObjectName("lineEdit_795")
+        self.gridLayout_131.addWidget(self.lineEdit_795, 2, 0, 1, 1)
+        self.lineEdit_796 = QtWidgets.QLineEdit(parent=self.frame_l3_2)
+        self.lineEdit_796.setEnabled(True)
+        self.lineEdit_796.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_796.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_796.setDragEnabled(False)
+        self.lineEdit_796.setObjectName("lineEdit_796")
+        self.gridLayout_131.addWidget(self.lineEdit_796, 0, 0, 1, 1)
+        self.label_385 = QtWidgets.QLabel(parent=self.frame_l3_2)
+        self.label_385.setObjectName("label_385")
+        self.gridLayout_131.addWidget(self.label_385, 2, 1, 1, 1)
+        self.lineEdit_797 = QtWidgets.QLineEdit(parent=self.frame_l3_2)
+        self.lineEdit_797.setEnabled(True)
+        self.lineEdit_797.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_797.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_797.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_797.setDragEnabled(False)
+        self.lineEdit_797.setReadOnly(True)
+        self.lineEdit_797.setObjectName("lineEdit_797")
+        self.gridLayout_131.addWidget(self.lineEdit_797, 1, 2, 1, 1)
+        self.lineEdit_798 = QtWidgets.QLineEdit(parent=self.frame_l3_2)
+        self.lineEdit_798.setEnabled(True)
+        self.lineEdit_798.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_798.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_798.setDragEnabled(False)
+        self.lineEdit_798.setReadOnly(True)
+        self.lineEdit_798.setObjectName("lineEdit_798")
+        self.gridLayout_131.addWidget(self.lineEdit_798, 1, 0, 1, 1)
+        self.gridLayout_131.setRowMinimumHeight(0, 1)
+        self.gridLayout_131.setRowMinimumHeight(1, 1)
+        self.gridLayout_131.setRowMinimumHeight(2, 1)
+        self.gridLayout_131.setColumnStretch(0, 1)
+        self.gridLayout_131.setColumnStretch(2, 1)
+        self.gridLayout_131.setRowStretch(0, 1)
+        self.gridLayout_131.setRowStretch(1, 1)
+        self.gridLayout_131.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_l3_2, 3, 12, 1, 1)
+        self.frame_m3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_m3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_m3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_m3_2.setLineWidth(1)
+        self.frame_m3_2.setObjectName("frame_m3_2")
+        self.gridLayout_132 = QtWidgets.QGridLayout(self.frame_m3_2)
+        self.gridLayout_132.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_132.setSpacing(0)
+        self.gridLayout_132.setObjectName("gridLayout_132")
+        self.label_386 = QtWidgets.QLabel(parent=self.frame_m3_2)
+        self.label_386.setObjectName("label_386")
+        self.gridLayout_132.addWidget(self.label_386, 0, 1, 1, 1)
+        self.lineEdit_799 = QtWidgets.QLineEdit(parent=self.frame_m3_2)
+        self.lineEdit_799.setEnabled(True)
+        self.lineEdit_799.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_799.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_799.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_799.setDragEnabled(False)
+        self.lineEdit_799.setObjectName("lineEdit_799")
+        self.gridLayout_132.addWidget(self.lineEdit_799, 2, 2, 1, 1)
+        self.lineEdit_800 = QtWidgets.QLineEdit(parent=self.frame_m3_2)
+        self.lineEdit_800.setEnabled(True)
+        self.lineEdit_800.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_800.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_800.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_800.setDragEnabled(False)
+        self.lineEdit_800.setObjectName("lineEdit_800")
+        self.gridLayout_132.addWidget(self.lineEdit_800, 0, 2, 1, 1)
+        self.label_387 = QtWidgets.QLabel(parent=self.frame_m3_2)
+        self.label_387.setObjectName("label_387")
+        self.gridLayout_132.addWidget(self.label_387, 1, 1, 1, 1)
+        self.lineEdit_801 = QtWidgets.QLineEdit(parent=self.frame_m3_2)
+        self.lineEdit_801.setEnabled(True)
+        self.lineEdit_801.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_801.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_801.setDragEnabled(False)
+        self.lineEdit_801.setObjectName("lineEdit_801")
+        self.gridLayout_132.addWidget(self.lineEdit_801, 2, 0, 1, 1)
+        self.lineEdit_802 = QtWidgets.QLineEdit(parent=self.frame_m3_2)
+        self.lineEdit_802.setEnabled(True)
+        self.lineEdit_802.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_802.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_802.setDragEnabled(False)
+        self.lineEdit_802.setObjectName("lineEdit_802")
+        self.gridLayout_132.addWidget(self.lineEdit_802, 0, 0, 1, 1)
+        self.label_388 = QtWidgets.QLabel(parent=self.frame_m3_2)
+        self.label_388.setObjectName("label_388")
+        self.gridLayout_132.addWidget(self.label_388, 2, 1, 1, 1)
+        self.lineEdit_803 = QtWidgets.QLineEdit(parent=self.frame_m3_2)
+        self.lineEdit_803.setEnabled(True)
+        self.lineEdit_803.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_803.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_803.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_803.setDragEnabled(False)
+        self.lineEdit_803.setReadOnly(True)
+        self.lineEdit_803.setObjectName("lineEdit_803")
+        self.gridLayout_132.addWidget(self.lineEdit_803, 1, 2, 1, 1)
+        self.lineEdit_804 = QtWidgets.QLineEdit(parent=self.frame_m3_2)
+        self.lineEdit_804.setEnabled(True)
+        self.lineEdit_804.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_804.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_804.setDragEnabled(False)
+        self.lineEdit_804.setReadOnly(True)
+        self.lineEdit_804.setObjectName("lineEdit_804")
+        self.gridLayout_132.addWidget(self.lineEdit_804, 1, 0, 1, 1)
+        self.gridLayout_132.setRowMinimumHeight(0, 1)
+        self.gridLayout_132.setRowMinimumHeight(1, 1)
+        self.gridLayout_132.setRowMinimumHeight(2, 1)
+        self.gridLayout_132.setColumnStretch(0, 1)
+        self.gridLayout_132.setColumnStretch(2, 1)
+        self.gridLayout_132.setRowStretch(0, 1)
+        self.gridLayout_132.setRowStretch(1, 1)
+        self.gridLayout_132.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_m3_2, 3, 13, 1, 1)
+        self.frame_n3_2 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_n3_2.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_n3_2.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_n3_2.setLineWidth(1)
+        self.frame_n3_2.setObjectName("frame_n3_2")
+        self.gridLayout_133 = QtWidgets.QGridLayout(self.frame_n3_2)
+        self.gridLayout_133.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_133.setSpacing(0)
+        self.gridLayout_133.setObjectName("gridLayout_133")
+        self.label_389 = QtWidgets.QLabel(parent=self.frame_n3_2)
+        self.label_389.setObjectName("label_389")
+        self.gridLayout_133.addWidget(self.label_389, 0, 1, 1, 1)
+        self.lineEdit_805 = QtWidgets.QLineEdit(parent=self.frame_n3_2)
+        self.lineEdit_805.setEnabled(True)
+        self.lineEdit_805.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_805.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_805.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_805.setDragEnabled(False)
+        self.lineEdit_805.setObjectName("lineEdit_805")
+        self.gridLayout_133.addWidget(self.lineEdit_805, 2, 2, 1, 1)
+        self.lineEdit_806 = QtWidgets.QLineEdit(parent=self.frame_n3_2)
+        self.lineEdit_806.setEnabled(True)
+        self.lineEdit_806.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_806.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_806.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_806.setDragEnabled(False)
+        self.lineEdit_806.setObjectName("lineEdit_806")
+        self.gridLayout_133.addWidget(self.lineEdit_806, 0, 2, 1, 1)
+        self.label_390 = QtWidgets.QLabel(parent=self.frame_n3_2)
+        self.label_390.setObjectName("label_390")
+        self.gridLayout_133.addWidget(self.label_390, 1, 1, 1, 1)
+        self.lineEdit_807 = QtWidgets.QLineEdit(parent=self.frame_n3_2)
+        self.lineEdit_807.setEnabled(True)
+        self.lineEdit_807.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_807.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_807.setDragEnabled(False)
+        self.lineEdit_807.setObjectName("lineEdit_807")
+        self.gridLayout_133.addWidget(self.lineEdit_807, 2, 0, 1, 1)
+        self.lineEdit_808 = QtWidgets.QLineEdit(parent=self.frame_n3_2)
+        self.lineEdit_808.setEnabled(True)
+        self.lineEdit_808.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_808.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_808.setDragEnabled(False)
+        self.lineEdit_808.setObjectName("lineEdit_808")
+        self.gridLayout_133.addWidget(self.lineEdit_808, 0, 0, 1, 1)
+        self.label_391 = QtWidgets.QLabel(parent=self.frame_n3_2)
+        self.label_391.setObjectName("label_391")
+        self.gridLayout_133.addWidget(self.label_391, 2, 1, 1, 1)
+        self.lineEdit_809 = QtWidgets.QLineEdit(parent=self.frame_n3_2)
+        self.lineEdit_809.setEnabled(True)
+        self.lineEdit_809.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_809.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_809.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_809.setDragEnabled(False)
+        self.lineEdit_809.setReadOnly(True)
+        self.lineEdit_809.setObjectName("lineEdit_809")
+        self.gridLayout_133.addWidget(self.lineEdit_809, 1, 2, 1, 1)
+        self.lineEdit_810 = QtWidgets.QLineEdit(parent=self.frame_n3_2)
+        self.lineEdit_810.setEnabled(True)
+        self.lineEdit_810.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_810.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_810.setDragEnabled(False)
+        self.lineEdit_810.setReadOnly(True)
+        self.lineEdit_810.setObjectName("lineEdit_810")
+        self.gridLayout_133.addWidget(self.lineEdit_810, 1, 0, 1, 1)
+        self.gridLayout_133.setRowMinimumHeight(0, 1)
+        self.gridLayout_133.setRowMinimumHeight(1, 1)
+        self.gridLayout_133.setRowMinimumHeight(2, 1)
+        self.gridLayout_133.setColumnStretch(0, 1)
+        self.gridLayout_133.setColumnStretch(2, 1)
+        self.gridLayout_133.setRowStretch(0, 1)
+        self.gridLayout_133.setRowStretch(1, 1)
+        self.gridLayout_133.setRowStretch(2, 1)
+        self.gridLayout_2.addWidget(self.frame_n3_2, 3, 14, 1, 1)
+        self.gridLayout_2.setColumnStretch(0, 3)
         self.gridLayout_2.setColumnStretch(1, 3)
         self.gridLayout_2.setColumnStretch(2, 3)
         self.gridLayout_2.setColumnStretch(3, 3)
@@ -5875,12 +7405,793 @@ class Ui_MainWindow(object):
         self.gridLayout_2.setColumnStretch(7, 3)
         self.gridLayout_2.setColumnStretch(8, 3)
         self.gridLayout_2.setColumnStretch(9, 3)
+        self.gridLayout_2.setColumnStretch(10, 3)
+        self.gridLayout_2.setColumnStretch(11, 3)
+        self.gridLayout_2.setColumnStretch(12, 3)
+        self.gridLayout_2.setColumnStretch(13, 3)
+        self.gridLayout_2.setColumnStretch(14, 3)
         self.horizontalLayout_3.addLayout(self.gridLayout_2)
         self.scrollArea_2.setWidget(self.scrollAreaWidgetContents_2)
         self.verticalLayout_2.addWidget(self.scrollArea_2)
         self.tabWidget_main.addTab(self.tab_2, "")
         self.tab_3 = QtWidgets.QWidget()
         self.tab_3.setObjectName("tab_3")
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.tab_3)
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.scrollArea_3 = QtWidgets.QScrollArea(parent=self.tab_3)
+        self.scrollArea_3.setFrameShape(QtWidgets.QFrame.Shape.NoFrame)
+        self.scrollArea_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.scrollArea_3.setWidgetResizable(True)
+        self.scrollArea_3.setObjectName("scrollArea_3")
+        self.scrollAreaWidgetContents_3 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_3.setGeometry(QtCore.QRect(0, 0, 946, 478))
+        self.scrollAreaWidgetContents_3.setObjectName("scrollAreaWidgetContents_3")
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.scrollAreaWidgetContents_3)
+        self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_4.setSpacing(0)
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.gridLayout_57 = QtWidgets.QGridLayout()
+        self.gridLayout_57.setSpacing(0)
+        self.gridLayout_57.setObjectName("gridLayout_57")
+        self.frame_42 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_42.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_42.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_42.setObjectName("frame_42")
+        self.verticalLayout_47 = QtWidgets.QVBoxLayout(self.frame_42)
+        self.verticalLayout_47.setObjectName("verticalLayout_47")
+        self.lineEdit_355 = QtWidgets.QLineEdit(parent=self.frame_42)
+        self.lineEdit_355.setEnabled(True)
+        self.lineEdit_355.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_355.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_355.setDragEnabled(False)
+        self.lineEdit_355.setReadOnly(True)
+        self.lineEdit_355.setObjectName("lineEdit_355")
+        self.verticalLayout_47.addWidget(self.lineEdit_355)
+        self.lineEdit_356 = QtWidgets.QLineEdit(parent=self.frame_42)
+        self.lineEdit_356.setEnabled(True)
+        self.lineEdit_356.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_356.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_356.setDragEnabled(False)
+        self.lineEdit_356.setReadOnly(True)
+        self.lineEdit_356.setObjectName("lineEdit_356")
+        self.verticalLayout_47.addWidget(self.lineEdit_356)
+        self.lineEdit_357 = QtWidgets.QLineEdit(parent=self.frame_42)
+        self.lineEdit_357.setEnabled(True)
+        self.lineEdit_357.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_357.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_357.setDragEnabled(False)
+        self.lineEdit_357.setReadOnly(True)
+        self.lineEdit_357.setObjectName("lineEdit_357")
+        self.verticalLayout_47.addWidget(self.lineEdit_357)
+        self.gridLayout_57.addWidget(self.frame_42, 3, 0, 1, 1)
+        self.frame_37 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_37.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_37.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_37.setLineWidth(1)
+        self.frame_37.setObjectName("frame_37")
+        self.verticalLayout_36 = QtWidgets.QVBoxLayout(self.frame_37)
+        self.verticalLayout_36.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_36.setSpacing(0)
+        self.verticalLayout_36.setObjectName("verticalLayout_36")
+        self.lineEdit_361 = QtWidgets.QLineEdit(parent=self.frame_37)
+        self.lineEdit_361.setEnabled(True)
+        self.lineEdit_361.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_361.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_361.setDragEnabled(False)
+        self.lineEdit_361.setReadOnly(True)
+        self.lineEdit_361.setObjectName("lineEdit_361")
+        self.verticalLayout_36.addWidget(self.lineEdit_361)
+        self.lineEdit_362 = QtWidgets.QLineEdit(parent=self.frame_37)
+        self.lineEdit_362.setEnabled(True)
+        self.lineEdit_362.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_362.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_362.setDragEnabled(False)
+        self.lineEdit_362.setReadOnly(True)
+        self.lineEdit_362.setObjectName("lineEdit_362")
+        self.verticalLayout_36.addWidget(self.lineEdit_362)
+        self.lineEdit_363 = QtWidgets.QLineEdit(parent=self.frame_37)
+        self.lineEdit_363.setEnabled(True)
+        self.lineEdit_363.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_363.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_363.setDragEnabled(False)
+        self.lineEdit_363.setReadOnly(True)
+        self.lineEdit_363.setObjectName("lineEdit_363")
+        self.verticalLayout_36.addWidget(self.lineEdit_363)
+        self.gridLayout_57.addWidget(self.frame_37, 1, 0, 1, 1)
+        self.frame_36 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_36.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_36.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_36.setLineWidth(1)
+        self.frame_36.setObjectName("frame_36")
+        self.verticalLayout_34 = QtWidgets.QVBoxLayout(self.frame_36)
+        self.verticalLayout_34.setObjectName("verticalLayout_34")
+        self.label_mainAccount_22 = QtWidgets.QLabel(parent=self.frame_36)
+        self.label_mainAccount_22.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_22.setObjectName("label_mainAccount_22")
+        self.verticalLayout_34.addWidget(self.label_mainAccount_22)
+        self.gridLayout_57.addWidget(self.frame_36, 0, 1, 1, 1)
+        self.frame_a3_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_a3_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_a3_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_a3_3.setLineWidth(1)
+        self.frame_a3_3.setObjectName("frame_a3_3")
+        self.gridLayout_69 = QtWidgets.QGridLayout(self.frame_a3_3)
+        self.gridLayout_69.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_69.setSpacing(0)
+        self.gridLayout_69.setObjectName("gridLayout_69")
+        self.label_200 = QtWidgets.QLabel(parent=self.frame_a3_3)
+        self.label_200.setObjectName("label_200")
+        self.gridLayout_69.addWidget(self.label_200, 0, 1, 1, 1)
+        self.lineEdit_418 = QtWidgets.QLineEdit(parent=self.frame_a3_3)
+        self.lineEdit_418.setEnabled(True)
+        self.lineEdit_418.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_418.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_418.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_418.setDragEnabled(False)
+        self.lineEdit_418.setObjectName("lineEdit_418")
+        self.gridLayout_69.addWidget(self.lineEdit_418, 2, 2, 1, 1)
+        self.lineEdit_419 = QtWidgets.QLineEdit(parent=self.frame_a3_3)
+        self.lineEdit_419.setEnabled(True)
+        self.lineEdit_419.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_419.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_419.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_419.setDragEnabled(False)
+        self.lineEdit_419.setObjectName("lineEdit_419")
+        self.gridLayout_69.addWidget(self.lineEdit_419, 0, 2, 1, 1)
+        self.label_201 = QtWidgets.QLabel(parent=self.frame_a3_3)
+        self.label_201.setObjectName("label_201")
+        self.gridLayout_69.addWidget(self.label_201, 1, 1, 1, 1)
+        self.lineEdit_420 = QtWidgets.QLineEdit(parent=self.frame_a3_3)
+        self.lineEdit_420.setEnabled(True)
+        self.lineEdit_420.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_420.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_420.setDragEnabled(False)
+        self.lineEdit_420.setObjectName("lineEdit_420")
+        self.gridLayout_69.addWidget(self.lineEdit_420, 2, 0, 1, 1)
+        self.lineEdit_421 = QtWidgets.QLineEdit(parent=self.frame_a3_3)
+        self.lineEdit_421.setEnabled(True)
+        self.lineEdit_421.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_421.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_421.setDragEnabled(False)
+        self.lineEdit_421.setObjectName("lineEdit_421")
+        self.gridLayout_69.addWidget(self.lineEdit_421, 0, 0, 1, 1)
+        self.label_202 = QtWidgets.QLabel(parent=self.frame_a3_3)
+        self.label_202.setObjectName("label_202")
+        self.gridLayout_69.addWidget(self.label_202, 2, 1, 1, 1)
+        self.lineEdit_422 = QtWidgets.QLineEdit(parent=self.frame_a3_3)
+        self.lineEdit_422.setEnabled(True)
+        self.lineEdit_422.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_422.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_422.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_422.setDragEnabled(False)
+        self.lineEdit_422.setReadOnly(True)
+        self.lineEdit_422.setObjectName("lineEdit_422")
+        self.gridLayout_69.addWidget(self.lineEdit_422, 1, 2, 1, 1)
+        self.lineEdit_423 = QtWidgets.QLineEdit(parent=self.frame_a3_3)
+        self.lineEdit_423.setEnabled(True)
+        self.lineEdit_423.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_423.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_423.setDragEnabled(False)
+        self.lineEdit_423.setReadOnly(True)
+        self.lineEdit_423.setObjectName("lineEdit_423")
+        self.gridLayout_69.addWidget(self.lineEdit_423, 1, 0, 1, 1)
+        self.gridLayout_69.setRowMinimumHeight(0, 1)
+        self.gridLayout_69.setRowMinimumHeight(1, 1)
+        self.gridLayout_69.setRowMinimumHeight(2, 1)
+        self.gridLayout_69.setColumnStretch(0, 1)
+        self.gridLayout_69.setColumnStretch(2, 1)
+        self.gridLayout_69.setRowStretch(0, 1)
+        self.gridLayout_69.setRowStretch(1, 1)
+        self.gridLayout_69.setRowStretch(2, 1)
+        self.gridLayout_57.addWidget(self.frame_a3_3, 3, 1, 1, 1)
+        self.frame_38 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_38.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_38.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_38.setLineWidth(1)
+        self.frame_38.setObjectName("frame_38")
+        self.gridLayout_57.addWidget(self.frame_38, 0, 0, 1, 1)
+        self.frame_a1_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_a1_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_a1_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_a1_3.setLineWidth(1)
+        self.frame_a1_3.setObjectName("frame_a1_3")
+        self.gridLayout_58 = QtWidgets.QGridLayout(self.frame_a1_3)
+        self.gridLayout_58.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_58.setSpacing(0)
+        self.gridLayout_58.setObjectName("gridLayout_58")
+        self.label_167 = QtWidgets.QLabel(parent=self.frame_a1_3)
+        self.label_167.setObjectName("label_167")
+        self.gridLayout_58.addWidget(self.label_167, 0, 1, 1, 1)
+        self.lineEdit_343 = QtWidgets.QLineEdit(parent=self.frame_a1_3)
+        self.lineEdit_343.setEnabled(True)
+        self.lineEdit_343.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_343.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_343.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_343.setDragEnabled(False)
+        self.lineEdit_343.setObjectName("lineEdit_343")
+        self.gridLayout_58.addWidget(self.lineEdit_343, 2, 2, 1, 1)
+        self.lineEdit_344 = QtWidgets.QLineEdit(parent=self.frame_a1_3)
+        self.lineEdit_344.setEnabled(True)
+        self.lineEdit_344.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_344.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_344.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_344.setDragEnabled(False)
+        self.lineEdit_344.setObjectName("lineEdit_344")
+        self.gridLayout_58.addWidget(self.lineEdit_344, 0, 2, 1, 1)
+        self.label_168 = QtWidgets.QLabel(parent=self.frame_a1_3)
+        self.label_168.setObjectName("label_168")
+        self.gridLayout_58.addWidget(self.label_168, 1, 1, 1, 1)
+        self.lineEdit_345 = QtWidgets.QLineEdit(parent=self.frame_a1_3)
+        self.lineEdit_345.setEnabled(True)
+        self.lineEdit_345.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_345.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_345.setDragEnabled(False)
+        self.lineEdit_345.setObjectName("lineEdit_345")
+        self.gridLayout_58.addWidget(self.lineEdit_345, 2, 0, 1, 1)
+        self.lineEdit_346 = QtWidgets.QLineEdit(parent=self.frame_a1_3)
+        self.lineEdit_346.setEnabled(True)
+        self.lineEdit_346.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_346.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_346.setDragEnabled(False)
+        self.lineEdit_346.setObjectName("lineEdit_346")
+        self.gridLayout_58.addWidget(self.lineEdit_346, 0, 0, 1, 1)
+        self.label_169 = QtWidgets.QLabel(parent=self.frame_a1_3)
+        self.label_169.setObjectName("label_169")
+        self.gridLayout_58.addWidget(self.label_169, 2, 1, 1, 1)
+        self.lineEdit_347 = QtWidgets.QLineEdit(parent=self.frame_a1_3)
+        self.lineEdit_347.setEnabled(True)
+        self.lineEdit_347.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_347.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_347.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_347.setDragEnabled(False)
+        self.lineEdit_347.setReadOnly(True)
+        self.lineEdit_347.setObjectName("lineEdit_347")
+        self.gridLayout_58.addWidget(self.lineEdit_347, 1, 2, 1, 1)
+        self.lineEdit_348 = QtWidgets.QLineEdit(parent=self.frame_a1_3)
+        self.lineEdit_348.setEnabled(True)
+        self.lineEdit_348.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_348.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_348.setDragEnabled(False)
+        self.lineEdit_348.setReadOnly(True)
+        self.lineEdit_348.setObjectName("lineEdit_348")
+        self.gridLayout_58.addWidget(self.lineEdit_348, 1, 0, 1, 1)
+        self.gridLayout_58.setRowMinimumHeight(0, 1)
+        self.gridLayout_58.setRowMinimumHeight(1, 1)
+        self.gridLayout_58.setRowMinimumHeight(2, 1)
+        self.gridLayout_58.setColumnStretch(0, 1)
+        self.gridLayout_58.setColumnStretch(2, 1)
+        self.gridLayout_58.setRowStretch(0, 1)
+        self.gridLayout_58.setRowStretch(1, 1)
+        self.gridLayout_58.setRowStretch(2, 1)
+        self.gridLayout_57.addWidget(self.frame_a1_3, 1, 1, 1, 1)
+        self.frame_b3_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_b3_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_b3_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_b3_3.setLineWidth(1)
+        self.frame_b3_3.setObjectName("frame_b3_3")
+        self.gridLayout_70 = QtWidgets.QGridLayout(self.frame_b3_3)
+        self.gridLayout_70.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_70.setSpacing(0)
+        self.gridLayout_70.setObjectName("gridLayout_70")
+        self.label_203 = QtWidgets.QLabel(parent=self.frame_b3_3)
+        self.label_203.setObjectName("label_203")
+        self.gridLayout_70.addWidget(self.label_203, 0, 1, 1, 1)
+        self.lineEdit_424 = QtWidgets.QLineEdit(parent=self.frame_b3_3)
+        self.lineEdit_424.setEnabled(True)
+        self.lineEdit_424.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_424.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_424.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_424.setDragEnabled(False)
+        self.lineEdit_424.setObjectName("lineEdit_424")
+        self.gridLayout_70.addWidget(self.lineEdit_424, 2, 2, 1, 1)
+        self.lineEdit_425 = QtWidgets.QLineEdit(parent=self.frame_b3_3)
+        self.lineEdit_425.setEnabled(True)
+        self.lineEdit_425.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_425.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_425.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_425.setDragEnabled(False)
+        self.lineEdit_425.setObjectName("lineEdit_425")
+        self.gridLayout_70.addWidget(self.lineEdit_425, 0, 2, 1, 1)
+        self.label_204 = QtWidgets.QLabel(parent=self.frame_b3_3)
+        self.label_204.setObjectName("label_204")
+        self.gridLayout_70.addWidget(self.label_204, 1, 1, 1, 1)
+        self.lineEdit_426 = QtWidgets.QLineEdit(parent=self.frame_b3_3)
+        self.lineEdit_426.setEnabled(True)
+        self.lineEdit_426.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_426.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_426.setDragEnabled(False)
+        self.lineEdit_426.setObjectName("lineEdit_426")
+        self.gridLayout_70.addWidget(self.lineEdit_426, 2, 0, 1, 1)
+        self.lineEdit_427 = QtWidgets.QLineEdit(parent=self.frame_b3_3)
+        self.lineEdit_427.setEnabled(True)
+        self.lineEdit_427.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_427.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_427.setDragEnabled(False)
+        self.lineEdit_427.setObjectName("lineEdit_427")
+        self.gridLayout_70.addWidget(self.lineEdit_427, 0, 0, 1, 1)
+        self.label_205 = QtWidgets.QLabel(parent=self.frame_b3_3)
+        self.label_205.setObjectName("label_205")
+        self.gridLayout_70.addWidget(self.label_205, 2, 1, 1, 1)
+        self.lineEdit_428 = QtWidgets.QLineEdit(parent=self.frame_b3_3)
+        self.lineEdit_428.setEnabled(True)
+        self.lineEdit_428.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_428.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_428.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_428.setDragEnabled(False)
+        self.lineEdit_428.setReadOnly(True)
+        self.lineEdit_428.setObjectName("lineEdit_428")
+        self.gridLayout_70.addWidget(self.lineEdit_428, 1, 2, 1, 1)
+        self.lineEdit_429 = QtWidgets.QLineEdit(parent=self.frame_b3_3)
+        self.lineEdit_429.setEnabled(True)
+        self.lineEdit_429.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_429.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_429.setDragEnabled(False)
+        self.lineEdit_429.setReadOnly(True)
+        self.lineEdit_429.setObjectName("lineEdit_429")
+        self.gridLayout_70.addWidget(self.lineEdit_429, 1, 0, 1, 1)
+        self.gridLayout_70.setRowMinimumHeight(0, 1)
+        self.gridLayout_70.setRowMinimumHeight(1, 1)
+        self.gridLayout_70.setRowMinimumHeight(2, 1)
+        self.gridLayout_70.setColumnStretch(0, 1)
+        self.gridLayout_70.setColumnStretch(2, 1)
+        self.gridLayout_70.setRowStretch(0, 1)
+        self.gridLayout_70.setRowStretch(1, 1)
+        self.gridLayout_70.setRowStretch(2, 1)
+        self.gridLayout_57.addWidget(self.frame_b3_3, 3, 2, 1, 1)
+        self.frame_25 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_25.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_25.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_25.setLineWidth(1)
+        self.frame_25.setObjectName("frame_25")
+        self.verticalLayout_25 = QtWidgets.QVBoxLayout(self.frame_25)
+        self.verticalLayout_25.setObjectName("verticalLayout_25")
+        self.label_mainAccount_18 = QtWidgets.QLabel(parent=self.frame_25)
+        self.label_mainAccount_18.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_mainAccount_18.setObjectName("label_mainAccount_18")
+        self.verticalLayout_25.addWidget(self.label_mainAccount_18)
+        self.gridLayout_57.addWidget(self.frame_25, 0, 2, 1, 1)
+        self.frame_34 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_34.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_34.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_34.setLineWidth(1)
+        self.frame_34.setObjectName("frame_34")
+        self.verticalLayout_33 = QtWidgets.QVBoxLayout(self.frame_34)
+        self.verticalLayout_33.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_33.setSpacing(0)
+        self.verticalLayout_33.setObjectName("verticalLayout_33")
+        self.lineEdit_358 = QtWidgets.QLineEdit(parent=self.frame_34)
+        self.lineEdit_358.setEnabled(True)
+        self.lineEdit_358.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_358.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_358.setDragEnabled(False)
+        self.lineEdit_358.setReadOnly(True)
+        self.lineEdit_358.setObjectName("lineEdit_358")
+        self.verticalLayout_33.addWidget(self.lineEdit_358)
+        self.lineEdit_359 = QtWidgets.QLineEdit(parent=self.frame_34)
+        self.lineEdit_359.setEnabled(True)
+        self.lineEdit_359.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_359.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_359.setDragEnabled(False)
+        self.lineEdit_359.setReadOnly(True)
+        self.lineEdit_359.setObjectName("lineEdit_359")
+        self.verticalLayout_33.addWidget(self.lineEdit_359)
+        self.lineEdit_360 = QtWidgets.QLineEdit(parent=self.frame_34)
+        self.lineEdit_360.setEnabled(True)
+        self.lineEdit_360.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_360.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit_360.setDragEnabled(False)
+        self.lineEdit_360.setReadOnly(True)
+        self.lineEdit_360.setObjectName("lineEdit_360")
+        self.verticalLayout_33.addWidget(self.lineEdit_360)
+        self.gridLayout_57.addWidget(self.frame_34, 2, 0, 1, 1)
+        self.frame_a2_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_a2_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_a2_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_a2_3.setLineWidth(1)
+        self.frame_a2_3.setObjectName("frame_a2_3")
+        self.gridLayout_68 = QtWidgets.QGridLayout(self.frame_a2_3)
+        self.gridLayout_68.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_68.setSpacing(0)
+        self.gridLayout_68.setObjectName("gridLayout_68")
+        self.label_197 = QtWidgets.QLabel(parent=self.frame_a2_3)
+        self.label_197.setObjectName("label_197")
+        self.gridLayout_68.addWidget(self.label_197, 0, 1, 1, 1)
+        self.lineEdit_412 = QtWidgets.QLineEdit(parent=self.frame_a2_3)
+        self.lineEdit_412.setEnabled(True)
+        self.lineEdit_412.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_412.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_412.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_412.setDragEnabled(False)
+        self.lineEdit_412.setObjectName("lineEdit_412")
+        self.gridLayout_68.addWidget(self.lineEdit_412, 2, 2, 1, 1)
+        self.lineEdit_413 = QtWidgets.QLineEdit(parent=self.frame_a2_3)
+        self.lineEdit_413.setEnabled(True)
+        self.lineEdit_413.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_413.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_413.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_413.setDragEnabled(False)
+        self.lineEdit_413.setObjectName("lineEdit_413")
+        self.gridLayout_68.addWidget(self.lineEdit_413, 0, 2, 1, 1)
+        self.label_198 = QtWidgets.QLabel(parent=self.frame_a2_3)
+        self.label_198.setObjectName("label_198")
+        self.gridLayout_68.addWidget(self.label_198, 1, 1, 1, 1)
+        self.lineEdit_414 = QtWidgets.QLineEdit(parent=self.frame_a2_3)
+        self.lineEdit_414.setEnabled(True)
+        self.lineEdit_414.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_414.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_414.setDragEnabled(False)
+        self.lineEdit_414.setObjectName("lineEdit_414")
+        self.gridLayout_68.addWidget(self.lineEdit_414, 2, 0, 1, 1)
+        self.lineEdit_415 = QtWidgets.QLineEdit(parent=self.frame_a2_3)
+        self.lineEdit_415.setEnabled(True)
+        self.lineEdit_415.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_415.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_415.setDragEnabled(False)
+        self.lineEdit_415.setObjectName("lineEdit_415")
+        self.gridLayout_68.addWidget(self.lineEdit_415, 0, 0, 1, 1)
+        self.label_199 = QtWidgets.QLabel(parent=self.frame_a2_3)
+        self.label_199.setObjectName("label_199")
+        self.gridLayout_68.addWidget(self.label_199, 2, 1, 1, 1)
+        self.lineEdit_416 = QtWidgets.QLineEdit(parent=self.frame_a2_3)
+        self.lineEdit_416.setEnabled(True)
+        self.lineEdit_416.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_416.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_416.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_416.setDragEnabled(False)
+        self.lineEdit_416.setReadOnly(True)
+        self.lineEdit_416.setObjectName("lineEdit_416")
+        self.gridLayout_68.addWidget(self.lineEdit_416, 1, 2, 1, 1)
+        self.lineEdit_417 = QtWidgets.QLineEdit(parent=self.frame_a2_3)
+        self.lineEdit_417.setEnabled(True)
+        self.lineEdit_417.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_417.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_417.setDragEnabled(False)
+        self.lineEdit_417.setReadOnly(True)
+        self.lineEdit_417.setObjectName("lineEdit_417")
+        self.gridLayout_68.addWidget(self.lineEdit_417, 1, 0, 1, 1)
+        self.gridLayout_68.setRowMinimumHeight(0, 1)
+        self.gridLayout_68.setRowMinimumHeight(1, 1)
+        self.gridLayout_68.setRowMinimumHeight(2, 1)
+        self.gridLayout_68.setColumnStretch(0, 1)
+        self.gridLayout_68.setColumnStretch(2, 1)
+        self.gridLayout_68.setRowStretch(0, 1)
+        self.gridLayout_68.setRowStretch(1, 1)
+        self.gridLayout_68.setRowStretch(2, 1)
+        self.gridLayout_57.addWidget(self.frame_a2_3, 2, 1, 1, 1)
+        self.frame_b1_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_b1_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_b1_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_b1_3.setLineWidth(1)
+        self.frame_b1_3.setObjectName("frame_b1_3")
+        self.gridLayout_59 = QtWidgets.QGridLayout(self.frame_b1_3)
+        self.gridLayout_59.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_59.setSpacing(0)
+        self.gridLayout_59.setObjectName("gridLayout_59")
+        self.label_170 = QtWidgets.QLabel(parent=self.frame_b1_3)
+        self.label_170.setObjectName("label_170")
+        self.gridLayout_59.addWidget(self.label_170, 0, 1, 1, 1)
+        self.lineEdit_349 = QtWidgets.QLineEdit(parent=self.frame_b1_3)
+        self.lineEdit_349.setEnabled(True)
+        self.lineEdit_349.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_349.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_349.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_349.setDragEnabled(False)
+        self.lineEdit_349.setObjectName("lineEdit_349")
+        self.gridLayout_59.addWidget(self.lineEdit_349, 2, 2, 1, 1)
+        self.lineEdit_350 = QtWidgets.QLineEdit(parent=self.frame_b1_3)
+        self.lineEdit_350.setEnabled(True)
+        self.lineEdit_350.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_350.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_350.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_350.setDragEnabled(False)
+        self.lineEdit_350.setObjectName("lineEdit_350")
+        self.gridLayout_59.addWidget(self.lineEdit_350, 0, 2, 1, 1)
+        self.label_171 = QtWidgets.QLabel(parent=self.frame_b1_3)
+        self.label_171.setObjectName("label_171")
+        self.gridLayout_59.addWidget(self.label_171, 1, 1, 1, 1)
+        self.lineEdit_351 = QtWidgets.QLineEdit(parent=self.frame_b1_3)
+        self.lineEdit_351.setEnabled(True)
+        self.lineEdit_351.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_351.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_351.setDragEnabled(False)
+        self.lineEdit_351.setObjectName("lineEdit_351")
+        self.gridLayout_59.addWidget(self.lineEdit_351, 2, 0, 1, 1)
+        self.lineEdit_352 = QtWidgets.QLineEdit(parent=self.frame_b1_3)
+        self.lineEdit_352.setEnabled(True)
+        self.lineEdit_352.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_352.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_352.setDragEnabled(False)
+        self.lineEdit_352.setObjectName("lineEdit_352")
+        self.gridLayout_59.addWidget(self.lineEdit_352, 0, 0, 1, 1)
+        self.label_172 = QtWidgets.QLabel(parent=self.frame_b1_3)
+        self.label_172.setObjectName("label_172")
+        self.gridLayout_59.addWidget(self.label_172, 2, 1, 1, 1)
+        self.lineEdit_353 = QtWidgets.QLineEdit(parent=self.frame_b1_3)
+        self.lineEdit_353.setEnabled(True)
+        self.lineEdit_353.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_353.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_353.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_353.setDragEnabled(False)
+        self.lineEdit_353.setReadOnly(True)
+        self.lineEdit_353.setObjectName("lineEdit_353")
+        self.gridLayout_59.addWidget(self.lineEdit_353, 1, 2, 1, 1)
+        self.lineEdit_354 = QtWidgets.QLineEdit(parent=self.frame_b1_3)
+        self.lineEdit_354.setEnabled(True)
+        self.lineEdit_354.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_354.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_354.setDragEnabled(False)
+        self.lineEdit_354.setReadOnly(True)
+        self.lineEdit_354.setObjectName("lineEdit_354")
+        self.gridLayout_59.addWidget(self.lineEdit_354, 1, 0, 1, 1)
+        self.gridLayout_59.setRowMinimumHeight(0, 1)
+        self.gridLayout_59.setRowMinimumHeight(1, 1)
+        self.gridLayout_59.setRowMinimumHeight(2, 1)
+        self.gridLayout_59.setColumnStretch(0, 1)
+        self.gridLayout_59.setColumnStretch(2, 1)
+        self.gridLayout_59.setRowStretch(0, 1)
+        self.gridLayout_59.setRowStretch(1, 1)
+        self.gridLayout_59.setRowStretch(2, 1)
+        self.gridLayout_57.addWidget(self.frame_b1_3, 1, 2, 1, 1)
+        self.frame_b2_3 = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_3)
+        self.frame_b2_3.setFrameShape(QtWidgets.QFrame.Shape.Box)
+        self.frame_b2_3.setFrameShadow(QtWidgets.QFrame.Shadow.Plain)
+        self.frame_b2_3.setLineWidth(1)
+        self.frame_b2_3.setObjectName("frame_b2_3")
+        self.gridLayout_83 = QtWidgets.QGridLayout(self.frame_b2_3)
+        self.gridLayout_83.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_83.setSpacing(0)
+        self.gridLayout_83.setObjectName("gridLayout_83")
+        self.label_242 = QtWidgets.QLabel(parent=self.frame_b2_3)
+        self.label_242.setObjectName("label_242")
+        self.gridLayout_83.addWidget(self.label_242, 0, 1, 1, 1)
+        self.lineEdit_502 = QtWidgets.QLineEdit(parent=self.frame_b2_3)
+        self.lineEdit_502.setEnabled(True)
+        self.lineEdit_502.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_502.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_502.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_502.setDragEnabled(False)
+        self.lineEdit_502.setObjectName("lineEdit_502")
+        self.gridLayout_83.addWidget(self.lineEdit_502, 2, 2, 1, 1)
+        self.lineEdit_503 = QtWidgets.QLineEdit(parent=self.frame_b2_3)
+        self.lineEdit_503.setEnabled(True)
+        self.lineEdit_503.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_503.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_503.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_503.setDragEnabled(False)
+        self.lineEdit_503.setObjectName("lineEdit_503")
+        self.gridLayout_83.addWidget(self.lineEdit_503, 0, 2, 1, 1)
+        self.label_243 = QtWidgets.QLabel(parent=self.frame_b2_3)
+        self.label_243.setObjectName("label_243")
+        self.gridLayout_83.addWidget(self.label_243, 1, 1, 1, 1)
+        self.lineEdit_504 = QtWidgets.QLineEdit(parent=self.frame_b2_3)
+        self.lineEdit_504.setEnabled(True)
+        self.lineEdit_504.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_504.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_504.setDragEnabled(False)
+        self.lineEdit_504.setObjectName("lineEdit_504")
+        self.gridLayout_83.addWidget(self.lineEdit_504, 2, 0, 1, 1)
+        self.lineEdit_505 = QtWidgets.QLineEdit(parent=self.frame_b2_3)
+        self.lineEdit_505.setEnabled(True)
+        self.lineEdit_505.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_505.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_505.setDragEnabled(False)
+        self.lineEdit_505.setObjectName("lineEdit_505")
+        self.gridLayout_83.addWidget(self.lineEdit_505, 0, 0, 1, 1)
+        self.label_244 = QtWidgets.QLabel(parent=self.frame_b2_3)
+        self.label_244.setObjectName("label_244")
+        self.gridLayout_83.addWidget(self.label_244, 2, 1, 1, 1)
+        self.lineEdit_506 = QtWidgets.QLineEdit(parent=self.frame_b2_3)
+        self.lineEdit_506.setEnabled(True)
+        self.lineEdit_506.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.lineEdit_506.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_506.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_506.setDragEnabled(False)
+        self.lineEdit_506.setReadOnly(True)
+        self.lineEdit_506.setObjectName("lineEdit_506")
+        self.gridLayout_83.addWidget(self.lineEdit_506, 1, 2, 1, 1)
+        self.lineEdit_507 = QtWidgets.QLineEdit(parent=self.frame_b2_3)
+        self.lineEdit_507.setEnabled(True)
+        self.lineEdit_507.setStyleSheet("QLineEdit {\n"
+"    background: transparent;\n"
+"    border: none;\n"
+"}\n"
+"")
+        self.lineEdit_507.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
+        self.lineEdit_507.setDragEnabled(False)
+        self.lineEdit_507.setReadOnly(True)
+        self.lineEdit_507.setObjectName("lineEdit_507")
+        self.gridLayout_83.addWidget(self.lineEdit_507, 1, 0, 1, 1)
+        self.gridLayout_83.setRowMinimumHeight(0, 1)
+        self.gridLayout_83.setRowMinimumHeight(1, 1)
+        self.gridLayout_83.setRowMinimumHeight(2, 1)
+        self.gridLayout_83.setColumnStretch(0, 1)
+        self.gridLayout_83.setColumnStretch(2, 1)
+        self.gridLayout_83.setRowStretch(0, 1)
+        self.gridLayout_83.setRowStretch(1, 1)
+        self.gridLayout_83.setRowStretch(2, 1)
+        self.gridLayout_57.addWidget(self.frame_b2_3, 2, 2, 1, 1)
+        self.gridLayout_57.setColumnStretch(0, 1)
+        self.gridLayout_57.setColumnStretch(1, 3)
+        self.gridLayout_57.setColumnStretch(2, 3)
+        self.horizontalLayout_4.addLayout(self.gridLayout_57)
+        self.scrollArea_3.setWidget(self.scrollAreaWidgetContents_3)
+        self.verticalLayout_4.addWidget(self.scrollArea_3)
         self.tabWidget_main.addTab(self.tab_3, "")
         self.verticalLayout_3.addWidget(self.tabWidget_main)
         self.verticalLayout_3.setStretch(0, 1)
@@ -5889,7 +8200,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget_main.setCurrentIndex(0)
+        self.tabWidget_main.setCurrentIndex(2)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -6157,141 +8468,6 @@ class Ui_MainWindow(object):
         self.lineEdit_23.setText(_translate("MainWindow", "MR"))
         self.lineEdit_24.setText(_translate("MainWindow", "ML"))
         self.tabWidget_main.setTabText(self.tabWidget_main.indexOf(self.tab), _translate("MainWindow", "Binance"))
-        self.label_12.setText(_translate("MainWindow", "/"))
-        self.lineEdit_13.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_14.setText(_translate("MainWindow", "TR"))
-        self.label_7.setText(_translate("MainWindow", "/"))
-        self.lineEdit_15.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_16.setText(_translate("MainWindow", "TL"))
-        self.label_13.setText(_translate("MainWindow", "/"))
-        self.lineEdit_17.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_18.setText(_translate("MainWindow", "ML"))
-        self.label_71.setText(_translate("MainWindow", "/"))
-        self.lineEdit_169.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_179.setText(_translate("MainWindow", "TR"))
-        self.label_73.setText(_translate("MainWindow", "/"))
-        self.lineEdit_180.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_181.setText(_translate("MainWindow", "TL"))
-        self.label_74.setText(_translate("MainWindow", "/"))
-        self.lineEdit_182.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_183.setText(_translate("MainWindow", "ML"))
-        self.label_mainAccount_9.setText(_translate("MainWindow", "BCHUSD"))
-        self.lineEdit_184.setText(_translate("MainWindow", "Upper"))
-        self.lineEdit_185.setText(_translate("MainWindow", "Q-B"))
-        self.lineEdit_186.setText(_translate("MainWindow", "Lower"))
-        self.label_mainAccount_10.setText(_translate("MainWindow", "BTCUSDT"))
-        self.lineEdit_187.setText(_translate("MainWindow", "Upper"))
-        self.lineEdit_188.setText(_translate("MainWindow", "S-B"))
-        self.lineEdit_189.setText(_translate("MainWindow", "Lower"))
-        self.label_mainAccount_11.setText(_translate("MainWindow", "ADAUSD"))
-        self.label_mainAccount_12.setText(_translate("MainWindow", "ETHUSDT"))
-        self.label_mainAccount_13.setText(_translate("MainWindow", "ETHUSD"))
-        self.label_mainAccount_14.setText(_translate("MainWindow", "BTCUSD"))
-        self.label_mainAccount_15.setText(_translate("MainWindow", "DOTUSD"))
-        self.label_mainAccount_16.setText(_translate("MainWindow", "LINKUSD"))
-        self.lineEdit_190.setText(_translate("MainWindow", "Upper"))
-        self.lineEdit_191.setText(_translate("MainWindow", "S-Q"))
-        self.lineEdit_192.setText(_translate("MainWindow", "Lower"))
-        self.label_subAccount1_2.setText(_translate("MainWindow", "BNBUSD"))
-        self.label_75.setText(_translate("MainWindow", "/"))
-        self.lineEdit_193.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_194.setText(_translate("MainWindow", "TR"))
-        self.label_76.setText(_translate("MainWindow", "/"))
-        self.lineEdit_195.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_196.setText(_translate("MainWindow", "TL"))
-        self.label_77.setText(_translate("MainWindow", "/"))
-        self.lineEdit_197.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_198.setText(_translate("MainWindow", "ML"))
-        self.label_95.setText(_translate("MainWindow", "/"))
-        self.lineEdit_199.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_200.setText(_translate("MainWindow", "TR"))
-        self.label_96.setText(_translate("MainWindow", "/"))
-        self.lineEdit_201.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_202.setText(_translate("MainWindow", "TL"))
-        self.label_97.setText(_translate("MainWindow", "/"))
-        self.lineEdit_203.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_204.setText(_translate("MainWindow", "ML"))
-        self.label_98.setText(_translate("MainWindow", "/"))
-        self.lineEdit_205.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_206.setText(_translate("MainWindow", "TR"))
-        self.label_99.setText(_translate("MainWindow", "/"))
-        self.lineEdit_207.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_208.setText(_translate("MainWindow", "TL"))
-        self.label_100.setText(_translate("MainWindow", "/"))
-        self.lineEdit_209.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_210.setText(_translate("MainWindow", "ML"))
-        self.label_101.setText(_translate("MainWindow", "/"))
-        self.lineEdit_211.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_212.setText(_translate("MainWindow", "TR"))
-        self.label_102.setText(_translate("MainWindow", "/"))
-        self.lineEdit_213.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_214.setText(_translate("MainWindow", "TL"))
-        self.label_103.setText(_translate("MainWindow", "/"))
-        self.lineEdit_215.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_216.setText(_translate("MainWindow", "ML"))
-        self.label_104.setText(_translate("MainWindow", "/"))
-        self.lineEdit_217.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_218.setText(_translate("MainWindow", "TR"))
-        self.label_105.setText(_translate("MainWindow", "/"))
-        self.lineEdit_219.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_220.setText(_translate("MainWindow", "TL"))
-        self.label_106.setText(_translate("MainWindow", "/"))
-        self.lineEdit_221.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_222.setText(_translate("MainWindow", "ML"))
-        self.label_107.setText(_translate("MainWindow", "/"))
-        self.lineEdit_223.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_224.setText(_translate("MainWindow", "TR"))
-        self.label_108.setText(_translate("MainWindow", "/"))
-        self.lineEdit_225.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_226.setText(_translate("MainWindow", "TL"))
-        self.label_109.setText(_translate("MainWindow", "/"))
-        self.lineEdit_227.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_228.setText(_translate("MainWindow", "ML"))
-        self.label_110.setText(_translate("MainWindow", "/"))
-        self.lineEdit_229.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_230.setText(_translate("MainWindow", "TR"))
-        self.label_111.setText(_translate("MainWindow", "/"))
-        self.lineEdit_231.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_232.setText(_translate("MainWindow", "TL"))
-        self.label_112.setText(_translate("MainWindow", "/"))
-        self.lineEdit_233.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_234.setText(_translate("MainWindow", "ML"))
-        self.label_113.setText(_translate("MainWindow", "/"))
-        self.lineEdit_235.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_236.setText(_translate("MainWindow", "TR"))
-        self.label_114.setText(_translate("MainWindow", "/"))
-        self.lineEdit_237.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_238.setText(_translate("MainWindow", "TL"))
-        self.label_115.setText(_translate("MainWindow", "/"))
-        self.lineEdit_239.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_240.setText(_translate("MainWindow", "ML"))
-        self.label_116.setText(_translate("MainWindow", "/"))
-        self.lineEdit_241.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_242.setText(_translate("MainWindow", "TR"))
-        self.label_117.setText(_translate("MainWindow", "/"))
-        self.lineEdit_243.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_244.setText(_translate("MainWindow", "TL"))
-        self.label_118.setText(_translate("MainWindow", "/"))
-        self.lineEdit_245.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_246.setText(_translate("MainWindow", "ML"))
-        self.label_119.setText(_translate("MainWindow", "/"))
-        self.lineEdit_247.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_248.setText(_translate("MainWindow", "TR"))
-        self.label_120.setText(_translate("MainWindow", "/"))
-        self.lineEdit_249.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_250.setText(_translate("MainWindow", "TL"))
-        self.label_121.setText(_translate("MainWindow", "/"))
-        self.lineEdit_251.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_252.setText(_translate("MainWindow", "ML"))
-        self.label_122.setText(_translate("MainWindow", "/"))
-        self.lineEdit_253.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_254.setText(_translate("MainWindow", "TR"))
-        self.label_123.setText(_translate("MainWindow", "/"))
-        self.lineEdit_255.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_256.setText(_translate("MainWindow", "TL"))
-        self.label_124.setText(_translate("MainWindow", "/"))
-        self.lineEdit_257.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_258.setText(_translate("MainWindow", "ML"))
         self.label_125.setText(_translate("MainWindow", "/"))
         self.lineEdit_259.setText(_translate("MainWindow", "BR"))
         self.lineEdit_260.setText(_translate("MainWindow", "TR"))
@@ -6301,51 +8477,81 @@ class Ui_MainWindow(object):
         self.label_127.setText(_translate("MainWindow", "/"))
         self.lineEdit_263.setText(_translate("MainWindow", "MR"))
         self.lineEdit_264.setText(_translate("MainWindow", "ML"))
-        self.label_128.setText(_translate("MainWindow", "/"))
-        self.lineEdit_265.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_266.setText(_translate("MainWindow", "TR"))
-        self.label_129.setText(_translate("MainWindow", "/"))
-        self.lineEdit_267.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_268.setText(_translate("MainWindow", "TL"))
-        self.label_130.setText(_translate("MainWindow", "/"))
-        self.lineEdit_269.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_270.setText(_translate("MainWindow", "ML"))
-        self.label_131.setText(_translate("MainWindow", "/"))
-        self.lineEdit_271.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_272.setText(_translate("MainWindow", "TR"))
-        self.label_132.setText(_translate("MainWindow", "/"))
-        self.lineEdit_273.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_274.setText(_translate("MainWindow", "TL"))
-        self.label_133.setText(_translate("MainWindow", "/"))
-        self.lineEdit_275.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_276.setText(_translate("MainWindow", "ML"))
-        self.label_134.setText(_translate("MainWindow", "/"))
-        self.lineEdit_277.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_278.setText(_translate("MainWindow", "TR"))
-        self.label_135.setText(_translate("MainWindow", "/"))
-        self.lineEdit_279.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_280.setText(_translate("MainWindow", "TL"))
-        self.label_136.setText(_translate("MainWindow", "/"))
-        self.lineEdit_281.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_282.setText(_translate("MainWindow", "ML"))
-        self.label_137.setText(_translate("MainWindow", "/"))
-        self.lineEdit_283.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_284.setText(_translate("MainWindow", "TR"))
-        self.label_138.setText(_translate("MainWindow", "/"))
-        self.lineEdit_285.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_286.setText(_translate("MainWindow", "TL"))
-        self.label_139.setText(_translate("MainWindow", "/"))
-        self.lineEdit_287.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_288.setText(_translate("MainWindow", "ML"))
-        self.label_140.setText(_translate("MainWindow", "/"))
-        self.lineEdit_289.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_290.setText(_translate("MainWindow", "TR"))
-        self.label_141.setText(_translate("MainWindow", "/"))
-        self.lineEdit_291.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_292.setText(_translate("MainWindow", "TL"))
-        self.label_142.setText(_translate("MainWindow", "/"))
-        self.lineEdit_293.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_294.setText(_translate("MainWindow", "ML"))
+        self.label_161.setText(_translate("MainWindow", "/"))
+        self.lineEdit_331.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_332.setText(_translate("MainWindow", "TR"))
+        self.label_162.setText(_translate("MainWindow", "/"))
+        self.lineEdit_333.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_334.setText(_translate("MainWindow", "TL"))
+        self.label_163.setText(_translate("MainWindow", "/"))
+        self.lineEdit_335.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_336.setText(_translate("MainWindow", "ML"))
+        self.label_257.setText(_translate("MainWindow", "/"))
+        self.lineEdit_532.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_533.setText(_translate("MainWindow", "TR"))
+        self.label_258.setText(_translate("MainWindow", "/"))
+        self.lineEdit_534.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_535.setText(_translate("MainWindow", "TL"))
+        self.label_259.setText(_translate("MainWindow", "/"))
+        self.lineEdit_536.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_537.setText(_translate("MainWindow", "ML"))
+        self.label_260.setText(_translate("MainWindow", "/"))
+        self.lineEdit_538.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_539.setText(_translate("MainWindow", "TR"))
+        self.label_261.setText(_translate("MainWindow", "/"))
+        self.lineEdit_540.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_541.setText(_translate("MainWindow", "TL"))
+        self.label_262.setText(_translate("MainWindow", "/"))
+        self.lineEdit_542.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_543.setText(_translate("MainWindow", "ML"))
+        self.label_164.setText(_translate("MainWindow", "/"))
+        self.lineEdit_337.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_338.setText(_translate("MainWindow", "TR"))
+        self.label_165.setText(_translate("MainWindow", "/"))
+        self.lineEdit_339.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_340.setText(_translate("MainWindow", "TL"))
+        self.label_166.setText(_translate("MainWindow", "/"))
+        self.lineEdit_341.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_342.setText(_translate("MainWindow", "ML"))
+        self.label_mainAccount_14.setText(_translate("MainWindow", "BTCUSD"))
+        self.label_75.setText(_translate("MainWindow", "/"))
+        self.lineEdit_193.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_194.setText(_translate("MainWindow", "TR"))
+        self.label_76.setText(_translate("MainWindow", "/"))
+        self.lineEdit_195.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_196.setText(_translate("MainWindow", "TL"))
+        self.label_77.setText(_translate("MainWindow", "/"))
+        self.lineEdit_197.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_198.setText(_translate("MainWindow", "ML"))
+        self.label_110.setText(_translate("MainWindow", "/"))
+        self.lineEdit_229.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_230.setText(_translate("MainWindow", "TR"))
+        self.label_111.setText(_translate("MainWindow", "/"))
+        self.lineEdit_231.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_232.setText(_translate("MainWindow", "TL"))
+        self.label_112.setText(_translate("MainWindow", "/"))
+        self.lineEdit_233.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_234.setText(_translate("MainWindow", "ML"))
+        self.label_mainAccount_10.setText(_translate("MainWindow", "BTCUSDT"))
+        self.label_mainAccount_9.setText(_translate("MainWindow", "LTCUSD"))
+        self.label_101.setText(_translate("MainWindow", "/"))
+        self.lineEdit_211.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_212.setText(_translate("MainWindow", "TR"))
+        self.label_102.setText(_translate("MainWindow", "/"))
+        self.lineEdit_213.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_214.setText(_translate("MainWindow", "TL"))
+        self.label_103.setText(_translate("MainWindow", "/"))
+        self.lineEdit_215.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_216.setText(_translate("MainWindow", "ML"))
+        self.label_251.setText(_translate("MainWindow", "/"))
+        self.lineEdit_520.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_521.setText(_translate("MainWindow", "TR"))
+        self.label_252.setText(_translate("MainWindow", "/"))
+        self.lineEdit_522.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_523.setText(_translate("MainWindow", "TL"))
+        self.label_253.setText(_translate("MainWindow", "/"))
+        self.lineEdit_524.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_525.setText(_translate("MainWindow", "ML"))
         self.label_143.setText(_translate("MainWindow", "/"))
         self.lineEdit_295.setText(_translate("MainWindow", "BR"))
         self.lineEdit_296.setText(_translate("MainWindow", "TR"))
@@ -6355,6 +8561,9 @@ class Ui_MainWindow(object):
         self.label_145.setText(_translate("MainWindow", "/"))
         self.lineEdit_299.setText(_translate("MainWindow", "MR"))
         self.lineEdit_300.setText(_translate("MainWindow", "ML"))
+        self.lineEdit_184.setText(_translate("MainWindow", "Upper"))
+        self.lineEdit_185.setText(_translate("MainWindow", "Q-B"))
+        self.lineEdit_186.setText(_translate("MainWindow", "Lower"))
         self.label_146.setText(_translate("MainWindow", "/"))
         self.lineEdit_301.setText(_translate("MainWindow", "BR"))
         self.lineEdit_302.setText(_translate("MainWindow", "TR"))
@@ -6364,15 +8573,78 @@ class Ui_MainWindow(object):
         self.label_148.setText(_translate("MainWindow", "/"))
         self.lineEdit_305.setText(_translate("MainWindow", "MR"))
         self.lineEdit_306.setText(_translate("MainWindow", "ML"))
-        self.label_149.setText(_translate("MainWindow", "/"))
-        self.lineEdit_307.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_308.setText(_translate("MainWindow", "TR"))
-        self.label_150.setText(_translate("MainWindow", "/"))
-        self.lineEdit_309.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_310.setText(_translate("MainWindow", "TL"))
-        self.label_151.setText(_translate("MainWindow", "/"))
-        self.lineEdit_311.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_312.setText(_translate("MainWindow", "ML"))
+        self.label_137.setText(_translate("MainWindow", "/"))
+        self.lineEdit_283.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_284.setText(_translate("MainWindow", "TR"))
+        self.label_138.setText(_translate("MainWindow", "/"))
+        self.lineEdit_285.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_286.setText(_translate("MainWindow", "TL"))
+        self.label_139.setText(_translate("MainWindow", "/"))
+        self.lineEdit_287.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_288.setText(_translate("MainWindow", "ML"))
+        self.label_mainAccount_16.setText(_translate("MainWindow", "ETHUSDT"))
+        self.label_116.setText(_translate("MainWindow", "/"))
+        self.lineEdit_241.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_242.setText(_translate("MainWindow", "TR"))
+        self.label_117.setText(_translate("MainWindow", "/"))
+        self.lineEdit_243.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_244.setText(_translate("MainWindow", "TL"))
+        self.label_118.setText(_translate("MainWindow", "/"))
+        self.lineEdit_245.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_246.setText(_translate("MainWindow", "ML"))
+        self.label_98.setText(_translate("MainWindow", "/"))
+        self.lineEdit_205.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_206.setText(_translate("MainWindow", "TR"))
+        self.label_99.setText(_translate("MainWindow", "/"))
+        self.lineEdit_207.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_208.setText(_translate("MainWindow", "TL"))
+        self.label_100.setText(_translate("MainWindow", "/"))
+        self.lineEdit_209.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_210.setText(_translate("MainWindow", "ML"))
+        self.lineEdit_190.setText(_translate("MainWindow", "Upper"))
+        self.lineEdit_191.setText(_translate("MainWindow", "S-Q"))
+        self.lineEdit_192.setText(_translate("MainWindow", "Lower"))
+        self.lineEdit_187.setText(_translate("MainWindow", "Upper"))
+        self.lineEdit_188.setText(_translate("MainWindow", "S-B"))
+        self.lineEdit_189.setText(_translate("MainWindow", "Lower"))
+        self.label_mainAccount_12.setText(_translate("MainWindow", "ETHUSDC"))
+        self.label_248.setText(_translate("MainWindow", "/"))
+        self.lineEdit_514.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_515.setText(_translate("MainWindow", "TR"))
+        self.label_249.setText(_translate("MainWindow", "/"))
+        self.lineEdit_516.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_517.setText(_translate("MainWindow", "TL"))
+        self.label_250.setText(_translate("MainWindow", "/"))
+        self.lineEdit_518.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_519.setText(_translate("MainWindow", "ML"))
+        self.label_263.setText(_translate("MainWindow", "/"))
+        self.lineEdit_544.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_545.setText(_translate("MainWindow", "TR"))
+        self.label_264.setText(_translate("MainWindow", "/"))
+        self.lineEdit_546.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_547.setText(_translate("MainWindow", "TL"))
+        self.label_265.setText(_translate("MainWindow", "/"))
+        self.lineEdit_548.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_549.setText(_translate("MainWindow", "ML"))
+        self.label_95.setText(_translate("MainWindow", "/"))
+        self.lineEdit_199.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_200.setText(_translate("MainWindow", "TR"))
+        self.label_96.setText(_translate("MainWindow", "/"))
+        self.lineEdit_201.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_202.setText(_translate("MainWindow", "TL"))
+        self.label_97.setText(_translate("MainWindow", "/"))
+        self.lineEdit_203.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_204.setText(_translate("MainWindow", "ML"))
+        self.label_113.setText(_translate("MainWindow", "/"))
+        self.lineEdit_235.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_236.setText(_translate("MainWindow", "TR"))
+        self.label_114.setText(_translate("MainWindow", "/"))
+        self.lineEdit_237.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_238.setText(_translate("MainWindow", "TL"))
+        self.label_115.setText(_translate("MainWindow", "/"))
+        self.lineEdit_239.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_240.setText(_translate("MainWindow", "ML"))
+        self.label_subAccount1_11.setText(_translate("MainWindow", "ETCUSD"))
         self.label_152.setText(_translate("MainWindow", "/"))
         self.lineEdit_313.setText(_translate("MainWindow", "BR"))
         self.lineEdit_314.setText(_translate("MainWindow", "TR"))
@@ -6391,6 +8663,113 @@ class Ui_MainWindow(object):
         self.label_157.setText(_translate("MainWindow", "/"))
         self.lineEdit_323.setText(_translate("MainWindow", "MR"))
         self.lineEdit_324.setText(_translate("MainWindow", "ML"))
+        self.label_subAccount1_14.setText(_translate("MainWindow", "ETCUSDT"))
+        self.label_104.setText(_translate("MainWindow", "/"))
+        self.lineEdit_217.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_218.setText(_translate("MainWindow", "TR"))
+        self.label_105.setText(_translate("MainWindow", "/"))
+        self.lineEdit_219.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_220.setText(_translate("MainWindow", "TL"))
+        self.label_106.setText(_translate("MainWindow", "/"))
+        self.lineEdit_221.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_222.setText(_translate("MainWindow", "ML"))
+        self.label_119.setText(_translate("MainWindow", "/"))
+        self.lineEdit_247.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_248.setText(_translate("MainWindow", "TR"))
+        self.label_120.setText(_translate("MainWindow", "/"))
+        self.lineEdit_249.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_250.setText(_translate("MainWindow", "TL"))
+        self.label_121.setText(_translate("MainWindow", "/"))
+        self.lineEdit_251.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_252.setText(_translate("MainWindow", "ML"))
+        self.label_140.setText(_translate("MainWindow", "/"))
+        self.lineEdit_289.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_290.setText(_translate("MainWindow", "TR"))
+        self.label_141.setText(_translate("MainWindow", "/"))
+        self.lineEdit_291.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_292.setText(_translate("MainWindow", "TL"))
+        self.label_142.setText(_translate("MainWindow", "/"))
+        self.lineEdit_293.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_294.setText(_translate("MainWindow", "ML"))
+        self.label_149.setText(_translate("MainWindow", "/"))
+        self.lineEdit_307.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_308.setText(_translate("MainWindow", "TR"))
+        self.label_150.setText(_translate("MainWindow", "/"))
+        self.lineEdit_309.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_310.setText(_translate("MainWindow", "TL"))
+        self.label_151.setText(_translate("MainWindow", "/"))
+        self.lineEdit_311.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_312.setText(_translate("MainWindow", "ML"))
+        self.label_122.setText(_translate("MainWindow", "/"))
+        self.lineEdit_253.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_254.setText(_translate("MainWindow", "TR"))
+        self.label_123.setText(_translate("MainWindow", "/"))
+        self.lineEdit_255.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_256.setText(_translate("MainWindow", "TL"))
+        self.label_124.setText(_translate("MainWindow", "/"))
+        self.lineEdit_257.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_258.setText(_translate("MainWindow", "ML"))
+        self.label_subAccount1_7.setText(_translate("MainWindow", "EOSUSD"))
+        self.label_254.setText(_translate("MainWindow", "/"))
+        self.lineEdit_526.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_527.setText(_translate("MainWindow", "TR"))
+        self.label_255.setText(_translate("MainWindow", "/"))
+        self.lineEdit_528.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_529.setText(_translate("MainWindow", "TL"))
+        self.label_256.setText(_translate("MainWindow", "/"))
+        self.lineEdit_530.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_531.setText(_translate("MainWindow", "ML"))
+        self.label_12.setText(_translate("MainWindow", "/"))
+        self.lineEdit_13.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_14.setText(_translate("MainWindow", "TR"))
+        self.label_7.setText(_translate("MainWindow", "/"))
+        self.lineEdit_15.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_16.setText(_translate("MainWindow", "TL"))
+        self.label_13.setText(_translate("MainWindow", "/"))
+        self.lineEdit_17.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_18.setText(_translate("MainWindow", "ML"))
+        self.label_131.setText(_translate("MainWindow", "/"))
+        self.lineEdit_271.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_272.setText(_translate("MainWindow", "TR"))
+        self.label_132.setText(_translate("MainWindow", "/"))
+        self.lineEdit_273.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_274.setText(_translate("MainWindow", "TL"))
+        self.label_133.setText(_translate("MainWindow", "/"))
+        self.lineEdit_275.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_276.setText(_translate("MainWindow", "ML"))
+        self.label_107.setText(_translate("MainWindow", "/"))
+        self.lineEdit_223.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_224.setText(_translate("MainWindow", "TR"))
+        self.label_108.setText(_translate("MainWindow", "/"))
+        self.lineEdit_225.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_226.setText(_translate("MainWindow", "TL"))
+        self.label_109.setText(_translate("MainWindow", "/"))
+        self.lineEdit_227.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_228.setText(_translate("MainWindow", "ML"))
+        self.label_mainAccount_15.setText(_translate("MainWindow", "LTCUSDT"))
+        self.label_subAccount1_22.setText(_translate("MainWindow", "EOSUSDT"))
+        self.label_subAccount1_4.setText(_translate("MainWindow", "XRPUSDT"))
+        self.label_mainAccount_13.setText(_translate("MainWindow", "ETHUSD"))
+        self.label_subAccount1_2.setText(_translate("MainWindow", "XRPUSD"))
+        self.label_128.setText(_translate("MainWindow", "/"))
+        self.lineEdit_265.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_266.setText(_translate("MainWindow", "TR"))
+        self.label_129.setText(_translate("MainWindow", "/"))
+        self.lineEdit_267.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_268.setText(_translate("MainWindow", "TL"))
+        self.label_130.setText(_translate("MainWindow", "/"))
+        self.lineEdit_269.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_270.setText(_translate("MainWindow", "ML"))
+        self.label_134.setText(_translate("MainWindow", "/"))
+        self.lineEdit_277.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_278.setText(_translate("MainWindow", "TR"))
+        self.label_135.setText(_translate("MainWindow", "/"))
+        self.lineEdit_279.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_280.setText(_translate("MainWindow", "TL"))
+        self.label_136.setText(_translate("MainWindow", "/"))
+        self.lineEdit_281.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_282.setText(_translate("MainWindow", "ML"))
+        self.label_mainAccount_11.setText(_translate("MainWindow", "BTCUSDC"))
         self.label_158.setText(_translate("MainWindow", "/"))
         self.lineEdit_325.setText(_translate("MainWindow", "BR"))
         self.lineEdit_326.setText(_translate("MainWindow", "TR"))
@@ -6400,25 +8779,162 @@ class Ui_MainWindow(object):
         self.label_160.setText(_translate("MainWindow", "/"))
         self.lineEdit_329.setText(_translate("MainWindow", "MR"))
         self.lineEdit_330.setText(_translate("MainWindow", "ML"))
-        self.label_161.setText(_translate("MainWindow", "/"))
-        self.lineEdit_331.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_332.setText(_translate("MainWindow", "TR"))
-        self.label_162.setText(_translate("MainWindow", "/"))
-        self.lineEdit_333.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_334.setText(_translate("MainWindow", "TL"))
-        self.label_163.setText(_translate("MainWindow", "/"))
-        self.lineEdit_335.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_336.setText(_translate("MainWindow", "ML"))
-        self.label_164.setText(_translate("MainWindow", "/"))
-        self.lineEdit_337.setText(_translate("MainWindow", "BR"))
-        self.lineEdit_338.setText(_translate("MainWindow", "TR"))
-        self.label_165.setText(_translate("MainWindow", "/"))
-        self.lineEdit_339.setText(_translate("MainWindow", "BL"))
-        self.lineEdit_340.setText(_translate("MainWindow", "TL"))
-        self.label_166.setText(_translate("MainWindow", "/"))
-        self.lineEdit_341.setText(_translate("MainWindow", "MR"))
-        self.lineEdit_342.setText(_translate("MainWindow", "ML"))
+        self.label_71.setText(_translate("MainWindow", "/"))
+        self.lineEdit_169.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_179.setText(_translate("MainWindow", "TR"))
+        self.label_73.setText(_translate("MainWindow", "/"))
+        self.lineEdit_180.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_181.setText(_translate("MainWindow", "TL"))
+        self.label_74.setText(_translate("MainWindow", "/"))
+        self.lineEdit_182.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_183.setText(_translate("MainWindow", "ML"))
+        self.label_365.setText(_translate("MainWindow", "/"))
+        self.lineEdit_757.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_758.setText(_translate("MainWindow", "TR"))
+        self.label_366.setText(_translate("MainWindow", "/"))
+        self.lineEdit_759.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_760.setText(_translate("MainWindow", "TL"))
+        self.label_367.setText(_translate("MainWindow", "/"))
+        self.lineEdit_761.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_762.setText(_translate("MainWindow", "ML"))
+        self.label_368.setText(_translate("MainWindow", "/"))
+        self.lineEdit_763.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_764.setText(_translate("MainWindow", "TR"))
+        self.label_369.setText(_translate("MainWindow", "/"))
+        self.lineEdit_765.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_766.setText(_translate("MainWindow", "TL"))
+        self.label_370.setText(_translate("MainWindow", "/"))
+        self.lineEdit_767.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_768.setText(_translate("MainWindow", "ML"))
+        self.label_371.setText(_translate("MainWindow", "/"))
+        self.lineEdit_769.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_770.setText(_translate("MainWindow", "TR"))
+        self.label_372.setText(_translate("MainWindow", "/"))
+        self.lineEdit_771.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_772.setText(_translate("MainWindow", "TL"))
+        self.label_373.setText(_translate("MainWindow", "/"))
+        self.lineEdit_773.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_774.setText(_translate("MainWindow", "ML"))
+        self.label_374.setText(_translate("MainWindow", "/"))
+        self.lineEdit_775.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_776.setText(_translate("MainWindow", "TR"))
+        self.label_375.setText(_translate("MainWindow", "/"))
+        self.lineEdit_777.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_778.setText(_translate("MainWindow", "TL"))
+        self.label_376.setText(_translate("MainWindow", "/"))
+        self.lineEdit_779.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_780.setText(_translate("MainWindow", "ML"))
+        self.label_377.setText(_translate("MainWindow", "/"))
+        self.lineEdit_781.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_782.setText(_translate("MainWindow", "TR"))
+        self.label_378.setText(_translate("MainWindow", "/"))
+        self.lineEdit_783.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_784.setText(_translate("MainWindow", "TL"))
+        self.label_379.setText(_translate("MainWindow", "/"))
+        self.lineEdit_785.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_786.setText(_translate("MainWindow", "ML"))
+        self.label_380.setText(_translate("MainWindow", "/"))
+        self.lineEdit_787.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_788.setText(_translate("MainWindow", "TR"))
+        self.label_381.setText(_translate("MainWindow", "/"))
+        self.lineEdit_789.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_790.setText(_translate("MainWindow", "TL"))
+        self.label_382.setText(_translate("MainWindow", "/"))
+        self.lineEdit_791.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_792.setText(_translate("MainWindow", "ML"))
+        self.label_383.setText(_translate("MainWindow", "/"))
+        self.lineEdit_793.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_794.setText(_translate("MainWindow", "TR"))
+        self.label_384.setText(_translate("MainWindow", "/"))
+        self.lineEdit_795.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_796.setText(_translate("MainWindow", "TL"))
+        self.label_385.setText(_translate("MainWindow", "/"))
+        self.lineEdit_797.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_798.setText(_translate("MainWindow", "ML"))
+        self.label_386.setText(_translate("MainWindow", "/"))
+        self.lineEdit_799.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_800.setText(_translate("MainWindow", "TR"))
+        self.label_387.setText(_translate("MainWindow", "/"))
+        self.lineEdit_801.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_802.setText(_translate("MainWindow", "TL"))
+        self.label_388.setText(_translate("MainWindow", "/"))
+        self.lineEdit_803.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_804.setText(_translate("MainWindow", "ML"))
+        self.label_389.setText(_translate("MainWindow", "/"))
+        self.lineEdit_805.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_806.setText(_translate("MainWindow", "TR"))
+        self.label_390.setText(_translate("MainWindow", "/"))
+        self.lineEdit_807.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_808.setText(_translate("MainWindow", "TL"))
+        self.label_391.setText(_translate("MainWindow", "/"))
+        self.lineEdit_809.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_810.setText(_translate("MainWindow", "ML"))
         self.tabWidget_main.setTabText(self.tabWidget_main.indexOf(self.tab_2), _translate("MainWindow", "OKX"))
+        self.lineEdit_355.setText(_translate("MainWindow", "Upper"))
+        self.lineEdit_356.setText(_translate("MainWindow", "Q-B"))
+        self.lineEdit_357.setText(_translate("MainWindow", "Lower"))
+        self.lineEdit_361.setText(_translate("MainWindow", "Upper"))
+        self.lineEdit_362.setText(_translate("MainWindow", "S-Q"))
+        self.lineEdit_363.setText(_translate("MainWindow", "Lower"))
+        self.label_mainAccount_22.setText(_translate("MainWindow", "BTCUSDC"))
+        self.label_200.setText(_translate("MainWindow", "/"))
+        self.lineEdit_418.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_419.setText(_translate("MainWindow", "TR"))
+        self.label_201.setText(_translate("MainWindow", "/"))
+        self.lineEdit_420.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_421.setText(_translate("MainWindow", "TL"))
+        self.label_202.setText(_translate("MainWindow", "/"))
+        self.lineEdit_422.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_423.setText(_translate("MainWindow", "ML"))
+        self.label_167.setText(_translate("MainWindow", "/"))
+        self.lineEdit_343.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_344.setText(_translate("MainWindow", "TR"))
+        self.label_168.setText(_translate("MainWindow", "/"))
+        self.lineEdit_345.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_346.setText(_translate("MainWindow", "TL"))
+        self.label_169.setText(_translate("MainWindow", "/"))
+        self.lineEdit_347.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_348.setText(_translate("MainWindow", "ML"))
+        self.label_203.setText(_translate("MainWindow", "/"))
+        self.lineEdit_424.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_425.setText(_translate("MainWindow", "TR"))
+        self.label_204.setText(_translate("MainWindow", "/"))
+        self.lineEdit_426.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_427.setText(_translate("MainWindow", "TL"))
+        self.label_205.setText(_translate("MainWindow", "/"))
+        self.lineEdit_428.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_429.setText(_translate("MainWindow", "ML"))
+        self.label_mainAccount_18.setText(_translate("MainWindow", "ETHUSDC"))
+        self.lineEdit_358.setText(_translate("MainWindow", "Upper"))
+        self.lineEdit_359.setText(_translate("MainWindow", "S-B"))
+        self.lineEdit_360.setText(_translate("MainWindow", "Lower"))
+        self.label_197.setText(_translate("MainWindow", "/"))
+        self.lineEdit_412.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_413.setText(_translate("MainWindow", "TR"))
+        self.label_198.setText(_translate("MainWindow", "/"))
+        self.lineEdit_414.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_415.setText(_translate("MainWindow", "TL"))
+        self.label_199.setText(_translate("MainWindow", "/"))
+        self.lineEdit_416.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_417.setText(_translate("MainWindow", "ML"))
+        self.label_170.setText(_translate("MainWindow", "/"))
+        self.lineEdit_349.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_350.setText(_translate("MainWindow", "TR"))
+        self.label_171.setText(_translate("MainWindow", "/"))
+        self.lineEdit_351.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_352.setText(_translate("MainWindow", "TL"))
+        self.label_172.setText(_translate("MainWindow", "/"))
+        self.lineEdit_353.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_354.setText(_translate("MainWindow", "ML"))
+        self.label_242.setText(_translate("MainWindow", "/"))
+        self.lineEdit_502.setText(_translate("MainWindow", "BR"))
+        self.lineEdit_503.setText(_translate("MainWindow", "TR"))
+        self.label_243.setText(_translate("MainWindow", "/"))
+        self.lineEdit_504.setText(_translate("MainWindow", "BL"))
+        self.lineEdit_505.setText(_translate("MainWindow", "TL"))
+        self.label_244.setText(_translate("MainWindow", "/"))
+        self.lineEdit_506.setText(_translate("MainWindow", "MR"))
+        self.lineEdit_507.setText(_translate("MainWindow", "ML"))
         self.tabWidget_main.setTabText(self.tabWidget_main.indexOf(self.tab_3), _translate("MainWindow", "Bybit"))
 
 

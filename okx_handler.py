@@ -3,7 +3,9 @@ import time, const, utils
 
 class OKXHandler:
     def __init__(self):
-        self.okx_api = MarketData.MarketAPI(debug=False)
+        self.okx_api = MarketData.MarketAPI("806b691e-dee6-4ddc-833c-181b449299ce",
+                                            "12B17E4D0434B6EE348DF86CE0FF8A05",
+                                            "Q5tpnwErKa1J(gfsIHY96", flag="0", debug=False)
 
     def get_most_recent_bid_ask(self, input_symbol):
         data = self.send_http_request(self.okx_api.get_ticker, instId=input_symbol)
