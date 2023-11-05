@@ -161,7 +161,7 @@ class Controller():
                         if "M" in position:
                             value = self.data_model_dict[exchange][coin][type][position]
                             if value > g(exchange, coin, type, "T" + position[1]) or value < g(exchange, coin, type, "B" + position[1]):
-                                alarm.activate(message=f"Swap-future alarm: {coin}")
+                                alarm.activate(message=f"Swap-future alarm: {coin}", alarm=True)
                                 self.line_edit_dict[exchange][coin][type][position].setStyleSheet("""QLineEdit { background: transparent; background-color: yellow;}""")
                             else:
                                 self.line_edit_dict[exchange][coin][type][position].setStyleSheet("""QLineEdit { background: transparent;}""")
