@@ -1,2 +1,5 @@
 *_
 computer_specific.py
+build
+dist
+*.spec
