@@ -38,7 +38,7 @@ def main():
     MainWindow = MyWindow(communication)
     ui = Ui_MainWindow.Ui_MainWindow()
     ui.setupUi(MainWindow)
-    controller = Controller.Controller(MainWindow, communication)
+    controller = Controller.Controller(MainWindow, communication, app)
     MainWindow.set_up(controller=controller)
     MainWindow.setWindowTitle("Swap-Quarterly-Biquarterly")
 

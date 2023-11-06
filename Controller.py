@@ -1,17 +1,15 @@
-from utils import auto_format as fmt
-from utils import substring_after, substring_before
-from utils import Range
-import time, alarm
+import computer_specific, pickle
+from utils import substring_after
+import time, alarm, os
 from utils import Communication
-from PyQt6.QtGui import QPalette, QColor
-from PyQt6.QtWidgets import QFrame, QLineEdit, QTabWidget
+from PyQt6.QtWidgets import QFrame, QLineEdit, QTabWidget, QApplication
 from PyQt6.QtCore import Qt
-import datetime
 import binance_handler, bybit_handler, okx_handler
 from copy import deepcopy
 
 class Controller():
-    def __init__ (self, uiMainWindow, communication: Communication):
+    def __init__ (self, uiMainWindow, communication: Communication, app: QApplication):
+        self.app = app
         self.update_time = 0
         self.alarm_error_duration = 60*60
         self.retrieve_frequency = 30*2
@@ -47,7 +45,11 @@ class Controller():
             "OKX": {coin: deepcopy(line_edit_template) for coin in okx_coins},
             "Bybit": {coin: deepcopy(line_edit_template) for coin in bybit_coins},
         }
-        self.data_model_dict = deepcopy(self.line_edit_dict)
+        if os.path.exists(computer_specific.SETTINGS_PATH):
+            with open(computer_specific.SETTINGS_PATH, 'rb') as f:
+                self.data_model_dict = pickle.load(f)
+        else:
+            self.data_model_dict = deepcopy(self.line_edit_dict)
         for exchange, line_edit_dict in self.line_edit_dict.items():
             for coin in line_edit_dict.keys():
                 if exchange == "Binance":
@@ -96,22 +98,38 @@ class Controller():
                     line_edits = frame.findChildren(QLineEdit)
                     for line_edit in line_edits:
                         self.line_edit_dict[exchange][coin][type][line_edit.text()] = line_edit
-                        self.data_model_dict[exchange][coin][type][line_edit.text()] = 0
-                        if "T" in line_edit.text():
-                            line_edit.setText("10.0")
-                        elif "B" in line_edit.text():
-                            line_edit.setText("-10.0")
-                        line_edit.returnPressed.connect(line_edit.clearFocus)
+                        if line_edit.text() in self.data_model_dict[exchange][coin][type]:
+                            line_edit.setText(f"{round(float(self.data_model_dict[exchange][coin][type][line_edit.text()]), 3)}")
+                        else:
+                            if "T" in line_edit.text():
+                                line_edit.setText("10.0")
+                                self.data_model_dict[exchange][coin][type][line_edit.text()] = 10.0
+                            elif "B" in line_edit.text():
+                                self.data_model_dict[exchange][coin][type][line_edit.text()] = -10.0
+                                line_edit.setText("-10.0")
+                        line_edit.returnPressed.connect(lambda: self.on_enter_pressed(self))
                         line_edit.setAlignment(Qt.AlignmentFlag.AlignCenter)
                         line_edit.setStyleSheet("""QLineEdit { background: transparent;}""")
+        with open(computer_specific.SETTINGS_PATH, "wb") as pkl_file:
+            pickle.dump(self.data_model_dict, pkl_file)
 
-    # def on_enter_pressed(self):
-    #     line_edit = self.sender()
-    #     for coin, types in self.line_edit_dict.items():
-    #         for type, positions in types.items():
-    #             for position, target_line_edit in positions.items():
-    #                 if target_line_edit == line_edit:
-    #                     pass
+    @staticmethod
+    def on_enter_pressed(self):
+        sender = self.app.sender()
+        if isinstance(sender, QLineEdit):
+            line_edit = sender
+        else:
+            return
+
+        line_edit.clearFocus()
+        for exchange, coins in self.line_edit_dict.items():
+            for coin, types in coins.items():
+                for type, positions in types.items():
+                    for position, target_line_edit in positions.items():
+                        if target_line_edit == line_edit:
+                            self.data_model_dict[exchange][coin][type][position] = line_edit.text()
+                            with open(computer_specific.SETTINGS_PATH, "wb") as pkl_file:
+                                pickle.dump(self.data_model_dict, pkl_file)
 
     def update_data(self):
         f = lambda a, b: ((a - b) * 2 / (a + b)) * 100
