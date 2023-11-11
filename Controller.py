@@ -28,8 +28,8 @@ class Controller():
             "Bybit": {},
         }
 
-        binance_keys = 'abcdefghi'
-        binance_coins = ["BTCUSD", "BTCUSDT", "ETHUSD", "ETHUSDT",
+        binance_keys = 'abcdefghijk'
+        binance_coins = ["BTCUSD", "BTCUSDT", "ETHUSD", "ETHUSDT", "LTCUSD", "XRPUSD",
                          "ADAUSD", "LINKUSD", "BCHUSD", "DOTUSD", "BNBUSD"]
         okx_keys = 'abcdefghijklmn'
         okx_coins = ['BTC-USD', 'BTC-USDT', 'BTC-USDC',
